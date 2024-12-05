@@ -1,0 +1,898 @@
+2024-12-5 14:38:28-log: Cannot access game frame or container.
+2024-12-5 14:38:31-debug: asset-db:require-engine-code (5074ms)
+2024-12-5 14:38:31-log: meshopt wasm decoder initialized
+2024-12-5 14:38:31-log: [bullet]:bullet wasm lib loaded.
+2024-12-5 14:38:31-log: [box2d]:box2d wasm lib loaded.
+2024-12-5 14:38:32-log: Cocos Creator v3.8.3
+2024-12-5 14:38:32-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:21.31MB, end 76.38MB, increase: 55.07MB
+2024-12-5 14:38:33-debug: [Assets Memory track]: asset-db-plugin-register: project start:77.22MB, end 146.20MB, increase: 68.98MB
+2024-12-5 14:38:33-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:76.39MB, end 146.22MB, increase: 69.84MB
+2024-12-5 14:38:32-debug: [Assets Memory track]: asset-db-plugin-register: programming start:77.34MB, end 84.60MB, increase: 7.26MB
+2024-12-5 14:38:33-debug: [Assets Memory track]: asset-db-plugin-register: builder start:84.62MB, end 150.63MB, increase: 66.01MB
+2024-12-5 14:38:33-debug: asset-db:worker-init: initPlugin (1546ms)
+2024-12-5 14:38:33-debug: [Assets Memory track]: asset-db:worker-init start:21.30MB, end 146.28MB, increase: 124.98MB
+2024-12-5 14:38:33-debug: Run asset db hook programming:beforePreStart ...
+2024-12-5 14:38:33-debug: Run asset db hook programming:beforePreStart success!
+2024-12-5 14:38:33-debug: Run asset db hook engine-extends:beforePreStart success!
+2024-12-5 14:38:33-debug: Run asset db hook engine-extends:beforePreStart ...
+2024-12-5 14:38:35-debug: asset-db:worker-init (9486ms)
+2024-12-5 14:38:35-debug: asset-db-hook-programming-beforePreStart (2413ms)
+2024-12-5 14:38:35-debug: asset-db-hook-engine-extends-beforePreStart (2413ms)
+2024-12-5 14:38:37-debug: Preimport db internal success
+2024-12-5 14:38:37-debug: Preimport db assets success
+2024-12-5 14:38:37-debug: Run asset db hook programming:afterPreStart ...
+2024-12-5 14:38:37-debug: starting packer-driver...
+2024-12-5 14:38:38-debug: initialize scripting environment...
+2024-12-5 14:38:38-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-12-5 14:38:38-debug: Run asset db hook programming:afterPreStart success!
+2024-12-5 14:38:38-debug: Run asset db hook engine-extends:afterPreStart ...
+2024-12-5 14:38:38-debug: Run asset db hook engine-extends:afterPreStart success!
+2024-12-5 14:38:38-debug: [Assets Memory track]: asset-db:worker-init: preStart start:146.29MB, end 152.32MB, increase: 6.03MB
+2024-12-5 14:38:38-debug: Start up the 'internal' database...
+2024-12-5 14:38:39-debug: asset-db-hook-programming-afterPreStart (2208ms)
+2024-12-5 14:38:39-debug: asset-db:worker-effect-data-processing (1868ms)
+2024-12-5 14:38:39-debug: asset-db-hook-engine-extends-afterPreStart (1868ms)
+2024-12-5 14:38:40-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:146.35MB, end 158.86MB, increase: 12.51MB
+2024-12-5 14:38:40-debug: Start up the 'assets' database...
+2024-12-5 14:38:40-debug: asset-db:worker-startup-database[internal] (6540ms)
+2024-12-5 14:38:40-debug: [Assets Memory track]: asset-db:worker-init: startup start:152.33MB, end 159.20MB, increase: 6.87MB
+2024-12-5 14:38:40-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:151.56MB, end 159.19MB, increase: 7.63MB
+2024-12-5 14:38:40-debug: lazy register asset handler directory
+2024-12-5 14:38:40-debug: lazy register asset handler text
+2024-12-5 14:38:40-debug: lazy register asset handler json
+2024-12-5 14:38:40-debug: lazy register asset handler *
+2024-12-5 14:38:40-debug: lazy register asset handler spine-data
+2024-12-5 14:38:40-debug: lazy register asset handler dragonbones-atlas
+2024-12-5 14:38:40-debug: lazy register asset handler javascript
+2024-12-5 14:38:40-debug: lazy register asset handler terrain
+2024-12-5 14:38:40-debug: lazy register asset handler typescript
+2024-12-5 14:38:40-debug: lazy register asset handler dragonbones
+2024-12-5 14:38:40-debug: lazy register asset handler sprite-frame
+2024-12-5 14:38:40-debug: lazy register asset handler scene
+2024-12-5 14:38:40-debug: lazy register asset handler tiled-map
+2024-12-5 14:38:40-debug: lazy register asset handler buffer
+2024-12-5 14:38:40-debug: lazy register asset handler sign-image
+2024-12-5 14:38:40-debug: lazy register asset handler image
+2024-12-5 14:38:40-debug: lazy register asset handler prefab
+2024-12-5 14:38:40-debug: lazy register asset handler texture
+2024-12-5 14:38:40-debug: lazy register asset handler texture-cube
+2024-12-5 14:38:40-debug: lazy register asset handler erp-texture-cube
+2024-12-5 14:38:40-debug: lazy register asset handler texture-cube-face
+2024-12-5 14:38:40-debug: lazy register asset handler render-texture
+2024-12-5 14:38:40-debug: lazy register asset handler alpha-image
+2024-12-5 14:38:40-debug: lazy register asset handler gltf-mesh
+2024-12-5 14:38:40-debug: lazy register asset handler gltf
+2024-12-5 14:38:40-debug: lazy register asset handler gltf-animation
+2024-12-5 14:38:40-debug: lazy register asset handler gltf-material
+2024-12-5 14:38:40-debug: lazy register asset handler gltf-skeleton
+2024-12-5 14:38:40-debug: lazy register asset handler gltf-scene
+2024-12-5 14:38:40-debug: lazy register asset handler gltf-embeded-image
+2024-12-5 14:38:40-debug: lazy register asset handler material
+2024-12-5 14:38:40-debug: lazy register asset handler physics-material
+2024-12-5 14:38:40-debug: lazy register asset handler effect
+2024-12-5 14:38:40-debug: lazy register asset handler effect-header
+2024-12-5 14:38:40-debug: lazy register asset handler audio-clip
+2024-12-5 14:38:40-debug: lazy register asset handler rt-sprite-frame
+2024-12-5 14:38:40-debug: lazy register asset handler fbx
+2024-12-5 14:38:40-debug: lazy register asset handler animation-graph
+2024-12-5 14:38:40-debug: lazy register asset handler animation-graph-variant
+2024-12-5 14:38:40-debug: lazy register asset handler animation-mask
+2024-12-5 14:38:40-debug: lazy register asset handler ttf-font
+2024-12-5 14:38:40-debug: lazy register asset handler bitmap-font
+2024-12-5 14:38:40-debug: lazy register asset handler animation-clip
+2024-12-5 14:38:40-debug: lazy register asset handler auto-atlas
+2024-12-5 14:38:40-debug: lazy register asset handler label-atlas
+2024-12-5 14:38:40-debug: lazy register asset handler sprite-atlas
+2024-12-5 14:38:40-debug: lazy register asset handler render-pipeline
+2024-12-5 14:38:40-debug: lazy register asset handler particle
+2024-12-5 14:38:40-debug: lazy register asset handler render-flow
+2024-12-5 14:38:40-debug: lazy register asset handler instantiation-material
+2024-12-5 14:38:40-debug: lazy register asset handler instantiation-skeleton
+2024-12-5 14:38:40-debug: lazy register asset handler instantiation-animation
+2024-12-5 14:38:40-debug: lazy register asset handler render-stage
+2024-12-5 14:38:40-debug: lazy register asset handler instantiation-mesh
+2024-12-5 14:38:40-debug: lazy register asset handler video-clip
+2024-12-5 14:38:40-debug: asset-db:worker-startup-database[assets] (2483ms)
+2024-12-5 14:38:40-debug: asset-db:start-database (6584ms)
+2024-12-5 14:38:40-debug: asset-db:ready (45110ms)
+2024-12-5 14:38:40-debug: init worker message success
+2024-12-5 14:38:40-debug: programming:execute-script (6ms)
+2024-12-5 14:38:41-debug: [Build Memory track]: builder:worker-init start:157.66MB, end 172.15MB, increase: 14.49MB
+2024-12-5 14:38:41-debug: builder:worker-init (1112ms)
+2024-12-5 14:44:12-debug: refresh db internal success
+2024-12-5 14:44:12-debug: refresh db assets success
+2024-12-5 14:44:12-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 14:44:12-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 14:44:12-debug: asset-db:refresh-all-database (53ms)
+2024-12-5 14:45:49-debug: refresh db internal success
+2024-12-5 14:45:49-debug: refresh db assets success
+2024-12-5 14:45:49-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 14:45:49-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 14:45:49-debug: asset-db:refresh-all-database (237ms)
+2024-12-5 14:45:49-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 14:45:49-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 14:46:49-debug: refresh db internal success
+2024-12-5 14:46:49-debug: refresh db assets success
+2024-12-5 14:46:49-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 14:46:49-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 14:46:49-debug: asset-db:refresh-all-database (290ms)
+2024-12-5 14:46:49-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 14:46:49-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 14:47:11-debug: refresh db internal success
+2024-12-5 14:47:11-debug: refresh db assets success
+2024-12-5 14:47:11-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 14:47:11-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 14:47:11-debug: asset-db:refresh-all-database (46ms)
+2024-12-5 14:48:34-debug: refresh db internal success
+2024-12-5 14:48:34-debug: refresh db assets success
+2024-12-5 14:48:34-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 14:48:34-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 14:48:34-debug: asset-db:refresh-all-database (219ms)
+2024-12-5 14:48:34-debug: asset-db:worker-effect-data-processing (3ms)
+2024-12-5 14:48:34-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
+2024-12-5 14:48:58-debug: refresh db internal success
+2024-12-5 14:48:58-debug: refresh db assets success
+2024-12-5 14:48:58-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 14:48:58-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 14:48:58-debug: asset-db:refresh-all-database (63ms)
+2024-12-5 14:48:58-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 14:48:58-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 14:52:32-debug: refresh db internal success
+2024-12-5 14:52:32-debug: refresh db assets success
+2024-12-5 14:52:32-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 14:52:32-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 14:52:32-debug: asset-db:refresh-all-database (44ms)
+2024-12-5 14:52:32-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 14:52:32-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 15:04:09-debug: refresh db internal success
+2024-12-5 15:04:09-debug: refresh db assets success
+2024-12-5 15:04:09-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:04:09-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:04:09-debug: asset-db:refresh-all-database (48ms)
+2024-12-5 15:04:09-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 15:04:09-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 15:10:32-debug: refresh db internal success
+2024-12-5 15:10:32-debug: refresh db assets success
+2024-12-5 15:10:32-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:10:32-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:10:32-debug: asset-db:refresh-all-database (45ms)
+2024-12-5 15:11:22-debug: refresh db internal success
+2024-12-5 15:11:22-debug: refresh db assets success
+2024-12-5 15:11:22-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:11:22-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:11:22-debug: asset-db:refresh-all-database (42ms)
+2024-12-5 15:11:38-debug: refresh db internal success
+2024-12-5 15:11:38-debug: refresh db assets success
+2024-12-5 15:11:38-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:11:38-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:11:38-debug: asset-db:refresh-all-database (45ms)
+2024-12-5 15:11:59-debug: refresh db internal success
+2024-12-5 15:11:59-debug: refresh db assets success
+2024-12-5 15:11:59-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:11:59-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:11:59-debug: asset-db:refresh-all-database (37ms)
+2024-12-5 15:11:59-debug: refresh db internal success
+2024-12-5 15:11:59-debug: refresh db assets success
+2024-12-5 15:11:59-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:11:59-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:11:59-debug: asset-db:refresh-all-database (36ms)
+2024-12-5 15:11:59-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 15:12:12-debug: refresh db internal success
+2024-12-5 15:12:12-debug: refresh db assets success
+2024-12-5 15:12:12-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:12:12-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:12:12-debug: asset-db:refresh-all-database (39ms)
+2024-12-5 15:12:21-debug: refresh db internal success
+2024-12-5 15:12:21-debug: refresh db assets success
+2024-12-5 15:12:21-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:12:21-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:12:21-debug: asset-db:refresh-all-database (66ms)
+2024-12-5 15:12:23-debug: refresh db internal success
+2024-12-5 15:12:23-debug: refresh db assets success
+2024-12-5 15:12:23-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:12:23-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:12:23-debug: asset-db:refresh-all-database (45ms)
+2024-12-5 15:13:41-debug: refresh db internal success
+2024-12-5 15:13:41-debug: refresh db assets success
+2024-12-5 15:13:41-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:13:41-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:13:41-debug: asset-db:refresh-all-database (58ms)
+2024-12-5 15:13:41-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 15:13:41-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 15:14:16-debug: refresh db internal success
+2024-12-5 15:14:16-debug: refresh db assets success
+2024-12-5 15:14:16-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:14:16-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:14:16-debug: asset-db:refresh-all-database (50ms)
+2024-12-5 15:17:11-debug: refresh db internal success
+2024-12-5 15:17:11-debug: refresh db assets success
+2024-12-5 15:17:11-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:17:11-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:17:11-debug: asset-db:refresh-all-database (236ms)
+2024-12-5 15:17:11-debug: asset-db:worker-effect-data-processing (3ms)
+2024-12-5 15:17:11-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2024-12-5 15:17:41-debug: refresh db internal success
+2024-12-5 15:17:41-debug: refresh db assets success
+2024-12-5 15:17:41-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:17:41-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:17:41-debug: asset-db:refresh-all-database (41ms)
+2024-12-5 15:17:41-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 15:17:42-debug: refresh db internal success
+2024-12-5 15:17:42-debug: refresh db assets success
+2024-12-5 15:17:42-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:17:42-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:17:42-debug: asset-db:refresh-all-database (53ms)
+2024-12-5 15:17:42-debug: asset-db:worker-effect-data-processing (6ms)
+2024-12-5 15:17:42-debug: asset-db-hook-engine-extends-afterRefresh (6ms)
+2024-12-5 15:17:42-debug: refresh db internal success
+2024-12-5 15:17:42-debug: refresh db assets success
+2024-12-5 15:17:42-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:17:42-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:17:42-debug: asset-db:refresh-all-database (36ms)
+2024-12-5 15:18:10-debug: refresh db internal success
+2024-12-5 15:18:10-debug: refresh db assets success
+2024-12-5 15:18:10-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:18:10-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:18:10-debug: asset-db:refresh-all-database (44ms)
+2024-12-5 15:18:10-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 15:18:10-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2024-12-5 15:18:33-debug: refresh db internal success
+2024-12-5 15:18:33-debug: refresh db assets success
+2024-12-5 15:18:33-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:18:33-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:18:33-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 15:18:33-debug: asset-db:refresh-all-database (42ms)
+2024-12-5 15:18:41-debug: refresh db internal success
+2024-12-5 15:18:41-debug: refresh db assets success
+2024-12-5 15:18:41-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:18:41-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:18:41-debug: asset-db:refresh-all-database (60ms)
+2024-12-5 15:18:41-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 15:18:41-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 15:18:44-debug: refresh db internal success
+2024-12-5 15:18:44-debug: refresh db assets success
+2024-12-5 15:18:44-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:18:44-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:18:44-debug: asset-db:refresh-all-database (47ms)
+2024-12-5 15:18:44-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 15:18:44-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 15:18:49-debug: refresh db internal success
+2024-12-5 15:18:49-debug: refresh db assets success
+2024-12-5 15:18:49-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:18:49-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:18:49-debug: asset-db:refresh-all-database (38ms)
+2024-12-5 15:18:49-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 15:18:49-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 15:19:00-debug: refresh db internal success
+2024-12-5 15:19:00-debug: refresh db assets success
+2024-12-5 15:19:00-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:19:00-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:19:00-debug: asset-db:refresh-all-database (43ms)
+2024-12-5 15:19:00-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 15:19:00-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 15:19:20-debug: refresh db internal success
+2024-12-5 15:19:20-debug: refresh db assets success
+2024-12-5 15:19:20-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:19:20-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:19:20-debug: asset-db:refresh-all-database (39ms)
+2024-12-5 15:21:59-debug: refresh db internal success
+2024-12-5 15:21:59-debug: refresh db assets success
+2024-12-5 15:21:59-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:21:59-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:21:59-debug: asset-db:refresh-all-database (42ms)
+2024-12-5 15:21:59-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 15:22:01-debug: refresh db internal success
+2024-12-5 15:22:01-debug: refresh db assets success
+2024-12-5 15:22:01-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:22:01-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:22:01-debug: asset-db:refresh-all-database (37ms)
+2024-12-5 15:29:59-debug: refresh db internal success
+2024-12-5 15:29:59-debug: refresh db assets success
+2024-12-5 15:29:59-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:29:59-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:29:59-debug: asset-db:refresh-all-database (369ms)
+2024-12-5 15:29:59-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 15:29:59-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 15:32:53-debug: refresh db internal success
+2024-12-5 15:32:53-debug: refresh db assets success
+2024-12-5 15:32:53-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:32:53-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:32:53-debug: asset-db:refresh-all-database (44ms)
+2024-12-5 15:32:53-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 15:32:53-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 15:33:01-debug: refresh db internal success
+2024-12-5 15:33:01-debug: refresh db assets success
+2024-12-5 15:33:01-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:33:01-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:33:01-debug: asset-db:refresh-all-database (43ms)
+2024-12-5 15:33:01-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 15:33:01-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 15:36:08-debug: refresh db internal success
+2024-12-5 15:36:08-debug: refresh db assets success
+2024-12-5 15:36:08-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:36:08-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:36:08-debug: asset-db:refresh-all-database (43ms)
+2024-12-5 15:36:08-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 15:36:08-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 15:36:13-debug: refresh db internal success
+2024-12-5 15:36:13-debug: refresh db assets success
+2024-12-5 15:36:13-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:36:13-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:36:13-debug: asset-db:refresh-all-database (39ms)
+2024-12-5 15:36:26-debug: refresh db internal success
+2024-12-5 15:36:26-debug: refresh db assets success
+2024-12-5 15:36:26-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:36:26-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:36:26-debug: asset-db:refresh-all-database (42ms)
+2024-12-5 15:36:26-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 15:36:30-debug: refresh db internal success
+2024-12-5 15:36:30-debug: refresh db assets success
+2024-12-5 15:36:30-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:36:30-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:36:30-debug: asset-db:refresh-all-database (42ms)
+2024-12-5 15:36:30-debug: asset-db:worker-effect-data-processing (-1ms)
+2024-12-5 15:51:18-debug: refresh db internal success
+2024-12-5 15:51:18-debug: refresh db assets success
+2024-12-5 15:51:18-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 15:51:18-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 15:51:18-debug: asset-db:refresh-all-database (237ms)
+2024-12-5 15:51:18-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 15:51:18-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 16:23:39-debug: refresh db internal success
+2024-12-5 16:23:39-debug: refresh db assets success
+2024-12-5 16:23:39-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:23:39-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:23:39-debug: asset-db:refresh-all-database (146ms)
+2024-12-5 16:23:39-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 16:23:39-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2024-12-5 16:25:34-debug: refresh db internal success
+2024-12-5 16:25:34-debug: refresh db assets success
+2024-12-5 16:25:34-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:25:34-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:25:34-debug: asset-db:refresh-all-database (163ms)
+2024-12-5 16:25:34-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 16:25:34-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 16:26:30-debug: refresh db internal success
+2024-12-5 16:26:30-debug: refresh db assets success
+2024-12-5 16:26:30-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:26:30-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:26:30-debug: asset-db:refresh-all-database (205ms)
+2024-12-5 16:26:30-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 16:26:30-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 16:26:58-debug: refresh db internal success
+2024-12-5 16:26:58-debug: refresh db assets success
+2024-12-5 16:26:58-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:26:58-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:26:58-debug: asset-db:refresh-all-database (60ms)
+2024-12-5 16:26:58-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 16:26:58-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 16:33:12-debug: refresh db internal success
+2024-12-5 16:33:12-debug: refresh db assets success
+2024-12-5 16:33:12-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:33:12-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:33:12-debug: asset-db:refresh-all-database (130ms)
+2024-12-5 16:33:12-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 16:33:12-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 16:34:20-debug: refresh db internal success
+2024-12-5 16:34:20-debug: refresh db assets success
+2024-12-5 16:34:20-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:34:20-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:34:20-debug: asset-db:refresh-all-database (45ms)
+2024-12-5 16:34:20-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 16:37:55-debug: refresh db internal success
+2024-12-5 16:37:55-debug: refresh db assets success
+2024-12-5 16:37:55-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:37:55-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:37:55-debug: asset-db:refresh-all-database (45ms)
+2024-12-5 16:37:55-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 16:37:55-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 16:45:35-debug: refresh db internal success
+2024-12-5 16:45:35-debug: refresh db assets success
+2024-12-5 16:45:35-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:45:35-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:45:35-debug: asset-db:refresh-all-database (41ms)
+2024-12-5 16:45:35-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 16:46:02-debug: refresh db internal success
+2024-12-5 16:46:02-debug: refresh db assets success
+2024-12-5 16:46:02-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:46:02-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:46:02-debug: asset-db:refresh-all-database (65ms)
+2024-12-5 16:46:02-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 16:46:02-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 16:46:07-debug: refresh db internal success
+2024-12-5 16:46:07-debug: refresh db assets success
+2024-12-5 16:46:07-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:46:07-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:46:07-debug: asset-db:refresh-all-database (41ms)
+2024-12-5 16:50:42-debug: refresh db internal success
+2024-12-5 16:50:42-debug: refresh db assets success
+2024-12-5 16:50:42-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:50:42-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:50:42-debug: asset-db:refresh-all-database (191ms)
+2024-12-5 16:50:42-debug: asset-db:worker-effect-data-processing (5ms)
+2024-12-5 16:50:42-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
+2024-12-5 16:51:11-debug: refresh db internal success
+2024-12-5 16:51:11-debug: refresh db assets success
+2024-12-5 16:51:11-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:51:11-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:51:11-debug: asset-db:refresh-all-database (203ms)
+2024-12-5 16:51:11-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 16:51:11-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 16:51:15-debug: refresh db internal success
+2024-12-5 16:51:15-debug: refresh db assets success
+2024-12-5 16:51:15-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:51:15-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:51:15-debug: asset-db:refresh-all-database (161ms)
+2024-12-5 16:51:15-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 16:51:15-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 16:51:45-debug: refresh db internal success
+2024-12-5 16:51:45-debug: refresh db assets success
+2024-12-5 16:51:45-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:51:45-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:51:45-debug: asset-db:refresh-all-database (214ms)
+2024-12-5 16:51:45-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 16:51:45-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 16:53:09-debug: refresh db internal success
+2024-12-5 16:53:09-debug: refresh db assets success
+2024-12-5 16:53:09-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:53:09-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:53:09-debug: asset-db:refresh-all-database (148ms)
+2024-12-5 16:53:09-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 16:53:09-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 16:53:30-debug: refresh db internal success
+2024-12-5 16:53:30-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:53:30-debug: refresh db assets success
+2024-12-5 16:53:30-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:53:30-debug: asset-db:refresh-all-database (172ms)
+2024-12-5 16:53:30-debug: asset-db:worker-effect-data-processing (3ms)
+2024-12-5 16:53:30-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2024-12-5 16:53:54-debug: start refresh asset from D:\cocos\badminton\badminton\assets\folder...
+2024-12-5 16:53:54-debug: %cImport%c: D:\cocos\badminton\badminton\assets\folderbackground: #aaff85; color: #000;color: #000;
+2024-12-5 16:53:54-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 16:53:59-debug: start refresh asset from D:\cocos\badminton\badminton\assets\folder\Node.prefab...
+2024-12-5 16:53:59-debug: %cImport%c: D:\cocos\badminton\badminton\assets\folder\Node.prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 16:53:59-debug: refresh asset D:\cocos\badminton\badminton\assets\folder success
+2024-12-5 16:53:59-debug: %cImport%c: D:\cocos\badminton\badminton\assets\folderbackground: #aaff85; color: #000;color: #000;
+2024-12-5 16:54:08-debug: start remove asset D:\cocos\badminton\badminton\assets\folder...
+2024-12-5 16:54:08-debug: refresh db internal success
+2024-12-5 16:54:08-debug: refresh db assets success
+2024-12-5 16:54:08-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:54:08-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:54:08-debug: asset-db:refresh-all-database (55ms)
+2024-12-5 16:54:08-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 16:54:08-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 16:54:08-debug: start refresh asset from D:\cocos\badminton\badminton\assets\folder...
+2024-12-5 16:54:08-debug: %cDestroy%c: D:\cocos\badminton\badminton\assets\folderbackground: #ffb8b8; color: #000;color: #000;
+2024-12-5 16:54:08-debug: %cDestroy%c: D:\cocos\badminton\badminton\assets\folder\Node.prefabbackground: #ffb8b8; color: #000;color: #000;
+2024-12-5 16:54:08-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 16:54:08-debug: remove asset D:\cocos\badminton\badminton\assets\folder success
+2024-12-5 16:54:30-debug: start refresh asset from D:\cocos\badminton\badminton\assets\folder...
+2024-12-5 16:54:30-debug: %cImport%c: D:\cocos\badminton\badminton\assets\folderbackground: #aaff85; color: #000;color: #000;
+2024-12-5 16:54:30-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 16:54:38-debug: start refresh asset from D:\cocos\badminton\badminton\assets\folder\pre.prefab...
+2024-12-5 16:54:38-debug: %cImport%c: D:\cocos\badminton\badminton\assets\folder\pre.prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 16:54:38-debug: refresh asset D:\cocos\badminton\badminton\assets\folder success
+2024-12-5 16:54:38-debug: %cImport%c: D:\cocos\badminton\badminton\assets\folderbackground: #aaff85; color: #000;color: #000;
+2024-12-5 16:54:51-debug: start move asset from D:\cocos\badminton\badminton\assets\folder\pre.prefab -> D:\cocos\badminton\badminton\assets\folder\prefab.prefab...
+2024-12-5 16:54:51-debug: start refresh asset from D:\cocos\badminton\badminton\assets\folder\prefab.prefab...
+2024-12-5 16:54:51-debug: %cImport%c: D:\cocos\badminton\badminton\assets\folder\prefab.prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 16:54:51-debug: refresh asset D:\cocos\badminton\badminton\assets\folder success
+2024-12-5 16:54:51-debug: start refresh asset from D:\cocos\badminton\badminton\assets\folder...
+2024-12-5 16:54:51-debug: %cImport%c: D:\cocos\badminton\badminton\assets\folderbackground: #aaff85; color: #000;color: #000;
+2024-12-5 16:54:51-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 16:54:51-debug: move asset from D:\cocos\badminton\badminton\assets\folder\pre.prefab -> D:\cocos\badminton\badminton\assets\folder\prefab.prefab success
+2024-12-5 16:54:59-debug: start move asset from D:\cocos\badminton\badminton\assets\folder -> D:\cocos\badminton\badminton\assets\prefab...
+2024-12-5 16:54:59-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 16:54:59-debug: start refresh asset from D:\cocos\badminton\badminton\assets\prefab...
+2024-12-5 16:54:59-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefab\prefab.prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 16:54:59-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 16:54:59-debug: start refresh asset from D:\cocos\badminton\badminton\assets...
+2024-12-5 16:54:59-debug: refresh asset D:\cocos\badminton\badminton success
+2024-12-5 16:54:59-debug: move asset from D:\cocos\badminton\badminton\assets\folder -> D:\cocos\badminton\badminton\assets\prefab success
+2024-12-5 16:55:04-debug: programming:execute-script (1ms)
+2024-12-5 16:55:06-debug: start remove asset D:\cocos\badminton\badminton\assets\prefab\prefab.prefab...
+2024-12-5 16:55:06-debug: start refresh asset from D:\cocos\badminton\badminton\assets\prefab\prefab.prefab...
+2024-12-5 16:55:06-debug: %cDestroy%c: D:\cocos\badminton\badminton\assets\prefab\prefab.prefabbackground: #ffb8b8; color: #000;color: #000;
+2024-12-5 16:55:06-debug: refresh asset D:\cocos\badminton\badminton\assets\prefab success
+2024-12-5 16:55:06-debug: remove asset D:\cocos\badminton\badminton\assets\prefab\prefab.prefab success
+2024-12-5 16:55:07-debug: refresh db internal success
+2024-12-5 16:55:07-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 16:55:07-debug: refresh db assets success
+2024-12-5 16:55:07-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:55:07-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:55:07-debug: asset-db:refresh-all-database (57ms)
+2024-12-5 16:55:07-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 16:55:07-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 16:55:24-debug: refresh db internal success
+2024-12-5 16:55:24-debug: refresh db assets success
+2024-12-5 16:55:24-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:55:24-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:55:24-debug: asset-db:refresh-all-database (223ms)
+2024-12-5 16:55:24-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 16:55:24-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 16:55:37-debug: start refresh asset from D:\cocos\badminton\badminton\assets\prefab\box.prefab...
+2024-12-5 16:55:37-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefab\box.prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 16:55:37-debug: refresh asset D:\cocos\badminton\badminton\assets\prefab success
+2024-12-5 16:55:37-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 16:58:57-debug: refresh db internal success
+2024-12-5 16:58:57-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:58:57-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:58:57-debug: refresh db assets success
+2024-12-5 16:58:57-debug: asset-db:refresh-all-database (193ms)
+2024-12-5 16:58:57-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 16:58:57-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 16:59:30-debug: start refresh asset from D:\cocos\badminton\badminton\assets\prefab\box.prefab...
+2024-12-5 16:59:30-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefab\box.prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 16:59:30-debug: refresh asset D:\cocos\badminton\badminton\assets\prefab success
+2024-12-5 16:59:30-debug: refresh db internal success
+2024-12-5 16:59:30-debug: refresh db assets success
+2024-12-5 16:59:30-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:59:30-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:59:30-debug: asset-db:refresh-all-database (49ms)
+2024-12-5 16:59:47-debug: refresh db internal success
+2024-12-5 16:59:47-debug: refresh db assets success
+2024-12-5 16:59:47-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 16:59:47-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 16:59:47-debug: asset-db:refresh-all-database (82ms)
+2024-12-5 16:59:47-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 16:59:47-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 17:00:11-debug: programming:execute-script (2ms)
+2024-12-5 17:00:12-debug: start remove asset D:\cocos\badminton\badminton\assets\prefab\box.prefab...
+2024-12-5 17:00:12-debug: start refresh asset from D:\cocos\badminton\badminton\assets\prefab\box.prefab...
+2024-12-5 17:00:12-debug: %cDestroy%c: D:\cocos\badminton\badminton\assets\prefab\box.prefabbackground: #ffb8b8; color: #000;color: #000;
+2024-12-5 17:00:12-debug: refresh asset D:\cocos\badminton\badminton\assets\prefab success
+2024-12-5 17:00:12-debug: remove asset D:\cocos\badminton\badminton\assets\prefab\box.prefab success
+2024-12-5 17:00:12-debug: refresh db internal success
+2024-12-5 17:00:12-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 17:00:12-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 17:00:12-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 17:00:12-debug: refresh db assets success
+2024-12-5 17:00:12-debug: asset-db:refresh-all-database (56ms)
+2024-12-5 17:00:12-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 17:00:12-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 17:02:42-debug: start refresh asset from D:\cocos\badminton\badminton\assets\prefab\box1.prefab...
+2024-12-5 17:02:42-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefab\box1.prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 17:02:42-debug: refresh asset D:\cocos\badminton\badminton\assets\prefab success
+2024-12-5 17:02:42-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 17:04:28-debug: start refresh asset from D:\cocos\badminton\badminton\assets\scene.scene...
+2024-12-5 17:04:28-debug: %cImport%c: D:\cocos\badminton\badminton\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
+2024-12-5 17:04:28-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 17:04:39-debug: start refresh asset from D:\cocos\badminton\badminton\assets\scene.scene...
+2024-12-5 17:04:39-debug: %cImport%c: D:\cocos\badminton\badminton\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
+2024-12-5 17:04:39-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 17:04:39-debug: start refresh asset from D:\cocos\badminton\badminton\assets\scene.scene...
+2024-12-5 17:04:39-debug: %cImport%c: D:\cocos\badminton\badminton\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
+2024-12-5 17:04:39-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 17:04:40-debug: start refresh asset from D:\cocos\badminton\badminton\assets\scene.scene...
+2024-12-5 17:04:40-debug: %cImport%c: D:\cocos\badminton\badminton\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
+2024-12-5 17:04:40-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 17:04:41-debug: start refresh asset from D:\cocos\badminton\badminton\assets\scene.scene...
+2024-12-5 17:04:41-debug: %cImport%c: D:\cocos\badminton\badminton\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
+2024-12-5 17:04:41-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 17:05:12-debug: start refresh asset from D:\cocos\badminton\badminton\assets\scene.scene...
+2024-12-5 17:05:12-debug: %cImport%c: D:\cocos\badminton\badminton\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
+2024-12-5 17:05:12-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 17:05:12-debug: start refresh asset from D:\cocos\badminton\badminton\assets\scene.scene...
+2024-12-5 17:05:12-debug: %cImport%c: D:\cocos\badminton\badminton\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
+2024-12-5 17:05:12-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 17:05:13-debug: start refresh asset from D:\cocos\badminton\badminton\assets\scene.scene...
+2024-12-5 17:05:13-debug: %cImport%c: D:\cocos\badminton\badminton\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
+2024-12-5 17:05:13-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 17:05:13-debug: start refresh asset from D:\cocos\badminton\badminton\assets\scene.scene...
+2024-12-5 17:05:13-debug: %cImport%c: D:\cocos\badminton\badminton\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
+2024-12-5 17:05:13-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 17:05:13-debug: start refresh asset from D:\cocos\badminton\badminton\assets\scene.scene...
+2024-12-5 17:05:13-debug: %cImport%c: D:\cocos\badminton\badminton\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
+2024-12-5 17:05:13-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 18:51:02-debug: refresh db internal success
+2024-12-5 18:51:02-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 18:51:02-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 18:51:02-debug: refresh db assets success
+2024-12-5 18:51:02-debug: asset-db:refresh-all-database (509ms)
+2024-12-5 18:51:02-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 18:51:02-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 20:15:36-debug: refresh db internal success
+2024-12-5 20:15:36-debug: refresh db assets success
+2024-12-5 20:15:36-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:15:36-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:15:36-debug: asset-db:refresh-all-database (234ms)
+2024-12-5 20:15:36-debug: asset-db:worker-effect-data-processing (4ms)
+2024-12-5 20:15:36-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+2024-12-5 20:18:10-debug: refresh db internal success
+2024-12-5 20:18:10-debug: refresh db assets success
+2024-12-5 20:18:10-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:18:10-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:18:10-debug: asset-db:refresh-all-database (47ms)
+2024-12-5 20:18:25-debug: start refresh asset from D:\cocos\badminton\badminton\assets\prefab\hero.prefab...
+2024-12-5 20:18:25-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefab\hero.prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:18:25-debug: refresh asset D:\cocos\badminton\badminton\assets\prefab success
+2024-12-5 20:18:25-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:18:34-debug: start remove asset D:\cocos\badminton\badminton\assets\prefab\hero.prefab...
+2024-12-5 20:18:34-debug: start refresh asset from D:\cocos\badminton\badminton\assets\prefab\hero.prefab...
+2024-12-5 20:18:34-debug: %cDestroy%c: D:\cocos\badminton\badminton\assets\prefab\hero.prefabbackground: #ffb8b8; color: #000;color: #000;
+2024-12-5 20:18:34-debug: refresh asset D:\cocos\badminton\badminton\assets\prefab success
+2024-12-5 20:18:34-debug: remove asset D:\cocos\badminton\badminton\assets\prefab\hero.prefab success
+2024-12-5 20:18:34-debug: refresh db internal success
+2024-12-5 20:18:34-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:18:34-debug: refresh db assets success
+2024-12-5 20:18:34-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:18:34-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:18:34-debug: asset-db:refresh-all-database (46ms)
+2024-12-5 20:18:34-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:19:04-debug: start refresh asset from D:\cocos\badminton\badminton\assets\prefab\player.prefab...
+2024-12-5 20:19:04-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefab\player.prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:19:04-debug: refresh asset D:\cocos\badminton\badminton\assets\prefab success
+2024-12-5 20:19:04-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:20:01-debug: refresh db internal success
+2024-12-5 20:20:01-debug: refresh db assets success
+2024-12-5 20:20:01-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:20:01-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:20:01-debug: asset-db:refresh-all-database (79ms)
+2024-12-5 20:20:01-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 20:20:01-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 20:20:37-debug: programming:execute-script (1ms)
+2024-12-5 20:20:38-debug: start remove asset D:\cocos\badminton\badminton\assets\prefab\player.prefab...
+2024-12-5 20:20:38-debug: start refresh asset from D:\cocos\badminton\badminton\assets\prefab\player.prefab...
+2024-12-5 20:20:38-debug: %cDestroy%c: D:\cocos\badminton\badminton\assets\prefab\player.prefabbackground: #ffb8b8; color: #000;color: #000;
+2024-12-5 20:20:38-debug: refresh asset D:\cocos\badminton\badminton\assets\prefab success
+2024-12-5 20:20:38-debug: remove asset D:\cocos\badminton\badminton\assets\prefab\player.prefab success
+2024-12-5 20:20:38-debug: refresh db internal success
+2024-12-5 20:20:38-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:20:38-debug: refresh db assets success
+2024-12-5 20:20:38-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:20:38-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:20:38-debug: asset-db:refresh-all-database (50ms)
+2024-12-5 20:20:51-debug: start refresh asset from D:\cocos\badminton\badminton\assets\prefab\hero.prefab...
+2024-12-5 20:20:51-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefab\hero.prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:20:51-debug: refresh asset D:\cocos\badminton\badminton\assets\prefab success
+2024-12-5 20:20:51-debug: %cImport%c: D:\cocos\badminton\badminton\assets\prefabbackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:29:23-debug: refresh db internal success
+2024-12-5 20:29:23-debug: refresh db assets success
+2024-12-5 20:29:23-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:29:23-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:29:23-debug: asset-db:refresh-all-database (173ms)
+2024-12-5 20:29:23-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 20:29:23-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:29:28-debug: refresh db internal success
+2024-12-5 20:29:28-debug: refresh db assets success
+2024-12-5 20:29:28-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:29:28-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:29:28-debug: asset-db:refresh-all-database (48ms)
+2024-12-5 20:29:30-debug: refresh db internal success
+2024-12-5 20:29:30-debug: refresh db assets success
+2024-12-5 20:29:30-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:29:30-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:29:30-debug: asset-db:refresh-all-database (55ms)
+2024-12-5 20:29:33-debug: refresh db internal success
+2024-12-5 20:29:33-debug: refresh db assets success
+2024-12-5 20:29:33-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:29:33-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:29:33-debug: asset-db:refresh-all-database (35ms)
+2024-12-5 20:29:33-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 20:29:33-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:29:35-debug: refresh db internal success
+2024-12-5 20:29:35-debug: refresh db assets success
+2024-12-5 20:29:35-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:29:35-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:29:35-debug: asset-db:refresh-all-database (41ms)
+2024-12-5 20:29:35-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 20:29:35-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:29:39-debug: refresh db internal success
+2024-12-5 20:29:39-debug: refresh db assets success
+2024-12-5 20:29:39-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:29:39-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:29:39-debug: asset-db:refresh-all-database (47ms)
+2024-12-5 20:29:43-debug: Query all assets info in project
+2024-12-5 20:29:43-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-5 20:29:43-debug: 查询 Asset Bundle start, progress: 0%
+2024-12-5 20:29:43-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-5 20:29:43-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-5 20:29:43-debug:   Number of other assets: 329
+2024-12-5 20:29:43-debug:   Number of all scripts: 1
+2024-12-5 20:29:43-debug:   Number of all scenes: 1
+2024-12-5 20:29:43-debug: // ---- build task 查询 Asset Bundle ---- (5ms)
+2024-12-5 20:29:43-debug: [Build Memory track]: 查询 Asset Bundle start:173.75MB, end 170.58MB, increase: -3248.22KB
+2024-12-5 20:29:43-debug: run build task 查询 Asset Bundle success in 5 ms√, progress: 5%
+2024-12-5 20:29:43-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-5 20:29:43-debug: 查询 Asset Bundle start, progress: 5%
+2024-12-5 20:29:43-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
+2024-12-5 20:29:43-debug: [Build Memory track]: 查询 Asset Bundle start:170.59MB, end 170.67MB, increase: 75.36KB
+2024-12-5 20:29:43-debug: run build task 查询 Asset Bundle success in 3 ms√, progress: 10%
+2024-12-5 20:29:43-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2024-12-5 20:29:43-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-5 20:29:43-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2024-12-5 20:29:43-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:170.68MB, end 170.69MB, increase: 11.56KB
+2024-12-5 20:29:43-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-5 20:29:43-debug: 填充脚本数据到 settings.json start, progress: 12%
+2024-12-5 20:29:43-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2024-12-5 20:29:43-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2024-12-5 20:29:43-debug: [Build Memory track]: 填充脚本数据到 settings.json start:170.71MB, end 170.72MB, increase: 18.00KB
+2024-12-5 20:29:43-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2024-12-5 20:29:43-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-5 20:29:43-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (14ms)
+2024-12-5 20:29:43-debug: run build task 整理部分构建选项内数据到 settings.json success in 14 ms√, progress: 15%
+2024-12-5 20:29:43-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:170.74MB, end 170.86MB, increase: 122.86KB
+2024-12-5 20:30:20-debug: refresh db internal success
+2024-12-5 20:30:20-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:30:20-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:30:20-debug: refresh db assets success
+2024-12-5 20:30:20-debug: asset-db:worker-effect-data-processing (5ms)
+2024-12-5 20:30:20-debug: asset-db-hook-engine-extends-afterRefresh (6ms)
+2024-12-5 20:30:20-debug: asset-db:refresh-all-database (96ms)
+2024-12-5 20:30:48-debug: refresh db internal success
+2024-12-5 20:30:48-debug: refresh db assets success
+2024-12-5 20:30:48-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:30:48-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:30:48-debug: asset-db:refresh-all-database (58ms)
+2024-12-5 20:30:48-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 20:30:48-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:31:24-debug: refresh db internal success
+2024-12-5 20:31:24-debug: refresh db assets success
+2024-12-5 20:31:24-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:31:24-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:31:24-debug: asset-db:refresh-all-database (45ms)
+2024-12-5 20:31:24-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 20:31:24-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:33:41-debug: refresh db internal success
+2024-12-5 20:33:41-debug: refresh db assets success
+2024-12-5 20:33:41-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:33:41-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:33:41-debug: asset-db:refresh-all-database (208ms)
+2024-12-5 20:33:41-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 20:33:50-debug: refresh db internal success
+2024-12-5 20:33:50-debug: refresh db assets success
+2024-12-5 20:33:50-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:33:50-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:33:50-debug: asset-db:refresh-all-database (160ms)
+2024-12-5 20:33:50-debug: asset-db:worker-effect-data-processing (-1ms)
+2024-12-5 20:34:10-debug: refresh db internal success
+2024-12-5 20:34:10-debug: refresh db assets success
+2024-12-5 20:34:10-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:34:10-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:34:10-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 20:34:10-debug: asset-db:refresh-all-database (48ms)
+2024-12-5 20:34:10-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 20:34:26-debug: start refresh asset from D:\cocos\badminton\badminton\assets\NewComponent.ts...
+2024-12-5 20:34:26-debug: %cImport%c: D:\cocos\badminton\badminton\assets\NewComponent.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:34:26-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 20:34:37-debug: refresh db internal success
+2024-12-5 20:34:37-debug: refresh db assets success
+2024-12-5 20:34:37-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:34:37-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:34:37-debug: asset-db:refresh-all-database (47ms)
+2024-12-5 20:34:37-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 20:34:37-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 20:34:46-debug: start move asset from D:\cocos\badminton\badminton\assets\NewComponent.ts -> D:\cocos\badminton\badminton\assets\Scripts.ts...
+2024-12-5 20:34:46-debug: start refresh asset from D:\cocos\badminton\badminton\assets\Scripts.ts...
+2024-12-5 20:34:46-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:34:46-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 20:34:46-debug: start refresh asset from D:\cocos\badminton\badminton\assets...
+2024-12-5 20:34:46-debug: refresh asset D:\cocos\badminton\badminton success
+2024-12-5 20:34:46-debug: move asset from D:\cocos\badminton\badminton\assets\NewComponent.ts -> D:\cocos\badminton\badminton\assets\Scripts.ts success
+2024-12-5 20:35:10-debug: programming:execute-script (1ms)
+2024-12-5 20:35:11-debug: start remove asset D:\cocos\badminton\badminton\assets\Scripts.ts...
+2024-12-5 20:35:11-log: 资源数据库已锁定，资源操作(bound _refreshAsset)将会延迟响应，请稍侯
+2024-12-5 20:35:11-debug: refresh db internal success
+2024-12-5 20:35:11-debug: %cDestroy%c: D:\cocos\badminton\badminton\assets\Scripts.tsbackground: #ffb8b8; color: #000;color: #000;
+2024-12-5 20:35:11-debug: refresh db assets success
+2024-12-5 20:35:11-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:35:11-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 20:35:11-debug: start refresh asset from D:\cocos\badminton\badminton\assets\Scripts.ts...
+2024-12-5 20:35:11-debug: remove asset D:\cocos\badminton\badminton\assets\Scripts.ts success
+2024-12-5 20:35:11-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:35:11-debug: asset-db:refresh-all-database (76ms)
+2024-12-5 20:35:11-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 20:35:11-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 20:35:17-debug: start refresh asset from D:\cocos\badminton\badminton\assets\Scripts...
+2024-12-5 20:35:17-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 20:35:17-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:35:31-debug: refresh db internal success
+2024-12-5 20:35:31-debug: refresh db assets success
+2024-12-5 20:35:31-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:35:31-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:35:31-debug: asset-db:refresh-all-database (41ms)
+2024-12-5 20:35:31-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:35:31-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 20:35:34-debug: start refresh asset from D:\cocos\badminton\badminton\assets\Scripts\PlayerController.ts...
+2024-12-5 20:35:34-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\PlayerController.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:35:34-debug: refresh asset D:\cocos\badminton\badminton\assets\Scripts success
+2024-12-5 20:35:34-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:35:59-debug: refresh db internal success
+2024-12-5 20:35:59-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:35:59-debug: refresh db assets success
+2024-12-5 20:35:59-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:35:59-debug: asset-db:refresh-all-database (42ms)
+2024-12-5 20:35:59-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 20:35:59-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:36:28-debug: refresh db internal success
+2024-12-5 20:36:28-debug: refresh db assets success
+2024-12-5 20:36:28-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:36:28-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:36:28-debug: asset-db:refresh-all-database (48ms)
+2024-12-5 20:36:48-debug: refresh db internal success
+2024-12-5 20:36:48-debug: refresh db assets success
+2024-12-5 20:36:48-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:36:48-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:36:48-debug: asset-db:refresh-all-database (49ms)
+2024-12-5 20:36:48-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:37:02-debug: refresh db internal success
+2024-12-5 20:37:02-debug: refresh db assets success
+2024-12-5 20:37:02-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:37:02-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:37:02-debug: asset-db:refresh-all-database (48ms)
+2024-12-5 20:37:02-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:37:33-debug: refresh db internal success
+2024-12-5 20:37:33-debug: refresh db assets success
+2024-12-5 20:37:33-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:37:33-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:37:33-debug: asset-db:refresh-all-database (65ms)
+2024-12-5 20:37:33-debug: asset-db:worker-effect-data-processing (-1ms)
+2024-12-5 20:37:33-debug: asset-db-hook-engine-extends-afterRefresh (-1ms)
+2024-12-5 20:38:05-debug: refresh db internal success
+2024-12-5 20:38:05-debug: refresh db assets success
+2024-12-5 20:38:05-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:38:05-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:38:05-debug: asset-db:refresh-all-database (65ms)
+2024-12-5 20:39:51-debug: refresh db internal success
+2024-12-5 20:39:51-debug: refresh db assets success
+2024-12-5 20:39:51-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:39:51-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:39:51-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 20:39:51-debug: asset-db:refresh-all-database (45ms)
+2024-12-5 20:39:51-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:39:55-debug: refresh db internal success
+2024-12-5 20:39:55-debug: refresh db assets success
+2024-12-5 20:39:55-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:39:55-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:39:55-debug: asset-db:refresh-all-database (47ms)
+2024-12-5 20:39:55-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:42:55-debug: refresh db internal success
+2024-12-5 20:42:55-debug: refresh db assets success
+2024-12-5 20:42:55-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:42:55-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:42:55-debug: asset-db:refresh-all-database (52ms)
+2024-12-5 20:42:55-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:42:55-debug: start refresh asset from D:\cocos\badminton\badminton\assets\scene.scene...
+2024-12-5 20:42:55-debug: %cImport%c: D:\cocos\badminton\badminton\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:42:55-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 20:42:58-debug: start refresh asset from D:\cocos\badminton\badminton\assets\scene.scene...
+2024-12-5 20:42:58-debug: %cImport%c: D:\cocos\badminton\badminton\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
+2024-12-5 20:42:58-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-5 20:43:17-debug: refresh db internal success
+2024-12-5 20:43:17-debug: refresh db assets success
+2024-12-5 20:43:17-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:43:17-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:43:17-debug: asset-db:refresh-all-database (52ms)
+2024-12-5 20:43:17-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 20:43:17-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:43:18-debug: refresh db internal success
+2024-12-5 20:43:18-debug: refresh db assets success
+2024-12-5 20:43:18-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:43:18-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:43:18-debug: asset-db:refresh-all-database (48ms)
+2024-12-5 20:43:18-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-5 20:43:18-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-5 20:43:21-debug: refresh db internal success
+2024-12-5 20:43:21-debug: refresh db assets success
+2024-12-5 20:43:21-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:43:21-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:43:21-debug: asset-db:refresh-all-database (41ms)
+2024-12-5 20:43:21-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 20:43:21-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:50:40-debug: refresh db internal success
+2024-12-5 20:50:40-debug: refresh db assets success
+2024-12-5 20:50:40-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:50:40-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:50:40-debug: asset-db:refresh-all-database (215ms)
+2024-12-5 20:53:32-debug: refresh db internal success
+2024-12-5 20:53:32-debug: refresh db assets success
+2024-12-5 20:53:32-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:53:32-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:53:32-debug: asset-db:refresh-all-database (226ms)
+2024-12-5 20:53:32-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-5 20:53:32-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-5 20:53:58-debug: refresh db internal success
+2024-12-5 20:53:58-debug: refresh db assets success
+2024-12-5 20:53:58-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-5 20:53:58-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-5 20:53:58-debug: asset-db:refresh-all-database (44ms)

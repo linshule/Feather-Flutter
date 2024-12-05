@@ -89,7 +89,7 @@
       "time": 1732769781063.2095
     },
     "D:\\cocos\\badminton\\badminton\\assets\\scene.scene": {
-      "time": 1733131638811.925,
+      "time": 1733402578166.0967,
       "uuid": "53c09363-d1e8-4f8f-8ddf-ae0501d38731"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation.meta": {
@@ -105,6 +105,41 @@
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\onestep.anim": {
       "time": 1732784132556.5457,
       "uuid": "0adf839c-a497-4e5e-810c-e88c21c4053f"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\prefab.meta": {
+      "time": 1733388870502.9949
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\prefab": {
+      "time": 1733401251494.7961,
+      "uuid": "af5e8080-132b-4ac3-b3e1-60e6c7b8bcc3"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\prefab\\box1.prefab.meta": {
+      "time": 1733389362677.128
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\prefab\\box1.prefab": {
+      "time": 1733389362671.1338,
+      "uuid": "8db88878-82f9-449a-952a-6ff19af095e5"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\prefab\\hero.prefab.meta": {
+      "time": 1733401251507.8135
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\prefab\\hero.prefab": {
+      "time": 1733401251500.7925,
+      "uuid": "e39ae9de-fb2a-4928-b686-4284519e00ca"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\Scripts.meta": {
+      "time": 1733402117495.401
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\Scripts": {
+      "time": 1733402134146.6042,
+      "uuid": "c97f0113-1ddf-48da-8ec6-d7f29391f751"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\PlayerController.ts.meta": {
+      "time": 1733402134157.6067
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\PlayerController.ts": {
+      "time": 1733402134145.6045,
+      "uuid": "94850660-6b23-4297-ae13-86cee5f1a9e6"
     }
   },
   "missing": {
@@ -137,6 +172,46 @@
       "path": "D:\\cocos\\badminton\\badminton\\assets\\Animation\\Onestep.anim",
       "time": 1732622905696.949,
       "removeTime": 1732782623388
+    },
+    "35c8c067-8626-4615-b5f4-282fc27d4acd": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\folder",
+      "time": 1733388839381.5703,
+      "removeTime": 1733388848475
+    },
+    "5c35faef-ea02-4236-9e98-e3173b06eeea": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\folder\\Node.prefab",
+      "time": 1733388839396.2688,
+      "removeTime": 1733388848475
+    },
+    "07d8cc2f-b9e9-4db1-ad30-d840273a9338": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\prefab\\prefab.prefab",
+      "time": 1733388891761.636,
+      "removeTime": 1733388906962
+    },
+    "af5e8080-132b-4ac3-b3e1-60e6c7b8bcc3": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\folder",
+      "time": 1733388891759.6333,
+      "removeTime": 1733388899661
+    },
+    "abeffd4e-69f5-4b74-b801-e2382ca8beac": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\prefab\\box.prefab",
+      "time": 1733389170341.9502,
+      "removeTime": 1733389212656
+    },
+    "70ce99fd-f194-4201-86a6-d4d062d74a5e": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\prefab\\hero.prefab",
+      "time": 1733401105038.354,
+      "removeTime": 1733401114755
+    },
+    "7797e5b6-7627-46a4-bf65-87bdfb24a5dc": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\prefab\\player.prefab",
+      "time": 1733401144644.542,
+      "removeTime": 1733401238870
+    },
+    "2dd847a9-1db7-4c0b-9284-2c137b883bf7": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\Scripts.ts",
+      "time": 1733402066714.843,
+      "removeTime": 1733402111689
     }
   }
 }

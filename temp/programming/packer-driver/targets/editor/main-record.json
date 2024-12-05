@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 7444.574800014496,
+      "mTimestamp": 43914.48989999294,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 8682.53299999237,
+      "mTimestamp": 21460285.81189999,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -656,6 +656,20 @@
               "column": 167
             }
           }
+        },
+        {
+          "value": "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 183
+            },
+            "end": {
+              "line": 5,
+              "column": 256
+            }
+          }
         }
       ],
       "type": "esm",
@@ -664,6 +678,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///D:/cocos/CocosCreator-v3.8.3-oh-win-102911/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts"
           },
           "messages": []
         }
@@ -692,6 +713,162 @@
             "end": {
               "line": 1,
               "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/badminton/badminton/assets/NewComponent.ts": {
+      "mTimestamp": {
+        "mtime": 1733402066714.843,
+        "uuid": "2dd847a9-1db7-4c0b-9284-2c137b883bf7"
+      },
+      "chunkId": "de268251f82344c8732e5637c146a7db90089020",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/badminton/badminton/assets/Scripts.ts": {
+      "mTimestamp": {
+        "mtime": 1733402066714.843,
+        "uuid": "2dd847a9-1db7-4c0b-9284-2c137b883bf7"
+      },
+      "chunkId": "6b54a08373e0aabd38784eb6c0d02ddf99711542",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts": {
+      "mTimestamp": {
+        "mtime": 1733402134145.6045,
+        "uuid": "94850660-6b23-4297-ae13-86cee5f1a9e6"
+      },
+      "chunkId": "f66656c70fc5ce6b784ec96ed4f4454ea7438438",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
             }
           }
         }

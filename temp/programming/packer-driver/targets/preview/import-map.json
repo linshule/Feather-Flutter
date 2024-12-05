@@ -2,7 +2,8 @@
   "imports": {
     "cce:/internal/x/cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js",
     "cce:/internal/x/prerequisite-imports": "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js",
-    "file:///D:/cocos/CocosCreator-v3.8.3-oh-win-102911/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js"
+    "file:///D:/cocos/CocosCreator-v3.8.3-oh-win-102911/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js",
+    "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts": "./chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js"
   },
   "scopes": {
     "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
@@ -27,7 +28,11 @@
       "__unresolved_9": "cce:/internal/x/cc-fu/particle-2d"
     },
     "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js": {
-      "__unresolved_0": "./chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js"
+      "__unresolved_0": "./chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js",
+      "__unresolved_1": "./chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js"
+    },
+    "./chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"

@@ -1,70 +1,280 @@
-2024-12-5 14:37:51 - log: Load engine in D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine
-2024-12-5 14:37:53 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-2024-12-5 14:37:53 - log: Register native engine in D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native
-2024-12-5 14:37:54 - log: Request namespace: device-list
-2024-12-5 14:38:40 - log: [Scene] meshopt wasm decoder initialized
-2024-12-5 14:38:40 - log: [Scene] [box2d]:box2d wasm lib loaded.
-2024-12-5 14:38:40 - log: [Scene] [bullet]:bullet wasm lib loaded.
-2024-12-5 14:38:41 - log: [Scene] [PHYSICS]: using builtin.
-2024-12-5 14:38:41 - log: [Scene] Cocos Creator v3.8.3
-2024-12-5 14:38:41 - info: [Scene] Forward render pipeline initialized.
-2024-12-5 14:38:41 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-2024-12-5 14:56:32 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+2024-12-14 16:11:33 - log: Load engine in D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine
+2024-12-14 16:11:36 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+2024-12-14 16:11:36 - log: Register native engine in D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native
+2024-12-14 16:11:37 - log: Request namespace: device-list
+2024-12-14 16:12:08 - log: [Scene] meshopt wasm decoder initialized
+2024-12-14 16:12:08 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2024-12-14 16:12:09 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2024-12-14 16:12:09 - log: [Scene] [PHYSICS]: using builtin.
+2024-12-14 16:12:09 - log: [Scene] Cocos Creator v3.8.3
+2024-12-14 16:12:09 - info: [Scene] Forward render pipeline initialized.
+2024-12-14 16:12:09 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2024-12-14 17:56:31 - warn: [Scene] The type of "MenuController.xx" must be CCFloat or CCInteger, not Number.Error: [Scene] The type of "MenuController.xx" must be CCFloat or CCInteger, not Number.
     at warn (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:149335:12)
     at warnID (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:149517:5)
-    at SkyboxInfo.set envmap (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:51875:13)
-    at SkyboxInfo.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1091)
-    at AssetDump.decode (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\types\asset-dump.ccc:1:946)
-    at _decodeByType (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:4617)
-    at decodePatch (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:6224)
-2024-12-5 14:56:32 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at parseType (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274180:11)
+    at preprocessAttrs (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274285:11)
+    at declareProperties (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:130296:7)
+    at CCClass (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:130325:5)
+    at eval (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272108:21)
+2024-12-14 17:57:36 - warn: [Scene] The type of "MenuController.xx" must be CCFloat or CCInteger, not Number.Error: [Scene] The type of "MenuController.xx" must be CCFloat or CCInteger, not Number.
     at warn (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:149335:12)
     at warnID (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:149517:5)
-    at SkyboxInfo.set envmap (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:51875:13)
-    at SkyboxInfo.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1091)
-    at AssetDump.decode (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\types\asset-dump.ccc:1:946)
-    at _decodeByType (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:4617)
-    at decodePatch (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:6224)
-2024-12-5 17:00:19 - error: [Scene] download failed: import://ab/abeffd4e-69f5-4b74-b801-e2382ca8beac.json?_t=1733389219642, status: 0(error)Error: download failed: import://ab/abeffd4e-69f5-4b74-b801-e2382ca8beac.json?_t=1733389219642, status: 0(error)
-    at XMLHttpRequest.eval (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:106264:20)
-2024-12-5 17:51:43 - error: [Scene] Failed to set an indexed property on 'GamepadList': Indexed property setter is not supported.TypeError: Failed to set an indexed property on 'GamepadList': Indexed property setter is not supported.
-    at eval (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:257730:68)
-2024-12-5 18:48:50 - error: [Scene] Failed to set an indexed property on 'GamepadList': Indexed property setter is not supported.TypeError: Failed to set an indexed property on 'GamepadList': Indexed property setter is not supported.
-    at eval (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:257736:68)
-2024-12-5 20:18:55 - error: [Scene] download failed: import://70/70ce99fd-f194-4201-86a6-d4d062d74a5e.json?_t=1733401135972, status: 0(error)Error: download failed: import://70/70ce99fd-f194-4201-86a6-d4d062d74a5e.json?_t=1733401135972, status: 0(error)
-    at XMLHttpRequest.eval (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:106264:20)
-2024-12-5 20:19:21 - warn: [Scene] The prefab you are trying to add is the same with the prefab in editing, this is not allowed.Error: [Scene] The prefab you are trying to add is the same with the prefab in editing, this is not allowed.
-    at PrefabSceneFacade.createNode (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\prefab-scene-facade.ccc:1:1887)
-    at SceneFacadeManager.createNode (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:12340)
+    at parseType (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274180:11)
+    at preprocessAttrs (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274285:11)
+    at declareProperties (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:130296:7)
+    at CCClass (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:130325:5)
+    at eval (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272108:21)
+2024-12-14 19:15:05 - log: [Scene] Illegal constructorTypeError: Illegal constructor
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
     at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
     at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
     at new Promise (<anonymous>)
     at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
     at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
-2024-12-5 20:20:42 - error: [Window] panel.throttleUpdate is not a functionTypeError: panel.throttleUpdate is not a function
-    at Object.set [as readyToUpdate] (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\editor\inspector\contributions\node.js:598:35)
-    at Object.change-dump (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\editor\inspector\contributions\node.js:168:33)
-2024-12-5 20:20:45 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
-    at warn (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:149335:12)
-    at warnID (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:149517:5)
-    at SkyboxInfo.set envmap (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:51875:13)
-    at SkyboxInfo.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1091)
-    at AssetDump.decode (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\types\asset-dump.ccc:1:946)
-    at _decodeByType (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:4617)
-    at decodePatch (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:6224)
-2024-12-5 20:20:45 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
-    at warn (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:149335:12)
-    at warnID (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:149517:5)
-    at SkyboxInfo.set envmap (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:51875:13)
-    at SkyboxInfo.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\asset\asset-watcher.ccc:1:1091)
-    at AssetDump.decode (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\types\asset-dump.ccc:1:946)
-    at _decodeByType (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:4617)
-    at decodePatch (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:6224)
-2024-12-5 20:53:59 - error: Error occurred in handler for 'GUEST_VIEW_MANAGER_CALL': Error: Invalid guestInstanceId: 6
-    at getGuestForWebContents (electron/js2c/browser_init.js:181:6307)
-    at electron/js2c/browser_init.js:181:5372
-    at electron/js2c/browser_init.js:181:1637
-    at electron/js2c/browser_init.js:197:579
-    at Object.<anonymous> (electron/js2c/browser_init.js:161:9782)
-    at Object.emit (events.js:315:20)
-    at Object.emit (domain.js:467:12)
+2024-12-14 19:15:05 - error: [Window] Illegal constructorTypeError: Illegal constructor
+    at <process:scene>
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:17:21 - log: [Scene] Illegal constructorTypeError: Illegal constructor
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:17:21 - error: [Window] Illegal constructorTypeError: Illegal constructor
+    at <process:scene>
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:17:25 - log: [Scene] Illegal constructorTypeError: Illegal constructor
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:17:25 - error: [Window] Illegal constructorTypeError: Illegal constructor
+    at <process:scene>
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:18:29 - log: [Scene] Illegal constructorTypeError: Illegal constructor
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:18:29 - error: [Window] Illegal constructorTypeError: Illegal constructor
+    at <process:scene>
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:18:29 - log: [Scene] Illegal constructorTypeError: Illegal constructor
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:18:29 - error: [Window] Illegal constructorTypeError: Illegal constructor
+    at <process:scene>
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:18:29 - log: [Scene] Illegal constructorTypeError: Illegal constructor
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:18:29 - error: [Window] Illegal constructorTypeError: Illegal constructor
+    at <process:scene>
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:18:29 - log: [Scene] Illegal constructorTypeError: Illegal constructor
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:18:29 - error: [Window] Illegal constructorTypeError: Illegal constructor
+    at <process:scene>
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:18:37 - log: [Scene] Illegal constructorTypeError: Illegal constructor
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:18:37 - error: [Window] Illegal constructorTypeError: Illegal constructor
+    at <process:scene>
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:18:38 - log: [Scene] Illegal constructorTypeError: Illegal constructor
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:18:38 - error: [Window] Illegal constructorTypeError: Illegal constructor
+    at <process:scene>
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:19:43 - log: [Scene] Illegal constructorTypeError: Illegal constructor
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:19:43 - error: [Window] Illegal constructorTypeError: Illegal constructor
+    at <process:scene>
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:19:44 - log: [Scene] Illegal constructorTypeError: Illegal constructor
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)
+2024-12-14 19:19:44 - error: [Window] Illegal constructorTypeError: Illegal constructor
+    at <process:scene>
+    at updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\decode.ccc:1:8382)
+    at DumpUtil.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\export\dump\index.ccc:1:1084)
+    at NodeManager.updatePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:8917)
+    at GeneralSceneFacade.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:7323)
+    at SceneFacadeManager.updateNodePropertyFromNull (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:11016)
+    at step (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:1:732)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\ipc.ccc:2:338
+    at EventEmitter.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc\web\webview.ccc:1:1004)

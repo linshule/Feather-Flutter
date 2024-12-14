@@ -1,0 +1,1184 @@
+2024-12-14 16:11:49-log: Cannot access game frame or container.
+2024-12-14 16:11:58-debug: asset-db:require-engine-code (9965ms)
+2024-12-14 16:11:58-log: meshopt wasm decoder initialized
+2024-12-14 16:11:59-log: [box2d]:box2d wasm lib loaded.
+2024-12-14 16:11:59-log: [bullet]:bullet wasm lib loaded.
+2024-12-14 16:11:59-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:23.15MB, end 77.42MB, increase: 54.27MB
+2024-12-14 16:11:59-log: Cocos Creator v3.8.3
+2024-12-14 16:11:59-debug: [Assets Memory track]: asset-db-plugin-register: programming start:78.52MB, end 80.63MB, increase: 2.11MB
+2024-12-14 16:12:00-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:168.34MB, end 171.02MB, increase: 2.68MB
+2024-12-14 16:12:00-debug: [Assets Memory track]: asset-db-plugin-register: builder start:80.65MB, end 168.14MB, increase: 87.49MB
+2024-12-14 16:12:00-debug: [Assets Memory track]: asset-db-plugin-register: project start:78.41MB, end 171.08MB, increase: 92.68MB
+2024-12-14 16:12:00-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:77.44MB, end 171.10MB, increase: 93.67MB
+2024-12-14 16:12:00-debug: asset-db:worker-init: initPlugin (1562ms)
+2024-12-14 16:12:00-debug: [Assets Memory track]: asset-db:worker-init start:23.14MB, end 171.16MB, increase: 148.02MB
+2024-12-14 16:12:00-debug: Run asset db hook programming:beforePreStart ...
+2024-12-14 16:12:00-debug: Run asset db hook programming:beforePreStart success!
+2024-12-14 16:12:00-debug: Run asset db hook engine-extends:beforePreStart ...
+2024-12-14 16:12:00-debug: Run asset db hook engine-extends:beforePreStart success!
+2024-12-14 16:12:04-debug: asset-db:worker-init (15345ms)
+2024-12-14 16:12:04-debug: asset-db-hook-programming-beforePreStart (3424ms)
+2024-12-14 16:12:04-debug: asset-db-hook-engine-extends-beforePreStart (3423ms)
+2024-12-14 16:12:05-debug: Preimport db internal success
+2024-12-14 16:12:06-debug: Preimport db assets success
+2024-12-14 16:12:06-debug: Run asset db hook programming:afterPreStart ...
+2024-12-14 16:12:06-debug: starting packer-driver...
+2024-12-14 16:12:06-debug: initialize scripting environment...
+2024-12-14 16:12:06-debug: Run asset db hook programming:afterPreStart success!
+2024-12-14 16:12:06-debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-12-14 16:12:06-debug: Run asset db hook engine-extends:afterPreStart success!
+2024-12-14 16:12:06-debug: Run asset db hook engine-extends:afterPreStart ...
+2024-12-14 16:12:06-debug: Start up the 'internal' database...
+2024-12-14 16:12:08-debug: asset-db:worker-effect-data-processing (1549ms)
+2024-12-14 16:12:08-debug: asset-db-hook-programming-afterPreStart (2050ms)
+2024-12-14 16:12:08-debug: asset-db-hook-engine-extends-afterPreStart (1549ms)
+2024-12-14 16:12:08-debug: Start up the 'assets' database...
+2024-12-14 16:12:08-debug: asset-db:worker-startup-database[internal] (7483ms)
+2024-12-14 16:12:08-debug: lazy register asset handler *
+2024-12-14 16:12:08-debug: lazy register asset handler directory
+2024-12-14 16:12:08-debug: lazy register asset handler text
+2024-12-14 16:12:08-debug: lazy register asset handler json
+2024-12-14 16:12:08-debug: lazy register asset handler spine-data
+2024-12-14 16:12:08-debug: lazy register asset handler dragonbones
+2024-12-14 16:12:08-debug: lazy register asset handler dragonbones-atlas
+2024-12-14 16:12:08-debug: lazy register asset handler terrain
+2024-12-14 16:12:08-debug: lazy register asset handler typescript
+2024-12-14 16:12:08-debug: lazy register asset handler javascript
+2024-12-14 16:12:08-debug: lazy register asset handler prefab
+2024-12-14 16:12:08-debug: lazy register asset handler sprite-frame
+2024-12-14 16:12:08-debug: lazy register asset handler buffer
+2024-12-14 16:12:08-debug: lazy register asset handler image
+2024-12-14 16:12:08-debug: lazy register asset handler tiled-map
+2024-12-14 16:12:08-debug: lazy register asset handler alpha-image
+2024-12-14 16:12:08-debug: lazy register asset handler texture
+2024-12-14 16:12:08-debug: lazy register asset handler texture-cube
+2024-12-14 16:12:08-debug: lazy register asset handler erp-texture-cube
+2024-12-14 16:12:08-debug: lazy register asset handler texture-cube-face
+2024-12-14 16:12:08-debug: lazy register asset handler rt-sprite-frame
+2024-12-14 16:12:08-debug: lazy register asset handler gltf
+2024-12-14 16:12:08-debug: lazy register asset handler gltf-mesh
+2024-12-14 16:12:08-debug: lazy register asset handler gltf-animation
+2024-12-14 16:12:08-debug: lazy register asset handler gltf-skeleton
+2024-12-14 16:12:08-debug: lazy register asset handler gltf-material
+2024-12-14 16:12:08-debug: lazy register asset handler gltf-scene
+2024-12-14 16:12:08-debug: lazy register asset handler gltf-embeded-image
+2024-12-14 16:12:08-debug: lazy register asset handler fbx
+2024-12-14 16:12:08-debug: lazy register asset handler material
+2024-12-14 16:12:08-debug: lazy register asset handler physics-material
+2024-12-14 16:12:08-debug: lazy register asset handler effect
+2024-12-14 16:12:08-debug: lazy register asset handler effect-header
+2024-12-14 16:12:08-debug: lazy register asset handler audio-clip
+2024-12-14 16:12:08-debug: lazy register asset handler animation-clip
+2024-12-14 16:12:08-debug: lazy register asset handler animation-graph
+2024-12-14 16:12:08-debug: lazy register asset handler animation-graph-variant
+2024-12-14 16:12:08-debug: lazy register asset handler animation-mask
+2024-12-14 16:12:08-debug: lazy register asset handler ttf-font
+2024-12-14 16:12:08-debug: lazy register asset handler bitmap-font
+2024-12-14 16:12:08-debug: lazy register asset handler particle
+2024-12-14 16:12:08-debug: lazy register asset handler sprite-atlas
+2024-12-14 16:12:08-debug: lazy register asset handler auto-atlas
+2024-12-14 16:12:08-debug: lazy register asset handler label-atlas
+2024-12-14 16:12:08-debug: lazy register asset handler render-pipeline
+2024-12-14 16:12:08-debug: lazy register asset handler render-stage
+2024-12-14 16:12:08-debug: lazy register asset handler render-flow
+2024-12-14 16:12:08-debug: lazy register asset handler instantiation-material
+2024-12-14 16:12:08-debug: lazy register asset handler instantiation-mesh
+2024-12-14 16:12:08-debug: lazy register asset handler instantiation-skeleton
+2024-12-14 16:12:08-debug: lazy register asset handler instantiation-animation
+2024-12-14 16:12:08-debug: lazy register asset handler video-clip
+2024-12-14 16:12:08-debug: lazy register asset handler scene
+2024-12-14 16:12:08-debug: lazy register asset handler sign-image
+2024-12-14 16:12:08-debug: lazy register asset handler render-texture
+2024-12-14 16:12:08-debug: asset-db:worker-startup-database[assets] (2310ms)
+2024-12-14 16:12:08-debug: asset-db:start-database (7520ms)
+2024-12-14 16:12:08-debug: asset-db:ready (30829ms)
+2024-12-14 16:12:08-debug: init worker message success
+2024-12-14 16:12:09-debug: [Build Memory track]: builder:worker-init start:156.10MB, end 170.85MB, increase: 14.75MB
+2024-12-14 16:12:09-debug: programming:execute-script (1105ms)
+2024-12-14 16:12:09-debug: builder:worker-init (1103ms)
+2024-12-14 16:12:16-debug: refresh db internal success
+2024-12-14 16:12:16-debug: refresh db assets success
+2024-12-14 16:12:16-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:12:16-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:12:16-debug: asset-db:refresh-all-database (62ms)
+2024-12-14 16:12:16-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 16:12:29-debug: refresh db internal success
+2024-12-14 16:12:29-debug: refresh db assets success
+2024-12-14 16:12:29-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:12:29-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:12:29-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 16:12:29-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 16:12:29-debug: asset-db:refresh-all-database (78ms)
+2024-12-14 16:14:25-debug: refresh db internal success
+2024-12-14 16:14:25-debug: refresh db assets success
+2024-12-14 16:14:25-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:14:25-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:14:25-debug: asset-db:refresh-all-database (62ms)
+2024-12-14 16:14:25-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 16:14:33-debug: Query all assets info in project
+2024-12-14 16:14:33-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-14 16:14:33-debug: 查询 Asset Bundle start, progress: 0%
+2024-12-14 16:14:33-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 16:14:33-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-14 16:14:33-debug:   Number of all scenes: 1
+2024-12-14 16:14:33-debug:   Number of all scripts: 2
+2024-12-14 16:14:33-debug:   Number of other assets: 329
+2024-12-14 16:14:33-debug: run build task 查询 Asset Bundle success in 6 ms√, progress: 5%
+2024-12-14 16:14:33-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 16:14:33-debug: [Build Memory track]: 查询 Asset Bundle start:168.79MB, end 169.28MB, increase: 496.00KB
+2024-12-14 16:14:33-debug: 查询 Asset Bundle start, progress: 5%
+2024-12-14 16:14:33-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
+2024-12-14 16:14:33-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
+2024-12-14 16:14:33-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
+2024-12-14 16:14:33-debug: [Build Memory track]: 查询 Asset Bundle start:169.29MB, end 169.36MB, increase: 74.36KB
+2024-12-14 16:14:33-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2024-12-14 16:14:33-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 16:14:33-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2024-12-14 16:14:33-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:169.38MB, end 169.39MB, increase: 16.64KB
+2024-12-14 16:14:33-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2024-12-14 16:14:33-debug: 填充脚本数据到 settings.json start, progress: 12%
+2024-12-14 16:14:33-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-14 16:14:33-debug: [Build Memory track]: 填充脚本数据到 settings.json start:169.41MB, end 169.43MB, increase: 16.78KB
+2024-12-14 16:14:33-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2024-12-14 16:14:33-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2024-12-14 16:14:33-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2024-12-14 16:14:33-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 16:14:33-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (10ms)
+2024-12-14 16:14:33-debug: run build task 整理部分构建选项内数据到 settings.json success in 10 ms√, progress: 15%
+2024-12-14 16:14:33-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:169.44MB, end 169.57MB, increase: 129.73KB
+2024-12-14 16:14:55-debug: refresh db internal success
+2024-12-14 16:14:55-debug: refresh db assets success
+2024-12-14 16:14:55-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:14:55-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:14:55-debug: asset-db:refresh-all-database (236ms)
+2024-12-14 16:14:55-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 16:14:55-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2024-12-14 16:23:49-debug: refresh db internal success
+2024-12-14 16:23:49-debug: refresh db assets success
+2024-12-14 16:23:49-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:23:49-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:23:49-debug: asset-db:refresh-all-database (165ms)
+2024-12-14 16:23:49-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 16:23:49-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 16:24:20-debug: refresh db internal success
+2024-12-14 16:24:20-debug: refresh db assets success
+2024-12-14 16:24:20-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:24:20-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:24:20-debug: asset-db:refresh-all-database (211ms)
+2024-12-14 16:24:20-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 16:24:20-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 16:24:25-debug: refresh db internal success
+2024-12-14 16:24:25-debug: refresh db assets success
+2024-12-14 16:24:25-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:24:25-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:24:25-debug: asset-db:refresh-all-database (96ms)
+2024-12-14 16:24:27-debug: refresh db internal success
+2024-12-14 16:24:27-debug: refresh db assets success
+2024-12-14 16:24:27-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:24:27-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:24:27-debug: asset-db:refresh-all-database (47ms)
+2024-12-14 16:24:27-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 16:24:27-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 16:24:28-debug: refresh db internal success
+2024-12-14 16:24:28-debug: refresh db assets success
+2024-12-14 16:24:28-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:24:28-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:24:28-debug: asset-db:refresh-all-database (44ms)
+2024-12-14 16:24:28-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 16:24:28-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 16:24:48-debug: refresh db internal success
+2024-12-14 16:24:48-debug: refresh db assets success
+2024-12-14 16:24:48-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:24:48-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:24:48-debug: asset-db:refresh-all-database (266ms)
+2024-12-14 16:24:48-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 16:24:48-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 16:40:35-debug: refresh db internal success
+2024-12-14 16:40:35-debug: refresh db assets success
+2024-12-14 16:40:35-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:40:35-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:40:35-debug: asset-db:refresh-all-database (205ms)
+2024-12-14 16:40:35-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 16:40:35-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 16:41:05-debug: refresh db internal success
+2024-12-14 16:41:05-debug: refresh db assets success
+2024-12-14 16:41:05-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:41:05-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:41:05-debug: asset-db:refresh-all-database (49ms)
+2024-12-14 16:41:05-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 16:41:05-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 16:41:46-debug: refresh db internal success
+2024-12-14 16:41:46-debug: refresh db assets success
+2024-12-14 16:41:46-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:41:46-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:41:46-debug: asset-db:refresh-all-database (203ms)
+2024-12-14 16:41:46-debug: asset-db:worker-effect-data-processing (3ms)
+2024-12-14 16:41:46-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+2024-12-14 16:43:58-debug: refresh db internal success
+2024-12-14 16:43:58-debug: refresh db assets success
+2024-12-14 16:43:58-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:43:58-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:43:58-debug: asset-db:refresh-all-database (49ms)
+2024-12-14 16:43:58-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 16:44:02-debug: refresh db internal success
+2024-12-14 16:44:02-debug: refresh db assets success
+2024-12-14 16:44:02-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:44:02-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:44:02-debug: asset-db:refresh-all-database (48ms)
+2024-12-14 16:44:26-debug: refresh db internal success
+2024-12-14 16:44:26-debug: refresh db assets success
+2024-12-14 16:44:26-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:44:26-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:44:26-debug: asset-db:refresh-all-database (43ms)
+2024-12-14 16:44:31-debug: refresh db internal success
+2024-12-14 16:44:31-debug: refresh db assets success
+2024-12-14 16:44:31-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:44:31-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:44:31-debug: asset-db:refresh-all-database (78ms)
+2024-12-14 16:44:31-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 16:44:31-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 16:45:34-debug: refresh db internal success
+2024-12-14 16:45:34-debug: refresh db assets success
+2024-12-14 16:45:34-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:45:34-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:45:34-debug: asset-db:refresh-all-database (52ms)
+2024-12-14 16:45:34-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 16:45:34-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 16:45:51-debug: refresh db internal success
+2024-12-14 16:45:51-debug: refresh db assets success
+2024-12-14 16:45:51-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:45:51-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:45:51-debug: asset-db:refresh-all-database (47ms)
+2024-12-14 16:45:51-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 16:45:51-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 16:48:34-debug: refresh db internal success
+2024-12-14 16:48:34-debug: refresh db assets success
+2024-12-14 16:48:34-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:48:34-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:48:34-debug: asset-db:refresh-all-database (168ms)
+2024-12-14 16:48:34-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 16:49:00-debug: refresh db internal success
+2024-12-14 16:49:00-debug: refresh db assets success
+2024-12-14 16:49:00-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:49:00-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:49:00-debug: asset-db:refresh-all-database (43ms)
+2024-12-14 16:49:49-debug: refresh db internal success
+2024-12-14 16:49:49-debug: refresh db assets success
+2024-12-14 16:49:49-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:49:49-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:49:49-debug: asset-db:refresh-all-database (74ms)
+2024-12-14 16:49:49-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 16:50:15-debug: refresh db internal success
+2024-12-14 16:50:15-debug: refresh db assets success
+2024-12-14 16:50:15-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:50:15-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:50:15-debug: asset-db:refresh-all-database (58ms)
+2024-12-14 16:50:59-debug: refresh db internal success
+2024-12-14 16:50:59-debug: refresh db assets success
+2024-12-14 16:50:59-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 16:50:59-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 16:50:59-debug: asset-db:refresh-all-database (206ms)
+2024-12-14 16:50:59-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 16:50:59-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 16:51:18-debug: start refresh asset from D:\cocos\badminton\badminton\assets\Scripts\MenuController.ts...
+2024-12-14 16:51:18-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\MenuController.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 16:51:18-debug: refresh asset D:\cocos\badminton\badminton\assets\Scripts success
+2024-12-14 16:51:19-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:01:51-debug: refresh db internal success
+2024-12-14 17:01:51-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\MenuController.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:01:51-debug: asset-db:refresh-all-database (225ms)
+2024-12-14 17:01:51-debug: asset-db:worker-effect-data-processing (3ms)
+2024-12-14 17:01:51-debug: refresh db assets success
+2024-12-14 17:01:51-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:01:51-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:01:51-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2024-12-14 17:02:01-debug: start refresh asset from D:\cocos\badminton\badminton\assets\Scripts\GameManger.ts...
+2024-12-14 17:02:01-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManger.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:02:01-debug: refresh asset D:\cocos\badminton\badminton\assets\Scripts success
+2024-12-14 17:02:01-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:02:05-debug: refresh db internal success
+2024-12-14 17:02:05-debug: refresh db assets success
+2024-12-14 17:02:05-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:02:05-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:02:05-debug: asset-db:refresh-all-database (42ms)
+2024-12-14 17:02:05-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 17:02:05-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:02:11-debug: refresh db internal success
+2024-12-14 17:02:11-debug: refresh db assets success
+2024-12-14 17:02:11-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:02:11-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:02:11-debug: asset-db:refresh-all-database (54ms)
+2024-12-14 17:02:11-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 17:02:11-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:02:17-debug: start move asset from D:\cocos\badminton\badminton\assets\Scripts\GameManger.ts -> D:\cocos\badminton\badminton\assets\Scripts\GameManager.ts...
+2024-12-14 17:02:17-debug: start refresh asset from D:\cocos\badminton\badminton\assets\Scripts\GameManager.ts...
+2024-12-14 17:02:17-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:02:17-debug: refresh asset D:\cocos\badminton\badminton\assets\Scripts success
+2024-12-14 17:02:17-debug: start refresh asset from D:\cocos\badminton\badminton\assets\Scripts...
+2024-12-14 17:02:17-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scriptsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:02:17-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-14 17:02:17-debug: move asset from D:\cocos\badminton\badminton\assets\Scripts\GameManger.ts -> D:\cocos\badminton\badminton\assets\Scripts\GameManager.ts success
+2024-12-14 17:12:48-debug: refresh db internal success
+2024-12-14 17:12:48-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:12:48-debug: refresh db assets success
+2024-12-14 17:12:48-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:12:48-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:12:48-debug: asset-db:refresh-all-database (195ms)
+2024-12-14 17:12:48-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 17:12:48-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2024-12-14 17:18:33-debug: refresh db internal success
+2024-12-14 17:18:33-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:18:33-debug: refresh db assets success
+2024-12-14 17:18:33-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:18:33-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:18:33-debug: asset-db:refresh-all-database (197ms)
+2024-12-14 17:18:33-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 17:18:33-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 17:18:40-debug: Query all assets info in project
+2024-12-14 17:18:40-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-14 17:18:40-debug: 查询 Asset Bundle start, progress: 0%
+2024-12-14 17:18:40-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 17:18:40-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-14 17:18:40-debug:   Number of all scenes: 1
+2024-12-14 17:18:40-debug:   Number of all scripts: 4
+2024-12-14 17:18:40-debug:   Number of other assets: 329
+2024-12-14 17:18:40-debug: run build task 查询 Asset Bundle success in 6 ms√, progress: 5%
+2024-12-14 17:18:40-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
+2024-12-14 17:18:40-debug: [Build Memory track]: 查询 Asset Bundle start:178.76MB, end 178.35MB, increase: -419.64KB
+2024-12-14 17:18:40-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 17:18:40-debug: 查询 Asset Bundle start, progress: 5%
+2024-12-14 17:18:40-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
+2024-12-14 17:18:40-debug: run build task 查询 Asset Bundle success in 3 ms√, progress: 10%
+2024-12-14 17:18:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 17:18:40-debug: [Build Memory track]: 查询 Asset Bundle start:178.37MB, end 178.44MB, increase: 74.02KB
+2024-12-14 17:18:40-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2024-12-14 17:18:40-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2024-12-14 17:18:40-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:178.46MB, end 178.47MB, increase: 13.25KB
+2024-12-14 17:18:40-debug: 填充脚本数据到 settings.json start, progress: 12%
+2024-12-14 17:18:40-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-14 17:18:40-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2024-12-14 17:18:40-debug: [Build Memory track]: 填充脚本数据到 settings.json start:178.48MB, end 178.49MB, increase: 10.38KB
+2024-12-14 17:18:40-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2024-12-14 17:18:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 17:18:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
+2024-12-14 17:18:40-debug: run build task 整理部分构建选项内数据到 settings.json success in 5 ms√, progress: 15%
+2024-12-14 17:18:40-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:178.51MB, end 178.63MB, increase: 125.82KB
+2024-12-14 17:19:25-debug: refresh db internal success
+2024-12-14 17:19:25-debug: refresh db assets success
+2024-12-14 17:19:25-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:19:25-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:19:25-debug: asset-db:refresh-all-database (189ms)
+2024-12-14 17:19:25-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:19:25-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 17:20:23-debug: start move asset from D:\cocos\badminton\badminton\assets\Animation\onestep.anim -> D:\cocos\badminton\badminton\assets\Animation\button_bigger.anim...
+2024-12-14 17:20:23-debug: start refresh asset from D:\cocos\badminton\badminton\assets\Animation\button_bigger.anim...
+2024-12-14 17:20:23-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Animation\button_bigger.animbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:20:23-debug: refresh asset D:\cocos\badminton\badminton\assets\Animation success
+2024-12-14 17:20:23-debug: start refresh asset from D:\cocos\badminton\badminton\assets\Animation...
+2024-12-14 17:20:23-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Animationbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:20:23-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-14 17:20:23-debug: move asset from D:\cocos\badminton\badminton\assets\Animation\onestep.anim -> D:\cocos\badminton\badminton\assets\Animation\button_bigger.anim success
+2024-12-14 17:21:25-debug: refresh db internal success
+2024-12-14 17:21:25-debug: refresh db assets success
+2024-12-14 17:21:25-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:21:25-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:21:25-debug: asset-db:refresh-all-database (181ms)
+2024-12-14 17:21:25-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 17:21:25-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 17:21:26-debug: refresh db internal success
+2024-12-14 17:21:27-debug: refresh db assets success
+2024-12-14 17:21:27-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:21:27-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:21:27-debug: asset-db:refresh-all-database (366ms)
+2024-12-14 17:21:27-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 17:21:27-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2024-12-14 17:21:29-debug: Query all assets info in project
+2024-12-14 17:21:29-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-14 17:21:29-debug: 查询 Asset Bundle start, progress: 0%
+2024-12-14 17:21:29-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 17:21:29-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-14 17:21:29-debug:   Number of all scripts: 4
+2024-12-14 17:21:29-debug:   Number of all scenes: 1
+2024-12-14 17:21:29-debug:   Number of other assets: 329
+2024-12-14 17:21:29-debug: // ---- build task 查询 Asset Bundle ---- (9ms)
+2024-12-14 17:21:29-debug: run build task 查询 Asset Bundle success in 9 ms√, progress: 5%
+2024-12-14 17:21:29-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 17:21:29-debug: 查询 Asset Bundle start, progress: 5%
+2024-12-14 17:21:29-debug: [Build Memory track]: 查询 Asset Bundle start:163.42MB, end 163.91MB, increase: 499.64KB
+2024-12-14 17:21:29-debug: // ---- build task 查询 Asset Bundle ---- (8ms)
+2024-12-14 17:21:29-debug: run build task 查询 Asset Bundle success in 8 ms√, progress: 10%
+2024-12-14 17:21:29-debug: [Build Memory track]: 查询 Asset Bundle start:163.92MB, end 163.99MB, increase: 73.93KB
+2024-12-14 17:21:29-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2024-12-14 17:21:29-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 17:21:29-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2024-12-14 17:21:29-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:164.01MB, end 164.03MB, increase: 25.58KB
+2024-12-14 17:21:29-debug: 填充脚本数据到 settings.json start, progress: 12%
+2024-12-14 17:21:29-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-14 17:21:29-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2024-12-14 17:21:29-debug: [Build Memory track]: 填充脚本数据到 settings.json start:164.05MB, end 164.06MB, increase: 12.28KB
+2024-12-14 17:21:29-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 17:21:29-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2024-12-14 17:21:29-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (7ms)
+2024-12-14 17:21:29-debug: run build task 整理部分构建选项内数据到 settings.json success in 7 ms√, progress: 15%
+2024-12-14 17:21:29-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:164.07MB, end 164.20MB, increase: 124.98KB
+2024-12-14 17:21:36-debug: refresh db internal success
+2024-12-14 17:21:36-debug: refresh db assets success
+2024-12-14 17:21:36-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:21:36-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:21:36-debug: asset-db:refresh-all-database (50ms)
+2024-12-14 17:22:49-debug: refresh db internal success
+2024-12-14 17:22:49-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:22:49-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\MenuController.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:22:49-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:22:49-debug: refresh db assets success
+2024-12-14 17:22:49-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:22:49-debug: asset-db:refresh-all-database (201ms)
+2024-12-14 17:22:49-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:33:28-debug: refresh db internal success
+2024-12-14 17:33:28-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:33:28-debug: refresh db assets success
+2024-12-14 17:33:28-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:33:28-debug: asset-db:refresh-all-database (220ms)
+2024-12-14 17:33:28-debug: asset-db:worker-effect-data-processing (3ms)
+2024-12-14 17:33:28-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
+2024-12-14 17:33:42-debug: Cannot find the asset handler of operate open for importer animation-clip
+2024-12-14 17:33:43-debug: refresh db internal success
+2024-12-14 17:33:43-debug: refresh db assets success
+2024-12-14 17:33:43-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:33:43-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:33:43-debug: asset-db:refresh-all-database (42ms)
+2024-12-14 17:33:43-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:33:43-debug: Cannot find the asset handler of operate open for importer animation-clip
+2024-12-14 17:33:45-debug: refresh db internal success
+2024-12-14 17:33:45-debug: refresh db assets success
+2024-12-14 17:33:45-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:33:45-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:33:45-debug: asset-db:refresh-all-database (40ms)
+2024-12-14 17:33:45-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 17:33:45-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:33:50-debug: Cannot find the asset handler of operate open for importer animation-clip
+2024-12-14 17:33:51-debug: refresh db internal success
+2024-12-14 17:33:51-debug: refresh db assets success
+2024-12-14 17:33:51-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:33:51-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:33:51-debug: asset-db:refresh-all-database (45ms)
+2024-12-14 17:33:51-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 17:33:51-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:34:24-debug: refresh db internal success
+2024-12-14 17:34:24-debug: refresh db assets success
+2024-12-14 17:34:24-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:34:24-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:34:24-debug: asset-db:refresh-all-database (51ms)
+2024-12-14 17:34:24-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 17:34:24-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:35:06-debug: refresh db internal success
+2024-12-14 17:35:06-debug: refresh db assets success
+2024-12-14 17:35:06-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:35:06-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:35:06-debug: asset-db:refresh-all-database (67ms)
+2024-12-14 17:40:54-debug: refresh db internal success
+2024-12-14 17:40:54-debug: refresh db assets success
+2024-12-14 17:40:54-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:40:54-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:40:54-debug: asset-db:refresh-all-database (46ms)
+2024-12-14 17:40:54-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 17:40:54-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 17:45:20-debug: refresh db internal success
+2024-12-14 17:45:20-debug: refresh db assets success
+2024-12-14 17:45:20-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:45:20-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:45:20-debug: asset-db:refresh-all-database (208ms)
+2024-12-14 17:45:20-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 17:45:20-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:50:20-debug: refresh db internal success
+2024-12-14 17:50:20-debug: refresh db assets success
+2024-12-14 17:50:20-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:50:20-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:50:20-debug: asset-db:refresh-all-database (198ms)
+2024-12-14 17:50:20-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 17:50:20-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:50:53-debug: refresh db internal success
+2024-12-14 17:50:53-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\MenuController.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:50:53-debug: refresh db assets success
+2024-12-14 17:50:53-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:50:53-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:50:53-debug: asset-db:refresh-all-database (48ms)
+2024-12-14 17:51:31-debug: refresh db internal success
+2024-12-14 17:51:31-debug: refresh db assets success
+2024-12-14 17:51:31-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:51:31-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:51:31-debug: asset-db:refresh-all-database (42ms)
+2024-12-14 17:51:35-debug: refresh db internal success
+2024-12-14 17:51:35-debug: refresh db assets success
+2024-12-14 17:51:35-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:51:35-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:51:35-debug: asset-db:refresh-all-database (40ms)
+2024-12-14 17:51:35-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:51:35-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 17:51:57-debug: refresh db internal success
+2024-12-14 17:51:57-debug: refresh db assets success
+2024-12-14 17:51:57-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:51:57-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:51:57-debug: asset-db:refresh-all-database (173ms)
+2024-12-14 17:51:57-debug: asset-db:worker-effect-data-processing (3ms)
+2024-12-14 17:51:57-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2024-12-14 17:52:40-debug: refresh db internal success
+2024-12-14 17:52:40-debug: refresh db assets success
+2024-12-14 17:52:40-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:52:40-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:52:40-debug: asset-db:refresh-all-database (39ms)
+2024-12-14 17:52:59-debug: refresh db internal success
+2024-12-14 17:52:59-debug: refresh db assets success
+2024-12-14 17:52:59-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:52:59-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:52:59-debug: asset-db:refresh-all-database (56ms)
+2024-12-14 17:53:01-debug: refresh db internal success
+2024-12-14 17:53:01-debug: refresh db assets success
+2024-12-14 17:53:01-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:53:01-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:53:01-debug: asset-db:refresh-all-database (38ms)
+2024-12-14 17:53:31-debug: refresh db internal success
+2024-12-14 17:53:31-debug: refresh db assets success
+2024-12-14 17:53:31-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:53:31-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:53:31-debug: asset-db:refresh-all-database (53ms)
+2024-12-14 17:53:31-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 17:53:31-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:55:00-debug: refresh db internal success
+2024-12-14 17:55:00-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\MenuController.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:55:00-debug: refresh db assets success
+2024-12-14 17:55:00-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:55:00-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:55:00-debug: asset-db:refresh-all-database (242ms)
+2024-12-14 17:55:00-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 17:55:00-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 17:56:30-debug: refresh db internal success
+2024-12-14 17:56:30-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\MenuController.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:56:30-debug: refresh db assets success
+2024-12-14 17:56:30-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:56:30-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:56:30-debug: asset-db:refresh-all-database (43ms)
+2024-12-14 17:56:30-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 17:56:30-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:56:41-debug: refresh db internal success
+2024-12-14 17:56:41-debug: refresh db assets success
+2024-12-14 17:56:41-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:56:41-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:56:41-debug: asset-db:refresh-all-database (44ms)
+2024-12-14 17:56:56-debug: refresh db internal success
+2024-12-14 17:56:56-debug: refresh db assets success
+2024-12-14 17:56:56-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:56:56-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:56:56-debug: asset-db:refresh-all-database (46ms)
+2024-12-14 17:56:56-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:57:36-debug: refresh db internal success
+2024-12-14 17:57:36-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\MenuController.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:57:36-debug: refresh db assets success
+2024-12-14 17:57:36-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:57:36-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:57:36-debug: asset-db:refresh-all-database (67ms)
+2024-12-14 17:57:36-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 17:57:36-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 17:58:50-debug: refresh db internal success
+2024-12-14 17:58:50-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\MenuController.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 17:58:50-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 17:58:50-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 17:58:50-debug: refresh db assets success
+2024-12-14 17:58:50-debug: asset-db:refresh-all-database (50ms)
+2024-12-14 17:58:50-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 17:58:50-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 18:03:42-debug: refresh db internal success
+2024-12-14 18:03:42-debug: refresh db assets success
+2024-12-14 18:03:42-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:03:42-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:03:42-debug: asset-db:refresh-all-database (204ms)
+2024-12-14 18:03:42-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:03:42-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 18:03:46-debug: refresh db internal success
+2024-12-14 18:03:46-debug: refresh db assets success
+2024-12-14 18:03:46-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:03:46-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:03:46-debug: asset-db:refresh-all-database (106ms)
+2024-12-14 18:03:46-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:03:46-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 18:04:15-debug: refresh db internal success
+2024-12-14 18:04:15-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\MenuController.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 18:04:15-debug: refresh db assets success
+2024-12-14 18:04:15-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:04:15-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:04:15-debug: asset-db:refresh-all-database (52ms)
+2024-12-14 18:04:15-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:04:15-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 18:04:19-debug: refresh db internal success
+2024-12-14 18:04:19-debug: refresh db assets success
+2024-12-14 18:04:19-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:04:19-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:04:19-debug: asset-db:refresh-all-database (58ms)
+2024-12-14 18:04:19-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:04:19-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 18:05:32-debug: refresh db internal success
+2024-12-14 18:05:32-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\MenuController.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 18:05:32-debug: refresh db assets success
+2024-12-14 18:05:32-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:05:32-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:05:32-debug: asset-db:refresh-all-database (50ms)
+2024-12-14 18:05:32-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:05:32-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 18:05:35-debug: Query all assets info in project
+2024-12-14 18:05:35-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-14 18:05:35-debug: 查询 Asset Bundle start, progress: 0%
+2024-12-14 18:05:35-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 18:05:35-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-14 18:05:35-debug:   Number of all scenes: 1
+2024-12-14 18:05:35-debug:   Number of other assets: 329
+2024-12-14 18:05:35-debug:   Number of all scripts: 4
+2024-12-14 18:05:35-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
+2024-12-14 18:05:35-debug: run build task 查询 Asset Bundle success in 6 ms√, progress: 5%
+2024-12-14 18:05:35-debug: [Build Memory track]: 查询 Asset Bundle start:175.64MB, end 176.19MB, increase: 561.70KB
+2024-12-14 18:05:35-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 18:05:35-debug: 查询 Asset Bundle start, progress: 5%
+2024-12-14 18:05:35-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
+2024-12-14 18:05:35-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
+2024-12-14 18:05:35-debug: [Build Memory track]: 查询 Asset Bundle start:176.20MB, end 176.27MB, increase: 72.32KB
+2024-12-14 18:05:35-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 18:05:35-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2024-12-14 18:05:35-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:176.29MB, end 175.42MB, increase: -890.16KB
+2024-12-14 18:05:35-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
+2024-12-14 18:05:35-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 12%
+2024-12-14 18:05:35-debug: 填充脚本数据到 settings.json start, progress: 12%
+2024-12-14 18:05:35-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-14 18:05:35-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2024-12-14 18:05:35-debug: [Build Memory track]: 填充脚本数据到 settings.json start:175.43MB, end 175.45MB, increase: 15.62KB
+2024-12-14 18:05:35-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2024-12-14 18:05:35-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2024-12-14 18:05:35-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 18:05:35-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
+2024-12-14 18:05:35-debug: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 15%
+2024-12-14 18:05:35-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:175.46MB, end 175.60MB, increase: 138.43KB
+2024-12-14 18:05:46-debug: refresh db internal success
+2024-12-14 18:05:46-debug: refresh db assets success
+2024-12-14 18:05:46-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:05:46-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:05:46-debug: asset-db:refresh-all-database (49ms)
+2024-12-14 18:05:46-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:05:46-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 18:05:53-debug: Query all assets info in project
+2024-12-14 18:05:53-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-14 18:05:53-debug: 查询 Asset Bundle start, progress: 0%
+2024-12-14 18:05:53-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 18:05:53-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-14 18:05:53-debug:   Number of all scenes: 1
+2024-12-14 18:05:53-debug:   Number of all scripts: 4
+2024-12-14 18:05:53-debug:   Number of other assets: 329
+2024-12-14 18:05:53-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
+2024-12-14 18:05:53-debug: [Build Memory track]: 查询 Asset Bundle start:176.53MB, end 176.99MB, increase: 467.60KB
+2024-12-14 18:05:53-debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 5%
+2024-12-14 18:05:53-debug: 查询 Asset Bundle start, progress: 5%
+2024-12-14 18:05:53-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 18:05:53-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
+2024-12-14 18:05:53-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
+2024-12-14 18:05:53-debug: [Build Memory track]: 查询 Asset Bundle start:177.01MB, end 177.08MB, increase: 78.55KB
+2024-12-14 18:05:53-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 18:05:53-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2024-12-14 18:05:53-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2024-12-14 18:05:53-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2024-12-14 18:05:53-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:177.10MB, end 177.11MB, increase: 16.18KB
+2024-12-14 18:05:53-debug: 填充脚本数据到 settings.json start, progress: 12%
+2024-12-14 18:05:53-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-14 18:05:53-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2024-12-14 18:05:53-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2024-12-14 18:05:53-debug: [Build Memory track]: 填充脚本数据到 settings.json start:177.13MB, end 177.14MB, increase: 16.67KB
+2024-12-14 18:05:53-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2024-12-14 18:05:53-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 18:05:53-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
+2024-12-14 18:05:53-debug: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 15%
+2024-12-14 18:05:53-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:177.16MB, end 177.28MB, increase: 120.00KB
+2024-12-14 18:06:04-debug: refresh db internal success
+2024-12-14 18:06:04-debug: refresh db assets success
+2024-12-14 18:06:04-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:06:04-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:06:04-debug: asset-db:refresh-all-database (187ms)
+2024-12-14 18:06:04-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 18:06:04-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2024-12-14 18:06:19-debug: refresh db internal success
+2024-12-14 18:06:19-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\MenuController.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 18:06:19-debug: refresh db assets success
+2024-12-14 18:06:19-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:06:19-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:06:19-debug: asset-db:refresh-all-database (68ms)
+2024-12-14 18:06:19-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 18:06:19-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 18:06:21-debug: Query all assets info in project
+2024-12-14 18:06:21-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-14 18:06:21-debug: 查询 Asset Bundle start, progress: 0%
+2024-12-14 18:06:21-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 18:06:21-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-14 18:06:21-debug:   Number of other assets: 329
+2024-12-14 18:06:21-debug:   Number of all scenes: 1
+2024-12-14 18:06:21-debug:   Number of all scripts: 4
+2024-12-14 18:06:21-debug: // ---- build task 查询 Asset Bundle ---- (5ms)
+2024-12-14 18:06:21-debug: run build task 查询 Asset Bundle success in 5 ms√, progress: 5%
+2024-12-14 18:06:21-debug: [Build Memory track]: 查询 Asset Bundle start:161.97MB, end 162.45MB, increase: 495.39KB
+2024-12-14 18:06:21-debug: 查询 Asset Bundle start, progress: 5%
+2024-12-14 18:06:21-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 18:06:21-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
+2024-12-14 18:06:21-debug: [Build Memory track]: 查询 Asset Bundle start:162.47MB, end 161.65MB, increase: -832.84KB
+2024-12-14 18:06:21-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2024-12-14 18:06:21-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
+2024-12-14 18:06:21-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 18:06:21-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2024-12-14 18:06:21-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2024-12-14 18:06:21-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:161.67MB, end 161.68MB, increase: 16.81KB
+2024-12-14 18:06:21-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-14 18:06:21-debug: 填充脚本数据到 settings.json start, progress: 12%
+2024-12-14 18:06:21-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2024-12-14 18:06:21-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2024-12-14 18:06:21-debug: [Build Memory track]: 填充脚本数据到 settings.json start:161.70MB, end 161.71MB, increase: 16.09KB
+2024-12-14 18:06:21-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 18:06:21-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2024-12-14 18:06:21-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
+2024-12-14 18:06:21-debug: run build task 整理部分构建选项内数据到 settings.json success in 5 ms√, progress: 15%
+2024-12-14 18:06:21-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:161.73MB, end 161.87MB, increase: 142.12KB
+2024-12-14 18:06:41-debug: refresh db internal success
+2024-12-14 18:06:41-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\MenuController.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 18:06:41-debug: refresh db assets success
+2024-12-14 18:06:41-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:06:41-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:06:41-debug: asset-db:refresh-all-database (42ms)
+2024-12-14 18:06:42-debug: Query all assets info in project
+2024-12-14 18:06:42-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-14 18:06:42-debug: 查询 Asset Bundle start, progress: 0%
+2024-12-14 18:06:42-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 18:06:42-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-14 18:06:42-debug:   Number of all scripts: 4
+2024-12-14 18:06:42-debug:   Number of other assets: 329
+2024-12-14 18:06:42-debug:   Number of all scenes: 1
+2024-12-14 18:06:42-debug: run build task 查询 Asset Bundle success in 6 ms√, progress: 5%
+2024-12-14 18:06:42-debug: [Build Memory track]: 查询 Asset Bundle start:163.27MB, end 162.84MB, increase: -443.33KB
+2024-12-14 18:06:42-debug: 查询 Asset Bundle start, progress: 5%
+2024-12-14 18:06:42-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
+2024-12-14 18:06:42-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 18:06:42-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
+2024-12-14 18:06:42-debug: [Build Memory track]: 查询 Asset Bundle start:162.86MB, end 162.93MB, increase: 72.95KB
+2024-12-14 18:06:42-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 18:06:42-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2024-12-14 18:06:42-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
+2024-12-14 18:06:42-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2024-12-14 18:06:42-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2024-12-14 18:06:42-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:162.94MB, end 162.96MB, increase: 16.21KB
+2024-12-14 18:06:42-debug: 填充脚本数据到 settings.json start, progress: 12%
+2024-12-14 18:06:42-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-14 18:06:42-debug: [Build Memory track]: 填充脚本数据到 settings.json start:162.97MB, end 162.98MB, increase: 12.52KB
+2024-12-14 18:06:42-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2024-12-14 18:06:42-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2024-12-14 18:06:42-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 18:06:42-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
+2024-12-14 18:06:42-debug: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 15%
+2024-12-14 18:06:42-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:163.00MB, end 163.12MB, increase: 119.02KB
+2024-12-14 18:07:54-debug: refresh db internal success
+2024-12-14 18:07:54-debug: refresh db assets success
+2024-12-14 18:07:54-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:07:54-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:07:54-debug: asset-db:refresh-all-database (42ms)
+2024-12-14 18:07:54-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 18:07:55-debug: Query all assets info in project
+2024-12-14 18:07:55-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-14 18:07:55-debug: 查询 Asset Bundle start, progress: 0%
+2024-12-14 18:07:55-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 18:07:55-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-14 18:07:55-debug:   Number of other assets: 329
+2024-12-14 18:07:55-debug:   Number of all scripts: 4
+2024-12-14 18:07:55-debug:   Number of all scenes: 1
+2024-12-14 18:07:55-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
+2024-12-14 18:07:55-debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 5%
+2024-12-14 18:07:55-debug: 查询 Asset Bundle start, progress: 5%
+2024-12-14 18:07:55-debug: [Build Memory track]: 查询 Asset Bundle start:164.28MB, end 163.89MB, increase: -406.80KB
+2024-12-14 18:07:55-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 18:07:55-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
+2024-12-14 18:07:55-debug: run build task 查询 Asset Bundle success in 4 ms√, progress: 10%
+2024-12-14 18:07:55-debug: [Build Memory track]: 查询 Asset Bundle start:163.90MB, end 163.97MB, increase: 72.77KB
+2024-12-14 18:07:55-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2024-12-14 18:07:55-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 18:07:55-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2024-12-14 18:07:55-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:163.99MB, end 164.00MB, increase: 11.96KB
+2024-12-14 18:07:55-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-14 18:07:55-debug: 填充脚本数据到 settings.json start, progress: 12%
+2024-12-14 18:07:55-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2024-12-14 18:07:55-debug: [Build Memory track]: 填充脚本数据到 settings.json start:164.01MB, end 164.04MB, increase: 30.53KB
+2024-12-14 18:07:55-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2024-12-14 18:07:55-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 18:07:55-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
+2024-12-14 18:07:55-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 15%
+2024-12-14 18:07:55-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:164.06MB, end 164.19MB, increase: 135.78KB
+2024-12-14 18:09:18-debug: refresh db internal success
+2024-12-14 18:09:18-debug: refresh db assets success
+2024-12-14 18:09:18-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:09:18-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:09:18-debug: asset-db:refresh-all-database (44ms)
+2024-12-14 18:09:18-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:09:18-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 18:09:39-debug: refresh db internal success
+2024-12-14 18:09:39-debug: refresh db assets success
+2024-12-14 18:09:39-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:09:39-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:09:39-debug: asset-db:refresh-all-database (48ms)
+2024-12-14 18:09:39-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:09:39-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 18:09:53-debug: refresh db internal success
+2024-12-14 18:09:53-debug: refresh db assets success
+2024-12-14 18:09:53-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:09:53-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:09:53-debug: asset-db:refresh-all-database (44ms)
+2024-12-14 18:09:53-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 18:14:24-debug: refresh db internal success
+2024-12-14 18:14:24-debug: refresh db assets success
+2024-12-14 18:14:24-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:14:24-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:14:24-debug: asset-db:refresh-all-database (187ms)
+2024-12-14 18:14:24-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:14:24-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 18:17:28-debug: refresh db internal success
+2024-12-14 18:17:28-debug: refresh db assets success
+2024-12-14 18:17:28-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:17:28-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:17:28-debug: asset-db:refresh-all-database (201ms)
+2024-12-14 18:17:28-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 18:17:28-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2024-12-14 18:17:39-debug: Query all assets info in project
+2024-12-14 18:17:39-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-14 18:17:39-debug: 查询 Asset Bundle start, progress: 0%
+2024-12-14 18:17:39-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 18:17:39-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-14 18:17:39-debug:   Number of other assets: 329
+2024-12-14 18:17:39-debug:   Number of all scripts: 4
+2024-12-14 18:17:39-debug:   Number of all scenes: 1
+2024-12-14 18:17:39-debug: [Build Memory track]: 查询 Asset Bundle start:168.77MB, end 169.23MB, increase: 479.29KB
+2024-12-14 18:17:39-debug: run build task 查询 Asset Bundle success in 3 ms√, progress: 5%
+2024-12-14 18:17:39-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
+2024-12-14 18:17:39-debug: 查询 Asset Bundle start, progress: 5%
+2024-12-14 18:17:39-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 18:17:39-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
+2024-12-14 18:17:39-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
+2024-12-14 18:17:39-debug: [Build Memory track]: 查询 Asset Bundle start:169.25MB, end 169.32MB, increase: 74.22KB
+2024-12-14 18:17:39-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2024-12-14 18:17:39-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 18:17:39-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2024-12-14 18:17:39-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2024-12-14 18:17:39-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:169.34MB, end 169.35MB, increase: 17.68KB
+2024-12-14 18:17:39-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-14 18:17:39-debug: 填充脚本数据到 settings.json start, progress: 12%
+2024-12-14 18:17:39-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2024-12-14 18:17:39-debug: [Build Memory track]: 填充脚本数据到 settings.json start:169.37MB, end 169.38MB, increase: 11.96KB
+2024-12-14 18:17:39-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2024-12-14 18:17:39-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 18:17:39-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
+2024-12-14 18:17:39-debug: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 15%
+2024-12-14 18:17:39-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:169.39MB, end 169.69MB, increase: 301.26KB
+2024-12-14 18:19:36-debug: refresh db internal success
+2024-12-14 18:19:36-debug: refresh db assets success
+2024-12-14 18:19:36-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:19:36-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:19:36-debug: asset-db:refresh-all-database (244ms)
+2024-12-14 18:19:36-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 18:19:36-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:19:51-debug: refresh db internal success
+2024-12-14 18:19:51-debug: refresh db assets success
+2024-12-14 18:19:51-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:19:51-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:19:51-debug: asset-db:refresh-all-database (41ms)
+2024-12-14 18:20:12-debug: refresh db internal success
+2024-12-14 18:20:12-debug: refresh db assets success
+2024-12-14 18:20:12-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:20:12-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:20:12-debug: asset-db:refresh-all-database (55ms)
+2024-12-14 18:20:12-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 18:20:12-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:20:16-debug: refresh db internal success
+2024-12-14 18:20:16-debug: refresh db assets success
+2024-12-14 18:20:16-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:20:16-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:20:16-debug: asset-db:refresh-all-database (49ms)
+2024-12-14 18:20:16-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2024-12-14 18:20:16-debug: asset-db:worker-effect-data-processing (3ms)
+2024-12-14 18:20:17-debug: refresh db internal success
+2024-12-14 18:20:17-debug: refresh db assets success
+2024-12-14 18:20:17-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:20:17-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:20:17-debug: asset-db:refresh-all-database (36ms)
+2024-12-14 18:20:17-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:20:17-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 18:20:19-debug: refresh db internal success
+2024-12-14 18:20:19-debug: refresh db assets success
+2024-12-14 18:20:19-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:20:19-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:20:19-debug: asset-db:refresh-all-database (44ms)
+2024-12-14 18:20:19-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:20:19-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 18:20:33-debug: refresh db internal success
+2024-12-14 18:20:33-debug: refresh db assets success
+2024-12-14 18:20:33-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:20:33-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:20:33-debug: asset-db:refresh-all-database (46ms)
+2024-12-14 18:20:33-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:20:33-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 18:21:44-debug: refresh db internal success
+2024-12-14 18:21:44-debug: refresh db assets success
+2024-12-14 18:21:44-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:21:44-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:21:44-debug: asset-db:refresh-all-database (46ms)
+2024-12-14 18:22:22-debug: refresh db internal success
+2024-12-14 18:22:22-debug: refresh db assets success
+2024-12-14 18:22:22-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:22:22-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:22:22-debug: asset-db:refresh-all-database (82ms)
+2024-12-14 18:22:22-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 18:22:31-debug: refresh db internal success
+2024-12-14 18:22:32-debug: refresh db assets success
+2024-12-14 18:22:32-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:22:32-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:22:32-debug: asset-db:refresh-all-database (93ms)
+2024-12-14 18:22:32-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:22:32-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 18:36:21-debug: refresh db internal success
+2024-12-14 18:36:21-debug: refresh db assets success
+2024-12-14 18:36:21-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:36:21-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:36:21-debug: asset-db:refresh-all-database (100ms)
+2024-12-14 18:36:24-debug: Query all assets info in project
+2024-12-14 18:36:24-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-14 18:36:24-debug: 查询 Asset Bundle start, progress: 0%
+2024-12-14 18:36:24-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 18:36:24-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-14 18:36:24-debug:   Number of all scripts: 4
+2024-12-14 18:36:24-debug:   Number of other assets: 329
+2024-12-14 18:36:24-debug:   Number of all scenes: 1
+2024-12-14 18:36:24-debug: // ---- build task 查询 Asset Bundle ---- (5ms)
+2024-12-14 18:36:24-debug: run build task 查询 Asset Bundle success in 5 ms√, progress: 5%
+2024-12-14 18:36:24-debug: [Build Memory track]: 查询 Asset Bundle start:162.96MB, end 163.44MB, increase: 489.33KB
+2024-12-14 18:36:24-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 18:36:24-debug: 查询 Asset Bundle start, progress: 5%
+2024-12-14 18:36:24-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
+2024-12-14 18:36:24-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2024-12-14 18:36:24-debug: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
+2024-12-14 18:36:24-debug: [Build Memory track]: 查询 Asset Bundle start:163.46MB, end 162.64MB, increase: -836.08KB
+2024-12-14 18:36:24-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 18:36:24-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2024-12-14 18:36:24-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:162.66MB, end 162.67MB, increase: 11.98KB
+2024-12-14 18:36:24-debug: 填充脚本数据到 settings.json start, progress: 12%
+2024-12-14 18:36:24-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-14 18:36:24-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2024-12-14 18:36:24-debug: [Build Memory track]: 填充脚本数据到 settings.json start:162.68MB, end 162.69MB, increase: 12.68KB
+2024-12-14 18:36:24-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2024-12-14 18:36:24-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 18:36:24-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
+2024-12-14 18:36:24-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:162.71MB, end 162.86MB, increase: 153.80KB
+2024-12-14 18:36:24-debug: run build task 整理部分构建选项内数据到 settings.json success in 5 ms√, progress: 15%
+2024-12-14 18:36:42-debug: refresh db internal success
+2024-12-14 18:36:42-debug: refresh db assets success
+2024-12-14 18:36:42-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 18:36:42-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 18:36:42-debug: asset-db:refresh-all-database (82ms)
+2024-12-14 18:36:42-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 18:36:42-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 19:14:37-debug: refresh db internal success
+2024-12-14 19:14:37-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:14:37-debug: refresh db assets success
+2024-12-14 19:14:37-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:14:37-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:14:37-debug: asset-db:refresh-all-database (58ms)
+2024-12-14 19:14:37-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 19:14:37-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2024-12-14 19:14:52-debug: refresh db internal success
+2024-12-14 19:14:52-debug: refresh db assets success
+2024-12-14 19:14:52-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:14:52-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:14:52-debug: asset-db:refresh-all-database (42ms)
+2024-12-14 19:14:52-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:14:52-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 19:15:29-debug: refresh db internal success
+2024-12-14 19:15:29-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:15:29-debug: refresh db assets success
+2024-12-14 19:15:29-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:15:29-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:15:29-debug: asset-db:refresh-all-database (54ms)
+2024-12-14 19:15:29-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 19:15:29-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:16:27-debug: refresh db internal success
+2024-12-14 19:16:27-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:16:27-debug: refresh db assets success
+2024-12-14 19:16:27-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:16:27-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:16:27-debug: asset-db:refresh-all-database (243ms)
+2024-12-14 19:16:27-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 19:16:27-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2024-12-14 19:17:20-debug: refresh db internal success
+2024-12-14 19:17:20-debug: refresh db assets success
+2024-12-14 19:17:20-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:17:20-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:17:20-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 19:17:20-debug: asset-db:refresh-all-database (203ms)
+2024-12-14 19:17:20-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:17:56-debug: refresh db internal success
+2024-12-14 19:17:56-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:17:56-debug: refresh db assets success
+2024-12-14 19:17:56-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:17:56-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:17:56-debug: asset-db:refresh-all-database (42ms)
+2024-12-14 19:17:56-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:17:56-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 19:18:03-debug: refresh db internal success
+2024-12-14 19:18:03-debug: refresh db assets success
+2024-12-14 19:18:03-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:18:03-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:18:03-debug: asset-db:refresh-all-database (49ms)
+2024-12-14 19:18:03-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 19:18:03-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:18:04-debug: start refresh asset from D:\cocos\badminton\badminton\assets\scene.scene...
+2024-12-14 19:18:04-debug: %cImport%c: D:\cocos\badminton\badminton\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:18:04-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-14 19:18:08-debug: refresh db internal success
+2024-12-14 19:18:08-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:18:08-debug: refresh db assets success
+2024-12-14 19:18:08-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:18:08-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:18:08-debug: asset-db:refresh-all-database (49ms)
+2024-12-14 19:18:08-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:18:09-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 19:18:26-debug: refresh db internal success
+2024-12-14 19:18:26-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:18:26-debug: refresh db assets success
+2024-12-14 19:18:26-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:18:26-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:18:26-debug: asset-db:refresh-all-database (40ms)
+2024-12-14 19:18:26-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:18:26-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 19:19:41-debug: refresh db internal success
+2024-12-14 19:19:41-debug: refresh db assets success
+2024-12-14 19:19:41-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:19:41-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:19:41-debug: asset-db:refresh-all-database (197ms)
+2024-12-14 19:19:41-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 19:19:41-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 19:21:08-debug: refresh db internal success
+2024-12-14 19:21:08-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:21:08-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:21:08-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:21:08-debug: refresh db assets success
+2024-12-14 19:21:08-debug: asset-db:refresh-all-database (44ms)
+2024-12-14 19:21:08-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:21:08-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 19:21:13-debug: refresh db internal success
+2024-12-14 19:21:13-debug: refresh db assets success
+2024-12-14 19:21:13-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:21:13-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:21:13-debug: asset-db:refresh-all-database (46ms)
+2024-12-14 19:21:13-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:21:13-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 19:21:23-debug: refresh db internal success
+2024-12-14 19:21:23-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:21:23-debug: refresh db assets success
+2024-12-14 19:21:23-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:21:23-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:21:23-debug: asset-db:refresh-all-database (74ms)
+2024-12-14 19:21:23-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:21:23-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 19:21:36-debug: refresh db internal success
+2024-12-14 19:21:36-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:21:36-debug: refresh db assets success
+2024-12-14 19:21:36-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:21:36-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:21:36-debug: asset-db:refresh-all-database (49ms)
+2024-12-14 19:21:36-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:21:36-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 19:22:35-debug: refresh db internal success
+2024-12-14 19:22:35-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:22:35-debug: refresh db assets success
+2024-12-14 19:22:35-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:22:35-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:22:35-debug: asset-db:refresh-all-database (50ms)
+2024-12-14 19:22:35-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 19:22:35-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:22:37-debug: refresh db internal success
+2024-12-14 19:22:37-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:22:37-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:22:37-debug: refresh db assets success
+2024-12-14 19:22:37-debug: asset-db:refresh-all-database (84ms)
+2024-12-14 19:22:37-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:22:37-debug: asset-db-hook-engine-extends-afterRefresh (15ms)
+2024-12-14 19:24:05-debug: refresh db internal success
+2024-12-14 19:24:05-debug: refresh db assets success
+2024-12-14 19:24:05-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:24:05-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:24:05-debug: asset-db:refresh-all-database (48ms)
+2024-12-14 19:25:24-debug: refresh db internal success
+2024-12-14 19:25:24-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:25:24-debug: refresh db assets success
+2024-12-14 19:25:24-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:25:24-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:25:24-debug: asset-db:refresh-all-database (46ms)
+2024-12-14 19:25:24-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 19:25:24-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 19:26:08-debug: refresh db internal success
+2024-12-14 19:26:08-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:26:08-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:26:08-debug: refresh db assets success
+2024-12-14 19:26:08-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:26:08-debug: asset-db:refresh-all-database (74ms)
+2024-12-14 19:26:08-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:26:08-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 19:26:31-debug: refresh db internal success
+2024-12-14 19:26:31-debug: refresh db assets success
+2024-12-14 19:26:31-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:26:31-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:26:31-debug: asset-db:refresh-all-database (62ms)
+2024-12-14 19:26:31-debug: asset-db:worker-effect-data-processing (2ms)
+2024-12-14 19:26:31-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2024-12-14 19:26:31-debug: Query all assets info in project
+2024-12-14 19:26:31-debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-14 19:26:31-debug: 查询 Asset Bundle start, progress: 0%
+2024-12-14 19:26:31-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 19:26:31-debug:   Number of all scripts: 4
+2024-12-14 19:26:31-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-14 19:26:31-debug:   Number of other assets: 329
+2024-12-14 19:26:31-debug:   Number of all scenes: 1
+2024-12-14 19:26:31-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
+2024-12-14 19:26:31-debug: run build task 查询 Asset Bundle success in 6 ms√, progress: 5%
+2024-12-14 19:26:31-debug: [Build Memory track]: 查询 Asset Bundle start:167.45MB, end 167.94MB, increase: 499.98KB
+2024-12-14 19:26:31-debug: 查询 Asset Bundle start, progress: 5%
+2024-12-14 19:26:31-debug: // ---- build task 查询 Asset Bundle ----
+2024-12-14 19:26:31-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
+2024-12-14 19:26:31-debug: run build task 查询 Asset Bundle success in 3 ms√, progress: 10%
+2024-12-14 19:26:31-debug: [Build Memory track]: 查询 Asset Bundle start:167.95MB, end 167.13MB, increase: -841.43KB
+2024-12-14 19:26:31-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2024-12-14 19:26:31-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 19:26:31-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2024-12-14 19:26:31-debug: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2024-12-14 19:26:31-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:167.14MB, end 167.16MB, increase: 18.90KB
+2024-12-14 19:26:31-debug: 填充脚本数据到 settings.json start, progress: 12%
+2024-12-14 19:26:31-debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-14 19:26:31-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2024-12-14 19:26:31-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2024-12-14 19:26:31-debug: [Build Memory track]: 填充脚本数据到 settings.json start:167.18MB, end 167.19MB, increase: 15.66KB
+2024-12-14 19:26:31-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2024-12-14 19:26:31-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-14 19:26:31-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
+2024-12-14 19:26:31-debug: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 15%
+2024-12-14 19:26:31-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:167.21MB, end 167.33MB, increase: 125.31KB
+2024-12-14 19:27:40-debug: refresh db internal success
+2024-12-14 19:27:40-debug: %cImport%c: D:\cocos\badminton\badminton\assets\Scripts\GameManager.tsbackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:27:40-debug: refresh db assets success
+2024-12-14 19:27:40-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:27:40-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:27:40-debug: asset-db:refresh-all-database (42ms)
+2024-12-14 19:27:40-debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-14 19:27:40-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-14 19:27:42-debug: start refresh asset from D:\cocos\badminton\badminton\assets\scene.scene...
+2024-12-14 19:27:42-debug: %cImport%c: D:\cocos\badminton\badminton\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
+2024-12-14 19:27:42-debug: refresh asset D:\cocos\badminton\badminton\assets success
+2024-12-14 19:27:43-debug: refresh db internal success
+2024-12-14 19:27:43-debug: refresh db assets success
+2024-12-14 19:27:43-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-14 19:27:43-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-14 19:27:43-debug: asset-db:refresh-all-database (108ms)
+2024-12-14 19:27:43-debug: asset-db:worker-effect-data-processing (57ms)
+2024-12-14 19:27:43-debug: asset-db-hook-engine-extends-afterRefresh (57ms)

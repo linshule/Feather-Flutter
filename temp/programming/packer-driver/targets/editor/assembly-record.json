@@ -12,6 +12,42 @@
       },
       "timestamp": 1732767472273
     },
+    "de268251f82344c8732e5637c146a7db90089020": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1733402066907
+    },
+    "6b54a08373e0aabd38784eb6c0d02ddf99711542": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1733402086918
+    },
+    "f66656c70fc5ce6b784ec96ed4f4454ea7438438": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1733402134225
+    },
     "93ba276ea7b26ffcdc433fab14afc1ed6f05647b": {
       "imports": {
         "__unresolved_0": {
@@ -225,9 +261,9 @@
           "messages": []
         }
       },
-      "timestamp": 1733380717938
+      "timestamp": 1734163926293
     },
-    "de268251f82344c8732e5637c146a7db90089020": {
+    "3d3cedf5a614dcd807385fca8e1ad3187b8c2896": {
       "imports": {
         "cc": {
           "resolved": {
@@ -237,9 +273,9 @@
           "messages": []
         }
       },
-      "timestamp": 1733402066907
+      "timestamp": 1734166921093
     },
-    "6b54a08373e0aabd38784eb6c0d02ddf99711542": {
+    "f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a": {
       "imports": {
         "cc": {
           "resolved": {
@@ -249,7 +285,7 @@
           "messages": []
         }
       },
-      "timestamp": 1733402086918
+      "timestamp": 1734170801122
     },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
@@ -263,14 +299,28 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
+            "id": "2e338e30ff2c214927c868260d8cd4b4b67531db"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
             "id": "f66656c70fc5ce6b784ec96ed4f4454ea7438438"
           },
           "messages": []
         }
       },
-      "timestamp": 1733402134205
+      "timestamp": 1734175660723
     },
-    "f66656c70fc5ce6b784ec96ed4f4454ea7438438": {
+    "2e338e30ff2c214927c868260d8cd4b4b67531db": {
       "imports": {
         "cc": {
           "resolved": {
@@ -280,13 +330,15 @@
           "messages": []
         }
       },
-      "timestamp": 1733402134225
+      "timestamp": 1734175660764
     }
   },
   "entries": {
     "cce:/internal/x/cc": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
     "cce:/internal/x/prerequisite-imports": "6d8fd2b0177941b032ddc0733af48a561fb60657",
     "file:///D:/cocos/CocosCreator-v3.8.3-oh-win-102911/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb",
+    "file:///D:/cocos/badminton/badminton/assets/Scripts/GameManager.ts": "2e338e30ff2c214927c868260d8cd4b4b67531db",
+    "file:///D:/cocos/badminton/badminton/assets/Scripts/MenuController.ts": "f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a",
     "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts": "f66656c70fc5ce6b784ec96ed4f4454ea7438438"
   }
 }

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 43914.48989999294,
+      "mTimestamp": 29516.866999983788,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 21460285.81189999,
+      "mTimestamp": 11764137.12770003,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -658,7 +658,7 @@
           }
         },
         {
-          "value": "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts",
+          "value": "file:///D:/cocos/badminton/badminton/assets/Scripts/GameManager.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -667,7 +667,35 @@
             },
             "end": {
               "line": 5,
-              "column": 256
+              "column": 251
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/badminton/badminton/assets/Scripts/MenuController.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 267
+            },
+            "end": {
+              "line": 5,
+              "column": 338
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 354
+            },
+            "end": {
+              "line": 5,
+              "column": 427
             }
           }
         }
@@ -678,6 +706,20 @@
           "resolved": {
             "type": "module",
             "url": "file:///D:/cocos/CocosCreator-v3.8.3-oh-win-102911/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/badminton/badminton/assets/Scripts/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/badminton/badminton/assets/Scripts/MenuController.ts"
           },
           "messages": []
         },
@@ -869,6 +911,162 @@
             "end": {
               "line": 1,
               "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/badminton/badminton/assets/Scripts/MenuController.ts": {
+      "mTimestamp": {
+        "mtime": 1734170793749.3923,
+        "uuid": "a40940e3-32a3-4a57-b93f-b5f1c2c40232"
+      },
+      "chunkId": "f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 92
+            },
+            "end": {
+              "line": 1,
+              "column": 96
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/badminton/badminton/assets/Scripts/GameManger.ts": {
+      "mTimestamp": {
+        "mtime": 1734166921020.8008,
+        "uuid": "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
+      },
+      "chunkId": "3d3cedf5a614dcd807385fca8e1ad3187b8c2896",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/badminton/badminton/assets/Scripts/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1734175650653.0642,
+        "uuid": "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
+      },
+      "chunkId": "2e338e30ff2c214927c868260d8cd4b4b67531db",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 87
+            },
+            "end": {
+              "line": 1,
+              "column": 91
             }
           }
         }

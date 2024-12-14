@@ -246,17 +246,19 @@
         "53c09363-d1e8-4f8f-8ddf-ae0501d38731",
         "2e8325a8-b318-462f-b407-bc68cd756a32@f9941",
         "e5271f63-23d4-4888-aecb-d93801f3252f@f9941",
-        "59ac25a4-c607-4a81-ab1e-f01f3386ff27@f9941",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
         "6eb33253-6036-4aea-867a-edd28f7ac246@f9941",
         "0adf839c-a497-4e5e-810c-e88c21c4053f",
         "7d985974-f731-42a2-962b-ffe9dc88753d@f9941",
+        "59ac25a4-c607-4a81-ab1e-f01f3386ff27@f9941",
         "8db88878-82f9-449a-952a-6ff19af095e5",
         "e39ae9de-fb2a-4928-b686-4284519e00ca"
       ],
       "dependScripts": [
+        "a40940e3-32a3-4a57-b93f-b5f1c2c40232",
+        "b96d4aee-b2bc-44c3-9444-4c6a1be8e374",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "94850660-6b23-4297-ae13-86cee5f1a9e6"
       ]
@@ -284,7 +286,7 @@
     "versionCode": 1
   },
   "0adf839c-a497-4e5e-810c-e88c21c4053f": {
-    "url": "db://assets/Animation/onestep.anim",
+    "url": "db://assets/Animation/button_bigger.anim",
     "value": {
       "depends": []
     },
@@ -357,6 +359,16 @@
   },
   "94850660-6b23-4297-ae13-86cee5f1a9e6": {
     "url": "db://assets/Scripts/PlayerController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a40940e3-32a3-4a57-b93f-b5f1c2c40232": {
+    "url": "db://assets/Scripts/MenuController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b96d4aee-b2bc-44c3-9444-4c6a1be8e374": {
+    "url": "db://assets/Scripts/GameManager.ts",
     "value": {},
     "versionCode": 1
   }

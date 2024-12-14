@@ -89,22 +89,15 @@
       "time": 1732769781063.2095
     },
     "D:\\cocos\\badminton\\badminton\\assets\\scene.scene": {
-      "time": 1733402578166.0967,
+      "time": 1734175084694.3882,
       "uuid": "53c09363-d1e8-4f8f-8ddf-ae0501d38731"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation.meta": {
       "time": 1732782647725.6777
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation": {
-      "time": 1732782660691.58,
+      "time": 1734168023196.1543,
       "uuid": "90c40ca6-d016-40fa-8796-d1ada6fec041"
-    },
-    "D:\\cocos\\badminton\\badminton\\assets\\Animation\\onestep.anim.meta": {
-      "time": 1732782660703.5789
-    },
-    "D:\\cocos\\badminton\\badminton\\assets\\Animation\\onestep.anim": {
-      "time": 1732784132556.5457,
-      "uuid": "0adf839c-a497-4e5e-810c-e88c21c4053f"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab.meta": {
       "time": 1733388870502.9949
@@ -131,7 +124,7 @@
       "time": 1733402117495.401
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts": {
-      "time": 1733402134146.6042,
+      "time": 1734166937781.7998,
       "uuid": "c97f0113-1ddf-48da-8ec6-d7f29391f751"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\PlayerController.ts.meta": {
@@ -140,6 +133,27 @@
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\PlayerController.ts": {
       "time": 1733402134145.6045,
       "uuid": "94850660-6b23-4297-ae13-86cee5f1a9e6"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\MenuController.ts.meta": {
+      "time": 1734166278962.1538
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\MenuController.ts": {
+      "time": 1734170793749.3923,
+      "uuid": "a40940e3-32a3-4a57-b93f-b5f1c2c40232"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\GameManager.ts.meta": {
+      "time": 1734166921043.864
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\GameManager.ts": {
+      "time": 1734175650653.0642,
+      "uuid": "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\Animation\\button_bigger.anim.meta": {
+      "time": 1734168023215.309
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\Animation\\button_bigger.anim": {
+      "time": 1732784132556.5457,
+      "uuid": "0adf839c-a497-4e5e-810c-e88c21c4053f"
     }
   },
   "missing": {
@@ -212,6 +226,16 @@
       "path": "D:\\cocos\\badminton\\badminton\\assets\\Scripts.ts",
       "time": 1733402066714.843,
       "removeTime": 1733402111689
+    },
+    "b96d4aee-b2bc-44c3-9444-4c6a1be8e374": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\GameManger.ts",
+      "time": 1734166921020.8008,
+      "removeTime": 1734166937781
+    },
+    "0adf839c-a497-4e5e-810c-e88c21c4053f": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\Animation\\onestep.anim",
+      "time": 1732784132556.5457,
+      "removeTime": 1734168023197
     }
   }
 }

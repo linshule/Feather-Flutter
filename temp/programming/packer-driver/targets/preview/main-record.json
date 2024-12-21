@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 29633.279699981213,
+      "mTimestamp": 38152.924499988556,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 11764202.396400034,
+      "mTimestamp": 6055148.978299975,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -815,7 +815,7 @@
     },
     "file:///D:/cocos/badminton/badminton/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1734175650653.0642,
+        "mtime": 1734768059701.3901,
         "uuid": "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
       },
       "chunkId": "2e338e30ff2c214927c868260d8cd4b4b67531db",

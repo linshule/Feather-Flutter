@@ -246,21 +246,20 @@
         "53c09363-d1e8-4f8f-8ddf-ae0501d38731",
         "2e8325a8-b318-462f-b407-bc68cd756a32@f9941",
         "e5271f63-23d4-4888-aecb-d93801f3252f@f9941",
+        "59ac25a4-c607-4a81-ab1e-f01f3386ff27@f9941",
+        "5ce2a1f9-f98d-4f5b-86df-c5ab6166c779@f9941",
+        "6eb33253-6036-4aea-867a-edd28f7ac246@f9941",
+        "0adf839c-a497-4e5e-810c-e88c21c4053f",
+        "9457298c-dac3-41a7-9be7-859a85a703d2@f9941",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "6eb33253-6036-4aea-867a-edd28f7ac246@f9941",
-        "0adf839c-a497-4e5e-810c-e88c21c4053f",
-        "7d985974-f731-42a2-962b-ffe9dc88753d@f9941",
-        "59ac25a4-c607-4a81-ab1e-f01f3386ff27@f9941",
-        "8db88878-82f9-449a-952a-6ff19af095e5",
-        "e39ae9de-fb2a-4928-b686-4284519e00ca"
+        "add9007f-abf7-4466-8e50-f458282ebfbd@f9941",
+        "a1757a40-0cc0-49d2-bf1b-0b47986d9dff@f9941"
       ],
       "dependScripts": [
-        "a40940e3-32a3-4a57-b93f-b5f1c2c40232",
         "b96d4aee-b2bc-44c3-9444-4c6a1be8e374",
-        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
-        "94850660-6b23-4297-ae13-86cee5f1a9e6"
+        "a40940e3-32a3-4a57-b93f-b5f1c2c40232"
       ]
     },
     "versionCode": 1
@@ -319,12 +318,7 @@
   },
   "8db88878-82f9-449a-952a-6ff19af095e5": {
     "url": "db://assets/prefab/box1.prefab",
-    "value": {
-      "depends": [
-        "6af9b5c6-c493-4a60-ae76-5467f1366d67@f9941"
-      ],
-      "dependScripts": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "70ce99fd-f194-4201-86a6-d4d062d74a5e": {
@@ -339,12 +333,7 @@
   },
   "e39ae9de-fb2a-4928-b686-4284519e00ca": {
     "url": "db://assets/prefab/hero.prefab",
-    "value": {
-      "depends": [
-        "a1757a40-0cc0-49d2-bf1b-0b47986d9dff@f9941"
-      ],
-      "dependScripts": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "2dd847a9-1db7-4c0b-9284-2c137b883bf7": {
@@ -370,6 +359,236 @@
   "b96d4aee-b2bc-44c3-9444-4c6a1be8e374": {
     "url": "db://assets/Scripts/GameManager.ts",
     "value": {},
+    "versionCode": 1
+  },
+  "add9007f-abf7-4466-8e50-f458282ebfbd": {
+    "url": "db://assets/images/pp/exit按钮.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "add9007f-abf7-4466-8e50-f458282ebfbd@6c48a": {
+    "url": "db://assets/images/pp/exit按钮.png@6c48a",
+    "value": {
+      "depends": [
+        "add9007f-abf7-4466-8e50-f458282ebfbd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "add9007f-abf7-4466-8e50-f458282ebfbd@f9941": {
+    "url": "db://assets/images/pp/exit按钮.png@f9941",
+    "value": {
+      "depends": [
+        "add9007f-abf7-4466-8e50-f458282ebfbd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4bf455b1-2827-467f-b52a-8ac0f881ea72": {
+    "url": "db://assets/images/pp/pixilart-sprite.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4bf455b1-2827-467f-b52a-8ac0f881ea72@6c48a": {
+    "url": "db://assets/images/pp/pixilart-sprite.png@6c48a",
+    "value": {
+      "depends": [
+        "4bf455b1-2827-467f-b52a-8ac0f881ea72"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4bf455b1-2827-467f-b52a-8ac0f881ea72@f9941": {
+    "url": "db://assets/images/pp/pixilart-sprite.png@f9941",
+    "value": {
+      "depends": [
+        "4bf455b1-2827-467f-b52a-8ac0f881ea72@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b5702116-99e8-441f-a405-d78fdaad0baf": {
+    "url": "db://assets/images/pp/pixil-gif-drawing.gif",
+    "value": {},
+    "versionCode": 1
+  },
+  "9457298c-dac3-41a7-9be7-859a85a703d2": {
+    "url": "db://assets/images/pp/settings按钮.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9457298c-dac3-41a7-9be7-859a85a703d2@6c48a": {
+    "url": "db://assets/images/pp/settings按钮.png@6c48a",
+    "value": {
+      "depends": [
+        "9457298c-dac3-41a7-9be7-859a85a703d2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9457298c-dac3-41a7-9be7-859a85a703d2@f9941": {
+    "url": "db://assets/images/pp/settings按钮.png@f9941",
+    "value": {
+      "depends": [
+        "9457298c-dac3-41a7-9be7-859a85a703d2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3e1ee92c-f098-4dc0-b634-dfa9f8a19103": {
+    "url": "db://assets/images/pp/start按钮 (2).png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3e1ee92c-f098-4dc0-b634-dfa9f8a19103@6c48a": {
+    "url": "db://assets/images/pp/start按钮 (2).png@6c48a",
+    "value": {
+      "depends": [
+        "3e1ee92c-f098-4dc0-b634-dfa9f8a19103"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3e1ee92c-f098-4dc0-b634-dfa9f8a19103@f9941": {
+    "url": "db://assets/images/pp/start按钮 (2).png@f9941",
+    "value": {
+      "depends": [
+        "3e1ee92c-f098-4dc0-b634-dfa9f8a19103@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "76e627d3-7878-4ab2-84dc-2a82ab57c818": {
+    "url": "db://assets/images/pp/开始图标.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "76e627d3-7878-4ab2-84dc-2a82ab57c818@6c48a": {
+    "url": "db://assets/images/pp/开始图标.png@6c48a",
+    "value": {
+      "depends": [
+        "76e627d3-7878-4ab2-84dc-2a82ab57c818"
+      ]
+    },
+    "versionCode": 1
+  },
+  "76e627d3-7878-4ab2-84dc-2a82ab57c818@f9941": {
+    "url": "db://assets/images/pp/开始图标.png@f9941",
+    "value": {
+      "depends": [
+        "76e627d3-7878-4ab2-84dc-2a82ab57c818@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1b14e21b-c888-4eed-af9d-558f97e67ec1": {
+    "url": "db://assets/images/pp/系统消息图标.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1b14e21b-c888-4eed-af9d-558f97e67ec1@6c48a": {
+    "url": "db://assets/images/pp/系统消息图标.png@6c48a",
+    "value": {
+      "depends": [
+        "1b14e21b-c888-4eed-af9d-558f97e67ec1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1b14e21b-c888-4eed-af9d-558f97e67ec1@f9941": {
+    "url": "db://assets/images/pp/系统消息图标.png@f9941",
+    "value": {
+      "depends": [
+        "1b14e21b-c888-4eed-af9d-558f97e67ec1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cd603125-1fc2-4199-b024-96192cd3ea4f": {
+    "url": "db://assets/images/pp/羽毛球.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "cd603125-1fc2-4199-b024-96192cd3ea4f@6c48a": {
+    "url": "db://assets/images/pp/羽毛球.png@6c48a",
+    "value": {
+      "depends": [
+        "cd603125-1fc2-4199-b024-96192cd3ea4f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cd603125-1fc2-4199-b024-96192cd3ea4f@f9941": {
+    "url": "db://assets/images/pp/羽毛球.png@f9941",
+    "value": {
+      "depends": [
+        "cd603125-1fc2-4199-b024-96192cd3ea4f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b7da2386-1299-4918-a362-a58ce43eaf75": {
+    "url": "db://assets/images/background/setting start exit界面.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b7da2386-1299-4918-a362-a58ce43eaf75@6c48a": {
+    "url": "db://assets/images/background/setting start exit界面.png@6c48a",
+    "value": {
+      "depends": [
+        "b7da2386-1299-4918-a362-a58ce43eaf75"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b7da2386-1299-4918-a362-a58ce43eaf75@f9941": {
+    "url": "db://assets/images/background/setting start exit界面.png@f9941",
+    "value": {
+      "depends": [
+        "b7da2386-1299-4918-a362-a58ce43eaf75@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2ebbad05-57ed-416a-9b90-d793084e71db": {
+    "url": "db://assets/images/background/SSE界面的背景.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2ebbad05-57ed-416a-9b90-d793084e71db@6c48a": {
+    "url": "db://assets/images/background/SSE界面的背景.png@6c48a",
+    "value": {
+      "depends": [
+        "2ebbad05-57ed-416a-9b90-d793084e71db"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2ebbad05-57ed-416a-9b90-d793084e71db@f9941": {
+    "url": "db://assets/images/background/SSE界面的背景.png@f9941",
+    "value": {
+      "depends": [
+        "2ebbad05-57ed-416a-9b90-d793084e71db@6c48a"
+      ]
+    },
     "versionCode": 1
   }
 }

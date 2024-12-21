@@ -12,7 +12,7 @@
       "time": 1732769485324.9348
     },
     "D:\\cocos\\badminton\\badminton\\assets\\images\\pp": {
-      "time": 1732769539984.188,
+      "time": 1734763165646.2458,
       "uuid": "c9190a4b-c326-43b7-b5c0-3763b9c504ea"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\pixil-frame-0 (1).png.meta": {
@@ -40,7 +40,7 @@
       "time": 1732769507051.9658
     },
     "D:\\cocos\\badminton\\badminton\\assets\\images\\background": {
-      "time": 1732769530064.896,
+      "time": 1734763202525.8918,
       "uuid": "e88c56f4-6457-4820-8e4c-111145864ef9"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\images\\background\\0C75659592A28AABB19F58186ABBEE58.png.meta": {
@@ -89,7 +89,7 @@
       "time": 1732769781063.2095
     },
     "D:\\cocos\\badminton\\badminton\\assets\\scene.scene": {
-      "time": 1734175084694.3882,
+      "time": 1734769490805.745,
       "uuid": "53c09363-d1e8-4f8f-8ddf-ae0501d38731"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation.meta": {
@@ -103,22 +103,8 @@
       "time": 1733388870502.9949
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab": {
-      "time": 1733401251494.7961,
+      "time": 1734764856598.219,
       "uuid": "af5e8080-132b-4ac3-b3e1-60e6c7b8bcc3"
-    },
-    "D:\\cocos\\badminton\\badminton\\assets\\prefab\\box1.prefab.meta": {
-      "time": 1733389362677.128
-    },
-    "D:\\cocos\\badminton\\badminton\\assets\\prefab\\box1.prefab": {
-      "time": 1733389362671.1338,
-      "uuid": "8db88878-82f9-449a-952a-6ff19af095e5"
-    },
-    "D:\\cocos\\badminton\\badminton\\assets\\prefab\\hero.prefab.meta": {
-      "time": 1733401251507.8135
-    },
-    "D:\\cocos\\badminton\\badminton\\assets\\prefab\\hero.prefab": {
-      "time": 1733401251500.7925,
-      "uuid": "e39ae9de-fb2a-4928-b686-4284519e00ca"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts.meta": {
       "time": 1733402117495.401
@@ -145,7 +131,7 @@
       "time": 1734166921043.864
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\GameManager.ts": {
-      "time": 1734175650653.0642,
+      "time": 1734768059701.3901,
       "uuid": "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\button_bigger.anim.meta": {
@@ -154,6 +140,69 @@
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\button_bigger.anim": {
       "time": 1732784132556.5457,
       "uuid": "0adf839c-a497-4e5e-810c-e88c21c4053f"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\exit按钮.png.meta": {
+      "time": 1734763134722.8962
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\exit按钮.png": {
+      "time": 1734175864519.297,
+      "uuid": "add9007f-abf7-4466-8e50-f458282ebfbd"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\pixilart-sprite.png.meta": {
+      "time": 1734763134789.4502
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\pixilart-sprite.png": {
+      "time": 1734175864520.2705,
+      "uuid": "4bf455b1-2827-467f-b52a-8ac0f881ea72"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\settings按钮.png.meta": {
+      "time": 1734763139629.922
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\settings按钮.png": {
+      "time": 1734175864520.2705,
+      "uuid": "9457298c-dac3-41a7-9be7-859a85a703d2"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\start按钮 (2).png.meta": {
+      "time": 1734763139684.2336
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\start按钮 (2).png": {
+      "time": 1734175864520.2705,
+      "uuid": "3e1ee92c-f098-4dc0-b634-dfa9f8a19103"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\开始图标.png.meta": {
+      "time": 1734763139967.2246
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\开始图标.png": {
+      "time": 1732768735580.3904,
+      "uuid": "76e627d3-7878-4ab2-84dc-2a82ab57c818"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\系统消息图标.png.meta": {
+      "time": 1734763145322.212
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\系统消息图标.png": {
+      "time": 1732768727888.4758,
+      "uuid": "1b14e21b-c888-4eed-af9d-558f97e67ec1"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\羽毛球.png.meta": {
+      "time": 1734763145352.7134
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\羽毛球.png": {
+      "time": 1734175864522.282,
+      "uuid": "cd603125-1fc2-4199-b024-96192cd3ea4f"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\background\\setting start exit界面.png.meta": {
+      "time": 1734763202459.978
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\background\\setting start exit界面.png": {
+      "time": 1734175864520.2705,
+      "uuid": "b7da2386-1299-4918-a362-a58ce43eaf75"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\background\\SSE界面的背景.png.meta": {
+      "time": 1734763203021.4575
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\background\\SSE界面的背景.png": {
+      "time": 1734175864519.297,
+      "uuid": "2ebbad05-57ed-416a-9b90-d793084e71db"
     }
   },
   "missing": {
@@ -236,6 +285,21 @@
       "path": "D:\\cocos\\badminton\\badminton\\assets\\Animation\\onestep.anim",
       "time": 1732784132556.5457,
       "removeTime": 1734168023197
+    },
+    "b5702116-99e8-441f-a405-d78fdaad0baf": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\pixil-gif-drawing.gif",
+      "time": 1734175864520.2705,
+      "removeTime": 1734763165646
+    },
+    "8db88878-82f9-449a-952a-6ff19af095e5": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\prefab\\box1.prefab",
+      "time": 1733389362671.1338,
+      "removeTime": 1734764827665
+    },
+    "e39ae9de-fb2a-4928-b686-4284519e00ca": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\prefab\\hero.prefab",
+      "time": 1733401251500.7925,
+      "removeTime": 1734764856605
     }
   }
 }

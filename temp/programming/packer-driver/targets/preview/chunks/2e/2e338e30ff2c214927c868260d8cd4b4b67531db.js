@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, input, Input, Node, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, GameState, GameManger;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Vec3, Node, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _crd, ccclass, property, GameState, GameManger;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -16,8 +16,7 @@ System.register(["cc"], function (_export, _context) {
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
-      input = _cc.input;
-      Input = _cc.Input;
+      Vec3 = _cc.Vec3;
       Node = _cc.Node;
     }],
     execute: function () {
@@ -43,7 +42,23 @@ System.register(["cc"], function (_export, _context) {
 
       _export("GameManger", GameManger = (_dec = ccclass('GameManger'), _dec2 = property({
         type: Node
-      }), _dec3 = property(Node), _dec(_class = (_class2 = class GameManger extends Component {
+      }), _dec3 = property({
+        type: Node
+      }), _dec4 = property({
+        type: Node
+      }), _dec5 = property({
+        type: Node
+      }), _dec6 = property({
+        type: Node
+      }), _dec7 = property({
+        type: Node
+      }), _dec8 = property({
+        type: Node
+      }), _dec9 = property({
+        type: Node
+      }), _dec10 = property({
+        type: Node
+      }), _dec(_class = (_class2 = class GameManger extends Component {
         constructor() {
           super(...arguments);
 
@@ -51,29 +66,53 @@ System.register(["cc"], function (_export, _context) {
 
           //从第一个开始界面调到第二个界面的按钮
           _initializerDefineProperty(this, "startMenu1", _descriptor2, this);
+
+          //第一个背景
+          _initializerDefineProperty(this, "startMenu2", _descriptor3, this);
+
+          _initializerDefineProperty(this, "startSettings", _descriptor4, this);
+
+          _initializerDefineProperty(this, "startStart", _descriptor5, this);
+
+          _initializerDefineProperty(this, "startExit", _descriptor6, this);
+
+          _initializerDefineProperty(this, "gameGround1", _descriptor7, this);
+
+          _initializerDefineProperty(this, "gameGround2", _descriptor8, this);
+
+          _initializerDefineProperty(this, "player", _descriptor9, this);
         }
 
         start() {
           this.setCurState(GameState.GS_INIT);
         }
 
-        setInputActive(active) {
-          if (active) {
-            input.on(Input.EventType.MOUSE_UP, this.onMouseUp, this);
-          } else {
-            input.off(Input.EventType.MOUSE_UP, this.onMouseUp, this);
-          }
+        oneTotwo() {
+          this.startButton1.active = false;
+          this.startMenu1.active = false;
+          this.startMenu2.active = true;
+          this.startExit.active = true;
+          this.startStart.active = true;
+          this.startSettings.active = true;
+          this.startGame();
         }
 
-        onMouseUp(event) {
-          if (event.getButton() === 0) {
-            this.startButton1.active = true;
-          }
+        twoTogame() {
+          this.startMenu2.active = false;
+          this.startExit.active = false;
+          this.startStart.active = false;
+          this.startSettings.active = false;
+          this.gameGround1.active = true;
+          var initPosition = new Vec3(-565, -240, 0);
+          this.player.setPosition(initPosition);
+          this.player.active = true;
         }
 
         init() {
           this.generateRoad();
         }
+
+        startGame() {}
 
         setCurState(value) {
           switch (value) {
@@ -82,6 +121,7 @@ System.register(["cc"], function (_export, _context) {
               break;
 
             case GameState.GS_PLAYING:
+              this.startGame();
               break;
 
             case GameState.GS_END:
@@ -89,9 +129,7 @@ System.register(["cc"], function (_export, _context) {
           }
         }
 
-        generateRoad() {
-          this.node.removeAllChildren();
-        }
+        generateRoad() {}
 
         update(deltaTime) {}
 
@@ -103,6 +141,55 @@ System.register(["cc"], function (_export, _context) {
           return null;
         }
       }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "startMenu1", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "startMenu2", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "startSettings", [_dec5], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "startStart", [_dec6], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "startExit", [_dec7], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "gameGround1", [_dec8], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor8 = _applyDecoratedDescriptor(_class2.prototype, "gameGround2", [_dec9], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor9 = _applyDecoratedDescriptor(_class2.prototype, "player", [_dec10], {
         configurable: true,
         enumerable: true,
         writable: true,

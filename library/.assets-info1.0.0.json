@@ -89,7 +89,7 @@
       "time": 1732769781063.2095
     },
     "D:\\cocos\\badminton\\badminton\\assets\\scene.scene": {
-      "time": 1734769490805.745,
+      "time": 1734859426395.7744,
       "uuid": "53c09363-d1e8-4f8f-8ddf-ae0501d38731"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation.meta": {
@@ -103,7 +103,7 @@
       "time": 1733388870502.9949
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab": {
-      "time": 1734764856598.219,
+      "time": 1734849731736.1257,
       "uuid": "af5e8080-132b-4ac3-b3e1-60e6c7b8bcc3"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts.meta": {
@@ -117,7 +117,7 @@
       "time": 1733402134157.6067
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\PlayerController.ts": {
-      "time": 1733402134145.6045,
+      "time": 1734859351623.952,
       "uuid": "94850660-6b23-4297-ae13-86cee5f1a9e6"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\MenuController.ts.meta": {
@@ -131,7 +131,7 @@
       "time": 1734166921043.864
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\GameManager.ts": {
-      "time": 1734768059701.3901,
+      "time": 1734854893215.356,
       "uuid": "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\button_bigger.anim.meta": {
@@ -203,6 +203,27 @@
     "D:\\cocos\\badminton\\badminton\\assets\\images\\background\\SSE界面的背景.png": {
       "time": 1734175864519.297,
       "uuid": "2ebbad05-57ed-416a-9b90-d793084e71db"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Box.prefab.meta": {
+      "time": 1734843824435.092
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Box.prefab": {
+      "time": 1734843824434.0913,
+      "uuid": "ca9ba6a4-4dcf-43ad-adbc-e395f338158e"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Fire.prefab.meta": {
+      "time": 1734849507791.258
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Fire.prefab": {
+      "time": 1734850786731.9097,
+      "uuid": "e6487f40-5f79-4f8c-bf35-ff2c76500aff"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Feather.prefab.meta": {
+      "time": 1734849731748.3284
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Feather.prefab": {
+      "time": 1734849731742.3152,
+      "uuid": "c976f31c-d14f-4a04-b533-f2139dee63e7"
     }
   },
   "missing": {

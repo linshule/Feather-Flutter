@@ -8,6 +8,7 @@
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "Box"
+    "syncNodeName": "Box",
+    "persistent": true
   }
 }

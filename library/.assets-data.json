@@ -625,5 +625,10 @@
       "dependScripts": []
     },
     "versionCode": 1
+  },
+  "a000e997-a623-404c-bc2c-891d541f2a43": {
+    "url": "db://assets/Scripts/PlayerG.ts",
+    "value": {},
+    "versionCode": 1
   }
 }

@@ -8,6 +8,7 @@
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "Feather"
+    "syncNodeName": "Feather",
+    "persistent": true
   }
 }

@@ -5,7 +5,8 @@
     "file:///D:/cocos/CocosCreator-v3.8.3-oh-win-102911/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js",
     "file:///D:/cocos/badminton/badminton/assets/Scripts/GameManager.ts": "./chunks/2e/2e338e30ff2c214927c868260d8cd4b4b67531db.js",
     "file:///D:/cocos/badminton/badminton/assets/Scripts/MenuController.ts": "./chunks/f1/f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a.js",
-    "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts": "./chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js"
+    "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts": "./chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js",
+    "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerG.ts": "./chunks/ce/ce8609fb42875d71e5fa94e49ed646a1ebdc3a9a.js"
   },
   "scopes": {
     "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
@@ -33,7 +34,11 @@
       "__unresolved_0": "./chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js",
       "__unresolved_1": "./chunks/2e/2e338e30ff2c214927c868260d8cd4b4b67531db.js",
       "__unresolved_2": "./chunks/f1/f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a.js",
-      "__unresolved_3": "./chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js"
+      "__unresolved_3": "./chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js",
+      "__unresolved_4": "./chunks/ce/ce8609fb42875d71e5fa94e49ed646a1ebdc3a9a.js"
+    },
+    "./chunks/ce/ce8609fb42875d71e5fa94e49ed646a1ebdc3a9a.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"

@@ -12,7 +12,7 @@
       "time": 1732769485324.9348
     },
     "D:\\cocos\\badminton\\badminton\\assets\\images\\pp": {
-      "time": 1734763165646.2458,
+      "time": 1735048105141.599,
       "uuid": "c9190a4b-c326-43b7-b5c0-3763b9c504ea"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\pixil-frame-0 (1).png.meta": {
@@ -89,14 +89,14 @@
       "time": 1732769781063.2095
     },
     "D:\\cocos\\badminton\\badminton\\assets\\scene.scene": {
-      "time": 1734960346925.6426,
+      "time": 1735043044671.2842,
       "uuid": "53c09363-d1e8-4f8f-8ddf-ae0501d38731"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation.meta": {
       "time": 1732782647725.6777
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation": {
-      "time": 1734168023196.1543,
+      "time": 1735045013683.6711,
       "uuid": "90c40ca6-d016-40fa-8796-d1ada6fec041"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab.meta": {
@@ -117,7 +117,7 @@
       "time": 1733402134157.6067
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\PlayerController.ts": {
-      "time": 1734961764349.1682,
+      "time": 1735043189196.0703,
       "uuid": "94850660-6b23-4297-ae13-86cee5f1a9e6"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\MenuController.ts.meta": {
@@ -131,7 +131,7 @@
       "time": 1734166921043.864
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\GameManager.ts": {
-      "time": 1734854893215.356,
+      "time": 1735042912011.2998,
       "uuid": "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\button_bigger.anim.meta": {
@@ -208,29 +208,50 @@
       "time": 1734960085355.7676
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Box.prefab": {
-      "time": 1734960085380.893,
+      "time": 1735044790927.1726,
       "uuid": "ca9ba6a4-4dcf-43ad-adbc-e395f338158e"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Fire.prefab.meta": {
       "time": 1734960104296.1814
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Fire.prefab": {
-      "time": 1734960104322.2583,
+      "time": 1735048161283.242,
       "uuid": "e6487f40-5f79-4f8c-bf35-ff2c76500aff"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Feather.prefab.meta": {
       "time": 1734960099265.1423
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Feather.prefab": {
-      "time": 1734960099299.6543,
+      "time": 1735047126553.3696,
       "uuid": "c976f31c-d14f-4a04-b533-f2139dee63e7"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\PlayerG.ts.meta": {
       "time": 1734961822784.3938
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\PlayerG.ts": {
-      "time": 1734962405981.1372,
+      "time": 1734962834954.6736,
       "uuid": "a000e997-a623-404c-bc2c-891d541f2a43"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\Animation\\feather_fly.anim.meta": {
+      "time": 1735045013694.8247
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\Animation\\feather_fly.anim": {
+      "time": 1735049418292.078,
+      "uuid": "b4d62f43-57ed-4bed-baf1-2e0b44334e79"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\fired1.png.meta": {
+      "time": 1735048105081.9985
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\fired1.png": {
+      "time": 1735048007268.9849,
+      "uuid": "8168e0a0-913e-4ef6-8130-edd1713eb0e0"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\fired2.png.meta": {
+      "time": 1735048105157.584
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\fired2.png": {
+      "time": 1735047755945.292,
+      "uuid": "3490a025-2a5c-45df-be72-24c07517e0e6"
     }
   },
   "missing": {
@@ -328,6 +349,16 @@
       "path": "D:\\cocos\\badminton\\badminton\\assets\\prefab\\hero.prefab",
       "time": 1733401251500.7925,
       "removeTime": 1734764856605
+    },
+    "bfe53b41-8350-49b9-bcb4-83fddc25e0fb": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\fire1.png",
+      "time": 1735046695304.4565,
+      "removeTime": 1735047204390
+    },
+    "ac7f84d7-f58f-4653-8d4a-948d64bae6de": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\fired.png",
+      "time": 1735046900820.3645,
+      "removeTime": 1735047206532
     }
   }
 }

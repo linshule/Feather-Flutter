@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Prefab, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, PlayerG;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Prefab, RigidBody2D, BoxCollider2D, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, PlayerG;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -18,13 +18,15 @@ System.register(["cc"], function (_export, _context) {
       Component = _cc.Component;
       Node = _cc.Node;
       Prefab = _cc.Prefab;
+      RigidBody2D = _cc.RigidBody2D;
+      BoxCollider2D = _cc.BoxCollider2D;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "a000emXpiNATLwsiR1UHypD", "PlayerG", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'Prefab']);
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'Prefab', 'RigidBody2D', 'BoxCollider2D']);
 
       ({
         ccclass,
@@ -42,9 +44,15 @@ System.register(["cc"], function (_export, _context) {
           _initializerDefineProperty(this, "player", _descriptor, this);
 
           _initializerDefineProperty(this, "boxPrefab", _descriptor2, this);
+
+          this.playerRiGid = null;
+          this.boxCollider = null;
         }
 
-        start() {}
+        start() {
+          this.playerRiGid = this.getComponent(RigidBody2D);
+          this.boxCollider = this.getComponent(BoxCollider2D);
+        }
 
         update(deltaTime) {}
 

@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, input, Input, KeyCode, Vec3, _dec, _class, _crd, ccclass, property, PlayerController;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, input, Input, KeyCode, Vec3, Vec2, RigidBody2D, _dec, _class, _crd, ccclass, property, PlayerController;
 
   return {
     setters: [function (_cc) {
@@ -14,13 +14,15 @@ System.register(["cc"], function (_export, _context) {
       Input = _cc.Input;
       KeyCode = _cc.KeyCode;
       Vec3 = _cc.Vec3;
+      Vec2 = _cc.Vec2;
+      RigidBody2D = _cc.RigidBody2D;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "94850ZgayNCl64Ths7l8anm", "PlayerController", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'input', 'Node', 'Input', 'EventKeyboard', 'KeyCode', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Component', 'input', 'Node', 'Input', 'EventKeyboard', 'KeyCode', 'Vec3', 'Vec2', 'RigidBody2D']);
 
       ({
         ccclass,
@@ -33,53 +35,72 @@ System.register(["cc"], function (_export, _context) {
           this._starMove = false;
           this._curPos = new Vec3();
           this._tarPos = new Vec3();
+          this.Body = null;
+          this._isJump = false;
+          this._isMove = false;
+          this.jumpSpeed = 0;
+          this.moveSpeed = 0;
         }
 
-        start() {}
+        start() {
+          this.Body = this.getComponent(RigidBody2D);
+        }
 
         initInput(cur) {
           if (cur) {
-            input.on(Input.EventType.KEY_PRESSING, this.onKeyDown, this);
-            input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this); //           input.on(Input.EventType.KEY_UP, this.onKeyUp, this);
+            input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this);
+            input.on(Input.EventType.KEY_UP, this.onKeyUp, this);
           } else {
-            input.off(Input.EventType.KEY_PRESSING, this.onKeyDown, this);
-            input.off(Input.EventType.KEY_DOWN, this.onKeyDown, this); //           input.off(Input.EventType.KEY_UP, this.onKeyUp, this);
+            input.off(Input.EventType.KEY_DOWN, this.onKeyDown, this);
+            input.off(Input.EventType.KEY_UP, this.onKeyUp, this);
           }
-        }
-
-        move(retx, rety) {
-          this._starMove = true;
-          let _speed = 20;
-          this.node.getPosition(this._curPos);
-          Vec3.add(this._tarPos, this._curPos, new Vec3(_speed * retx, _speed * rety, 0));
         }
 
         onKeyDown(event) {
           switch (event.keyCode) {
             case KeyCode.KEY_A:
               this.node.getChildByName("Player").setScale(-1, 1);
-              this.move(-1, 0);
+              this._isMove = true;
+              this.moveSpeed = -0.3;
               break;
 
             case KeyCode.KEY_D:
               this.node.getChildByName("Player").setScale(1, 1);
-              this.move(1, 0);
+              this._isMove = true;
+              this.moveSpeed = 0.3;
               break;
 
             case KeyCode.KEY_W:
-              //this.node.getChildByName("Player").setScale(1, 1);
-              this.move(0, 1);
-              break;
-
-            case KeyCode.KEY_S:
-              this.move(0, -1);
+              this._isJump = true;
+              this.jumpSpeed = 1000;
               break;
           }
         }
 
+        onKeyUp(event) {
+          switch (event.keyCode) {
+            case KeyCode.KEY_A:
+              this._isMove = false;
+              this.moveSpeed = 0;
+              break;
+
+            case KeyCode.KEY_D:
+              this._isMove = false;
+              this.moveSpeed = 0;
+              break;
+
+            case KeyCode.KEY_W:
+          }
+        }
+
         update(deltaTime) {
-          if (this._starMove) {
-            this.node.setPosition(this._tarPos);
+          if (this._isJump) {
+            this.Body.applyForceToCenter(new Vec2(0, this.jumpSpeed), true);
+            this._isJump = false;
+          }
+
+          if (this._isMove) {
+            this.Body.applyLinearImpulseToCenter(new Vec2(this.moveSpeed, 0), true);
           }
         }
 

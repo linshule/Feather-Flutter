@@ -1,4 +1,4 @@
-import { _decorator, Component, Vec3, EventMouse, input, Input, Animation, Node, Prefab, CCInteger, instantiate } from 'cc';
+import { _decorator, Component, Vec3, EventMouse, input, Input, Animation, Node, Prefab, CCInteger, instantiate, PhysicsSystem2D } from 'cc';
 import { PlayerController } from './PlayerController';
 const { ccclass, property } = _decorator;
 
@@ -14,7 +14,7 @@ enum BlockType {
     BT_FIRE,
     BT_FEATHER,
 };
-const BlockSizeX = 50;
+const BlockSizeX = 75;
 const BlockSizeY = 75;
 @ccclass('GameManger')
 export class GameManger extends Component {
@@ -43,7 +43,7 @@ export class GameManger extends Component {
     @property({ type: Prefab })
     public firePrefab: Prefab | null = null;
     @property({ type: CCInteger })
-    public roadLength: number = 100;
+    public roadLength: number = 50;
 
     public roadHeight: number = 100;
 
@@ -69,15 +69,14 @@ export class GameManger extends Component {
         this.startStart.active = false;
         this.startSettings.active = false;
         this.gameGround1.active = true;
-        let initPosition: Vec3 = new Vec3(-565, -240, 0);
-        //        this.player.setPosition(initPosition);
-        this.player.active = true;
         this.startGame();
     }
     init() {
     }
     startGame() {
+        PhysicsSystem2D.instance.enable = true;
         this.generateRoad();
+        this.player.active = true;
         this.playerCtrl.initInput(true);
     }
     setCurState(value: GameState) {

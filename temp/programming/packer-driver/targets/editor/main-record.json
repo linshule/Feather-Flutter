@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 5651894.1278,
+      "mTimestamp": 86430112.3104,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -911,7 +911,7 @@
     },
     "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts": {
       "mTimestamp": {
-        "mtime": 1734961764349.1682,
+        "mtime": 1735043189196.0703,
         "uuid": "94850660-6b23-4297-ae13-86cee5f1a9e6"
       },
       "chunkId": "f66656c70fc5ce6b784ec96ed4f4454ea7438438",
@@ -927,11 +927,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 88
+              "column": 107
             },
             "end": {
               "line": 1,
-              "column": 92
+              "column": 111
             }
           }
         }
@@ -1067,7 +1067,7 @@
     },
     "file:///D:/cocos/badminton/badminton/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1734854893215.356,
+        "mtime": 1735042912011.2998,
         "uuid": "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
       },
       "chunkId": "2e338e30ff2c214927c868260d8cd4b4b67531db",
@@ -1087,11 +1087,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 119
+              "column": 136
             },
             "end": {
               "line": 1,
-              "column": 123
+              "column": 140
             }
           }
         },
@@ -1158,7 +1158,7 @@
     },
     "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerG.ts": {
       "mTimestamp": {
-        "mtime": 1734962405981.1372,
+        "mtime": 1734962834954.6736,
         "uuid": "a000e997-a623-404c-bc2c-891d541f2a43"
       },
       "chunkId": "ce8609fb42875d71e5fa94e49ed646a1ebdc3a9a",
@@ -1174,11 +1174,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 52
+              "column": 80
             },
             "end": {
               "line": 1,
-              "column": 56
+              "column": 84
             }
           }
         }

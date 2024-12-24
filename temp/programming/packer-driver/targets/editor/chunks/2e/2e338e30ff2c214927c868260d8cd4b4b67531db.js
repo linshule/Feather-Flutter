@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Vec3, Node, Prefab, CCInteger, instantiate, PlayerController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _crd, ccclass, property, GameState, BlockType, BlockSizeX, BlockSizeY, GameManger;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Prefab, CCInteger, instantiate, PhysicsSystem2D, PlayerController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _crd, ccclass, property, GameState, BlockType, BlockSizeX, BlockSizeY, GameManger;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -22,11 +22,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
-      Vec3 = _cc.Vec3;
       Node = _cc.Node;
       Prefab = _cc.Prefab;
       CCInteger = _cc.CCInteger;
       instantiate = _cc.instantiate;
+      PhysicsSystem2D = _cc.PhysicsSystem2D;
     }, function (_unresolved_2) {
       PlayerController = _unresolved_2.PlayerController;
     }],
@@ -35,7 +35,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _cclegacy._RF.push({}, "b96d4rusrxEw5RETGob6ON0", "GameManager", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Vec3', 'EventMouse', 'input', 'Input', 'Animation', 'Node', 'Prefab', 'CCInteger', 'instantiate']);
+      __checkObsolete__(['_decorator', 'Component', 'Vec3', 'EventMouse', 'input', 'Input', 'Animation', 'Node', 'Prefab', 'CCInteger', 'instantiate', 'PhysicsSystem2D']);
 
       ({
         ccclass,
@@ -60,7 +60,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       }(BlockType || {});
 
       ;
-      BlockSizeX = 50;
+      BlockSizeX = 75;
       BlockSizeY = 75;
 
       _export("GameManger", GameManger = (_dec = ccclass('GameManger'), _dec2 = property({
@@ -150,16 +150,15 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.startStart.active = false;
           this.startSettings.active = false;
           this.gameGround1.active = true;
-          let initPosition = new Vec3(-565, -240, 0); //        this.player.setPosition(initPosition);
-
-          this.player.active = true;
           this.startGame();
         }
 
         init() {}
 
         startGame() {
+          PhysicsSystem2D.instance.enable = true;
           this.generateRoad();
+          this.player.active = true;
           this.playerCtrl.initInput(true);
         }
 
@@ -330,7 +329,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         enumerable: true,
         writable: true,
         initializer: function () {
-          return 100;
+          return 50;
         }
       }), _descriptor14 = _applyDecoratedDescriptor(_class2.prototype, "playerCtrl", [_dec15], {
         configurable: true,

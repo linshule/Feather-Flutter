@@ -252,8 +252,8 @@
         "a1757a40-0cc0-49d2-bf1b-0b47986d9dff@f9941",
         "59ac25a4-c607-4a81-ab1e-f01f3386ff27@f9941",
         "ca9ba6a4-4dcf-43ad-adbc-e395f338158e",
-        "e6487f40-5f79-4f8c-bf35-ff2c76500aff",
         "c976f31c-d14f-4a04-b533-f2139dee63e7",
+        "e6487f40-5f79-4f8c-bf35-ff2c76500aff",
         "9457298c-dac3-41a7-9be7-859a85a703d2@f9941",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
@@ -262,7 +262,6 @@
       ],
       "dependScripts": [
         "94850660-6b23-4297-ae13-86cee5f1a9e6",
-        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "b96d4aee-b2bc-44c3-9444-4c6a1be8e374",
         "a40940e3-32a3-4a57-b93f-b5f1c2c40232"
       ]
@@ -610,7 +609,7 @@
     "url": "db://assets/prefab/Fire.prefab",
     "value": {
       "depends": [
-        "4bf455b1-2827-467f-b52a-8ac0f881ea72@f9941"
+        "8168e0a0-913e-4ef6-8130-edd1713eb0e0@f9941"
       ],
       "dependScripts": []
     },
@@ -620,7 +619,8 @@
     "url": "db://assets/prefab/Feather.prefab",
     "value": {
       "depends": [
-        "cd603125-1fc2-4199-b024-96192cd3ea4f@f9941"
+        "cd603125-1fc2-4199-b024-96192cd3ea4f@f9941",
+        "b4d62f43-57ed-4bed-baf1-2e0b44334e79"
       ],
       "dependScripts": []
     },
@@ -629,6 +629,109 @@
   "a000e997-a623-404c-bc2c-891d541f2a43": {
     "url": "db://assets/Scripts/PlayerG.ts",
     "value": {},
+    "versionCode": 1
+  },
+  "b4d62f43-57ed-4bed-baf1-2e0b44334e79": {
+    "url": "db://assets/Animation/feather_fly.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "bfe53b41-8350-49b9-bcb4-83fddc25e0fb": {
+    "url": "db://assets/images/pp/fire1.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "bfe53b41-8350-49b9-bcb4-83fddc25e0fb@6c48a": {
+    "url": "db://assets/images/pp/fire1.png@6c48a",
+    "value": {
+      "depends": [
+        "bfe53b41-8350-49b9-bcb4-83fddc25e0fb"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bfe53b41-8350-49b9-bcb4-83fddc25e0fb@f9941": {
+    "url": "db://assets/images/pp/fire1.png@f9941",
+    "value": {
+      "depends": [
+        "bfe53b41-8350-49b9-bcb4-83fddc25e0fb@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ac7f84d7-f58f-4653-8d4a-948d64bae6de": {
+    "url": "db://assets/images/pp/fired.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "ac7f84d7-f58f-4653-8d4a-948d64bae6de@6c48a": {
+    "url": "db://assets/images/pp/fired.png@6c48a",
+    "value": {
+      "depends": [
+        "ac7f84d7-f58f-4653-8d4a-948d64bae6de"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ac7f84d7-f58f-4653-8d4a-948d64bae6de@f9941": {
+    "url": "db://assets/images/pp/fired.png@f9941",
+    "value": {
+      "depends": [
+        "ac7f84d7-f58f-4653-8d4a-948d64bae6de@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8168e0a0-913e-4ef6-8130-edd1713eb0e0": {
+    "url": "db://assets/images/pp/fired1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8168e0a0-913e-4ef6-8130-edd1713eb0e0@6c48a": {
+    "url": "db://assets/images/pp/fired1.png@6c48a",
+    "value": {
+      "depends": [
+        "8168e0a0-913e-4ef6-8130-edd1713eb0e0"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8168e0a0-913e-4ef6-8130-edd1713eb0e0@f9941": {
+    "url": "db://assets/images/pp/fired1.png@f9941",
+    "value": {
+      "depends": [
+        "8168e0a0-913e-4ef6-8130-edd1713eb0e0@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3490a025-2a5c-45df-be72-24c07517e0e6": {
+    "url": "db://assets/images/pp/fired2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3490a025-2a5c-45df-be72-24c07517e0e6@6c48a": {
+    "url": "db://assets/images/pp/fired2.png@6c48a",
+    "value": {
+      "depends": [
+        "3490a025-2a5c-45df-be72-24c07517e0e6"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3490a025-2a5c-45df-be72-24c07517e0e6@f9941": {
+    "url": "db://assets/images/pp/fired2.png@f9941",
+    "value": {
+      "depends": [
+        "3490a025-2a5c-45df-be72-24c07517e0e6@6c48a"
+      ]
+    },
     "versionCode": 1
   }
 }

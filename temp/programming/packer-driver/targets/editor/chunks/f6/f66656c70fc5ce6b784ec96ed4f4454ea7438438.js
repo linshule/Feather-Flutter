@@ -46,6 +46,10 @@ System.register(["cc"], function (_export, _context) {
           this.Body = this.getComponent(RigidBody2D);
         }
 
+        Bounce(speed) {
+          this.Body.applyLinearImpulseToCenter(new Vec2(0, speed), true);
+        }
+
         initInput(cur) {
           if (cur) {
             input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this);

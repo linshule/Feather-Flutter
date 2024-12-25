@@ -1515,7 +1515,7 @@
       "__uuid__": "e6487f40-5f79-4f8c-bf35-ff2c76500aff",
       "__expectedType__": "cc.Prefab"
     },
-    "roadLength": 100,
+    "roadLength": 20,
     "playerCtrl": {
       "__id__": 33
     },

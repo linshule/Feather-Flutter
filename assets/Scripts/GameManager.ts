@@ -1,4 +1,4 @@
-import { _decorator, Component, Vec3, EventMouse, input, Input, Animation, Node, Prefab, CCInteger, instantiate, PhysicsSystem2D } from 'cc';
+import { _decorator, Component, Vec3, EventMouse, input, Input, Animation, Node, Prefab, CCInteger, instantiate, PhysicsSystem2D, Collider2D, Contact2DType, IPhysics2DContact, animation } from 'cc';
 import { PlayerController } from './PlayerController';
 const { ccclass, property } = _decorator;
 
@@ -43,9 +43,8 @@ export class GameManger extends Component {
     @property({ type: Prefab })
     public firePrefab: Prefab | null = null;
     @property({ type: CCInteger })
-    public roadLength: number = 50;
-
-    public roadHeight: number = 100;
+    public roadLength: number = 20;
+    public roadHeight: number = 20;
 
     private _road = [];
 
@@ -91,7 +90,13 @@ export class GameManger extends Component {
                 break;
         }
     }
-
+    onContactFeather(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+        let block = selfCollider.node;
+        let blockAnimation = block.getComponent(Animation);
+        blockAnimation.play('feather_fly');
+        this.playerCtrl.Bounce(20);
+        selfCollider.body.enabledContactListener = false;
+    }
     //生成地块
     generateRoad() {
         this.node.removeAllChildren();
@@ -100,7 +105,7 @@ export class GameManger extends Component {
             let _roadCur: BlockType[] = [];
             for (let j = 1; j <= this.roadLength; j++) {
                 if ((i % 2 == 1)) {
-                    _roadCur[j] = Math.floor(Math.random() * 2);
+                    _roadCur[j] = Math.floor(Math.random() * 4);
                 }
                 else {
                     _roadCur[j] = 0;
@@ -113,13 +118,32 @@ export class GameManger extends Component {
                 let block: Node | null = this.spawnBlockByType(this._road[i][j]);
                 if (j - 1 != 0) {
                     if (block) {
+                        if (this._road[i][j] == 3) {
+                            let curNode = new Node;
+                            curNode.addChild(block);
+                            this.node.addChild(curNode);
+
+                            block.setScale(1, -1);
+                            let collider = block.getComponent(Collider2D);
+                            if (collider) {
+                                collider.on(Contact2DType.BEGIN_CONTACT, this.onContactFeather, this);
+                            }
+                            curNode.setPosition((j - 1) * BlockSizeY, (i - 10) * BlockSizeX, 0);
+                            continue;
+                        }
                         this.node.addChild(block);
-                        block.setPosition((j - 1) * BlockSizeY, (i - 50) * BlockSizeX, 0);
+                        if (this._road[i][j] == 2) {
+                            let fireAnimation = block.getComponent(Animation);
+                            if (fireAnimation) {
+                                fireAnimation.play('fire1');
+                            }
+                        }
+                        block.setPosition((j - 1) * BlockSizeY, (i - 10) * BlockSizeX, 0);
                     }
-                } else if (i - 50 == -1) {
+                } else if (i - 10 == -1) {
                     block = this.spawnBlockByType(BlockType.BT_STONE);
                     this.node.addChild(block);
-                    block.setPosition((j - 1) * BlockSizeY, (i - 50) * BlockSizeX, 0);
+                    block.setPosition((j - 1) * BlockSizeY, (i - 10) * BlockSizeX, 0);
                 }
             }
         }

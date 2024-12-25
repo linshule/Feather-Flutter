@@ -8,7 +8,7 @@ export class MenuController extends Component {
     BodyAnim: Animation = null;
 
     start() {
-        this.BodyAnim.play('button_bigger')
+        this.BodyAnim.play('button_bigger');
     }
 
     update(deltaTime: number) {

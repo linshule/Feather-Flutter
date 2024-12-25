@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Prefab, CCInteger, instantiate, PhysicsSystem2D, PlayerController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _crd, ccclass, property, GameState, BlockType, BlockSizeX, BlockSizeY, GameManger;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Animation, Node, Prefab, CCInteger, instantiate, PhysicsSystem2D, Collider2D, Contact2DType, PlayerController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _crd, ccclass, property, GameState, BlockType, BlockSizeX, BlockSizeY, GameManger;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -22,11 +22,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
+      Animation = _cc.Animation;
       Node = _cc.Node;
       Prefab = _cc.Prefab;
       CCInteger = _cc.CCInteger;
       instantiate = _cc.instantiate;
       PhysicsSystem2D = _cc.PhysicsSystem2D;
+      Collider2D = _cc.Collider2D;
+      Contact2DType = _cc.Contact2DType;
     }, function (_unresolved_2) {
       PlayerController = _unresolved_2.PlayerController;
     }],
@@ -35,7 +38,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _cclegacy._RF.push({}, "b96d4rusrxEw5RETGob6ON0", "GameManager", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Vec3', 'EventMouse', 'input', 'Input', 'Animation', 'Node', 'Prefab', 'CCInteger', 'instantiate', 'PhysicsSystem2D']);
+      __checkObsolete__(['_decorator', 'Component', 'Vec3', 'EventMouse', 'input', 'Input', 'Animation', 'Node', 'Prefab', 'CCInteger', 'instantiate', 'PhysicsSystem2D', 'Collider2D', 'Contact2DType', 'IPhysics2DContact', 'animation']);
 
       ({
         ccclass,
@@ -125,7 +128,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           _initializerDefineProperty(this, "roadLength", _descriptor13, this);
 
-          this.roadHeight = 100;
+          this.roadHeight = 20;
           this._road = [];
 
           _initializerDefineProperty(this, "playerCtrl", _descriptor14, this);
@@ -175,6 +178,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             case GameState.GS_END:
               break;
           }
+        }
+
+        onContactFeather(selfCollider, otherCollider, contact) {
+          var block = selfCollider.node;
+          var blockAnimation = block.getComponent(Animation);
+          blockAnimation.play('feather_fly');
+          this.playerCtrl.Bounce(20);
+          selfCollider.body.enabledContactListener = false;
         } //生成地块
 
 
@@ -187,7 +198,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
             for (var j = 1; j <= this.roadLength; j++) {
               if (i % 2 == 1) {
-                _roadCur[j] = Math.floor(Math.random() * 2);
+                _roadCur[j] = Math.floor(Math.random() * 4);
               } else {
                 _roadCur[j] = 0;
               }
@@ -202,13 +213,37 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
               if (_j - 1 != 0) {
                 if (block) {
+                  if (this._road[_i][_j] == 3) {
+                    var curNode = new Node();
+                    curNode.addChild(block);
+                    this.node.addChild(curNode);
+                    block.setScale(1, -1);
+                    var collider = block.getComponent(Collider2D);
+
+                    if (collider) {
+                      collider.on(Contact2DType.BEGIN_CONTACT, this.onContactFeather, this);
+                    }
+
+                    curNode.setPosition((_j - 1) * BlockSizeY, (_i - 10) * BlockSizeX, 0);
+                    continue;
+                  }
+
                   this.node.addChild(block);
-                  block.setPosition((_j - 1) * BlockSizeY, (_i - 50) * BlockSizeX, 0);
+
+                  if (this._road[_i][_j] == 2) {
+                    var fireAnimation = block.getComponent(Animation);
+
+                    if (fireAnimation) {
+                      fireAnimation.play('fire1');
+                    }
+                  }
+
+                  block.setPosition((_j - 1) * BlockSizeY, (_i - 10) * BlockSizeX, 0);
                 }
-              } else if (_i - 50 == -1) {
+              } else if (_i - 10 == -1) {
                 block = this.spawnBlockByType(BlockType.BT_STONE);
                 this.node.addChild(block);
-                block.setPosition((_j - 1) * BlockSizeY, (_i - 50) * BlockSizeX, 0);
+                block.setPosition((_j - 1) * BlockSizeY, (_i - 10) * BlockSizeX, 0);
               }
             }
           }
@@ -329,7 +364,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         enumerable: true,
         writable: true,
         initializer: function initializer() {
-          return 50;
+          return 20;
         }
       }), _descriptor14 = _applyDecoratedDescriptor(_class2.prototype, "playerCtrl", [_dec15], {
         configurable: true,

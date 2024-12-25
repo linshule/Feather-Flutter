@@ -15,7 +15,9 @@ export class PlayerController extends Component {
     start() {
         this.Body = this.getComponent(RigidBody2D);
     }
-
+    Bounce(speed: number) {
+        this.Body.applyLinearImpulseToCenter(new Vec2(0, speed), true);
+    }
     initInput(cur: boolean) {
         if (cur) {
             input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this);

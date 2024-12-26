@@ -6,10 +6,10 @@ export class PlayerController extends Component {
     _starMove: boolean = false;
     private _curPos: Vec3 = new Vec3;
     private _tarPos: Vec3 = new Vec3;
-    private Body: RigidBody2D | null = null;
+    public Body: RigidBody2D | null = null;
 
-    private _isJump: boolean = false;
-    private _isMove: boolean = false;
+    public _isJump: boolean = false;
+    public _isMove: boolean = false;
     private jumpSpeed: number = 0;
     private moveSpeed: number = 0;
     start() {

@@ -1,4 +1,4 @@
-import { _decorator, Component, Vec3, EventMouse, input, Input, Animation, Node, Prefab, CCInteger, instantiate, PhysicsSystem2D, Collider2D, Contact2DType, IPhysics2DContact, animation } from 'cc';
+import { _decorator, Component, Vec3, EventMouse, input, Input, Animation, Node, Prefab, CCInteger, instantiate, PhysicsSystem2D, Collider2D, Contact2DType, IPhysics2DContact, animation, AnimationState, Label, RigidBody2D, Vec2 } from 'cc';
 import { PlayerController } from './PlayerController';
 const { ccclass, property } = _decorator;
 
@@ -36,6 +36,8 @@ export class GameManger extends Component {
     gameGround2: Node = null;
     @property({ type: Node })
     player: Node = null;
+    @property({ type: Node })
+    Score: Node = null;
     @property({ type: Prefab })
     public boxPrefab: Prefab | null = null;
     @property({ type: Prefab })
@@ -45,7 +47,7 @@ export class GameManger extends Component {
     @property({ type: CCInteger })
     public roadLength: number = 20;
     public roadHeight: number = 20;
-
+    public feacherCount: number = 0;
     private _road = [];
 
     @property({ type: PlayerController })
@@ -53,6 +55,10 @@ export class GameManger extends Component {
 
     start() {
         this.setCurState(GameState.GS_INIT);
+        this.node.on('GetScore', this.updateScore, this)
+    }
+    updateScore(curScore: number) {
+        this.Score.getComponent(Label).string = curScore.toString();
     }
     oneTotwo() {
         this.startButton1.active = false;
@@ -63,18 +69,19 @@ export class GameManger extends Component {
         this.startSettings.active = true;
     }
     twoTogame() {
-        this.startMenu2.active = false;
-        this.startExit.active = false;
-        this.startStart.active = false;
-        this.startSettings.active = false;
-        this.gameGround1.active = true;
         this.startGame();
     }
     init() {
     }
     startGame() {
+        this.startMenu2.active = false;
+        this.startExit.active = false;
+        this.startStart.active = false;
+        this.startSettings.active = false;
+        this.gameGround1.active = true;
         PhysicsSystem2D.instance.enable = true;
         this.generateRoad();
+        this.feacherCount = 0;
         this.player.active = true;
         this.playerCtrl.initInput(true);
     }
@@ -87,8 +94,29 @@ export class GameManger extends Component {
                 this.startGame();
                 break;
             case GameState.GS_END:
+                this.endGame1();
                 break;
         }
+    }
+    endGame1() {
+        this.playerCtrl.initInput(false);
+        this.playerCtrl._isJump = false;
+        this.playerCtrl._isMove = false;
+        this.playerCtrl.Body.gravityScale = 0;
+        this.playerCtrl.Body.linearVelocity = new Vec2(0, 0);
+        let curChildren = this.node.children;
+        for (let cur of curChildren) {
+            cur.setScale(0, 0);
+        }
+        let playerRigid = this.player.getComponent(Collider2D);
+        if (playerRigid) {
+            playerRigid.body.enabledContactListener = false;
+        }
+        let scoreAnim = this.Score.getComponent(Animation);
+        if (scoreAnim) {
+            scoreAnim.play('score_bigger');
+        }
+        this.player.active = false;
     }
     onContactFeather(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
         let block = selfCollider.node;
@@ -96,6 +124,16 @@ export class GameManger extends Component {
         blockAnimation.play('feather_fly');
         this.playerCtrl.Bounce(20);
         selfCollider.body.enabledContactListener = false;
+        this.feacherCount++;
+        this.node.emit('GetScore', this.feacherCount);
+        // let blockAnimationState = blockAnimation.getState('feather_fly');
+        setTimeout(() => {
+            block.active = false;
+        }, 2000);
+    }
+    onContactFire(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+        selfCollider.body.enabledContactListener = false;
+        this.setCurState(GameState.GS_END);
     }
     //生成地块
     generateRoad() {
@@ -122,7 +160,6 @@ export class GameManger extends Component {
                             let curNode = new Node;
                             curNode.addChild(block);
                             this.node.addChild(curNode);
-
                             block.setScale(1, -1);
                             let collider = block.getComponent(Collider2D);
                             if (collider) {
@@ -136,6 +173,10 @@ export class GameManger extends Component {
                             let fireAnimation = block.getComponent(Animation);
                             if (fireAnimation) {
                                 fireAnimation.play('fire1');
+                            }
+                            let collider = block.getComponent(Collider2D);
+                            if (collider) {
+                                collider.on(Contact2DType.BEGIN_CONTACT, this.onContactFire, this);
                             }
                         }
                         block.setPosition((j - 1) * BlockSizeY, (i - 10) * BlockSizeX, 0);

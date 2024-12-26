@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 45206.75450000167,
+      "mTimestamp": 40927.97200000286,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 8056247.944799989,
+      "mTimestamp": 8403605.826000005,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -467,20 +467,6 @@
               "column": 80
             }
           }
-        },
-        {
-          "value": "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerG.ts",
-          "resolved": "__unresolved_4",
-          "loc": {
-            "start": {
-              "line": 8,
-              "column": 7
-            },
-            "end": {
-              "line": 8,
-              "column": 71
-            }
-          }
         }
       ],
       "type": "esm",
@@ -510,13 +496,6 @@
           "resolved": {
             "type": "module",
             "url": "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerG.ts"
           },
           "messages": []
         }
@@ -680,7 +659,7 @@
     },
     "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts": {
       "mTimestamp": {
-        "mtime": 1735135142653.3145,
+        "mtime": 1735198728256.278,
         "uuid": "94850660-6b23-4297-ae13-86cee5f1a9e6"
       },
       "chunkId": "f66656c70fc5ce6b784ec96ed4f4454ea7438438",
@@ -836,7 +815,7 @@
     },
     "file:///D:/cocos/badminton/badminton/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1735135696933.2556,
+        "mtime": 1735198822958.1492,
         "uuid": "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
       },
       "chunkId": "2e338e30ff2c214927c868260d8cd4b4b67531db",
@@ -856,11 +835,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 193
+              "column": 235
             },
             "end": {
               "line": 1,
-              "column": 197
+              "column": 239
             }
           }
         },
@@ -919,7 +898,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1735127657915,
+      "mTimestamp": 1735190424272,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",

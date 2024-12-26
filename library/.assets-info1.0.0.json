@@ -12,7 +12,7 @@
       "time": 1732769485324.9348
     },
     "D:\\cocos\\badminton\\badminton\\assets\\images\\pp": {
-      "time": 1735133834902.0942,
+      "time": 1735194027893.9922,
       "uuid": "c9190a4b-c326-43b7-b5c0-3763b9c504ea"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\pixil-frame-0 (1).png.meta": {
@@ -89,14 +89,14 @@
       "time": 1732769781063.2095
     },
     "D:\\cocos\\badminton\\badminton\\assets\\scene.scene": {
-      "time": 1735135759859.418,
+      "time": 1735199020935.3079,
       "uuid": "53c09363-d1e8-4f8f-8ddf-ae0501d38731"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation.meta": {
       "time": 1732782647725.6777
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation": {
-      "time": 1735133084992.112,
+      "time": 1735198107179.3254,
       "uuid": "90c40ca6-d016-40fa-8796-d1ada6fec041"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab.meta": {
@@ -110,14 +110,14 @@
       "time": 1733402117495.401
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts": {
-      "time": 1734961822783.392,
+      "time": 1735191043357.4055,
       "uuid": "c97f0113-1ddf-48da-8ec6-d7f29391f751"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\PlayerController.ts.meta": {
       "time": 1733402134157.6067
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\PlayerController.ts": {
-      "time": 1735135142653.3145,
+      "time": 1735198728256.278,
       "uuid": "94850660-6b23-4297-ae13-86cee5f1a9e6"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\MenuController.ts.meta": {
@@ -131,7 +131,7 @@
       "time": 1734166921043.864
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\GameManager.ts": {
-      "time": 1735135696933.2556,
+      "time": 1735198822958.1492,
       "uuid": "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\button_bigger.anim.meta": {
@@ -215,7 +215,7 @@
       "time": 1734960104296.1814
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Fire.prefab": {
-      "time": 1735134516046.6138,
+      "time": 1735197706019.202,
       "uuid": "e6487f40-5f79-4f8c-bf35-ff2c76500aff"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Feather.prefab.meta": {
@@ -224,13 +224,6 @@
     "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Feather.prefab": {
       "time": 1735135755525.7373,
       "uuid": "c976f31c-d14f-4a04-b533-f2139dee63e7"
-    },
-    "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\PlayerG.ts.meta": {
-      "time": 1734961822784.3938
-    },
-    "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\PlayerG.ts": {
-      "time": 1734962834954.6736,
-      "uuid": "a000e997-a623-404c-bc2c-891d541f2a43"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\feather_fly.anim.meta": {
       "time": 1735045013694.8247
@@ -259,6 +252,20 @@
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\fire1.anim": {
       "time": 1735134463781.0486,
       "uuid": "5e226e93-34c5-4c9f-a9da-2b6c6bf8bf91"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\start按钮.png.meta": {
+      "time": 1735194027942.341
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\images\\pp\\start按钮.png": {
+      "time": 1735190379991.764,
+      "uuid": "dce12626-0ce7-46bb-b7f9-24d1f83b5af2"
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\Animation\\score_bigger.anim.meta": {
+      "time": 1735198107195.153
+    },
+    "D:\\cocos\\badminton\\badminton\\assets\\Animation\\score_bigger.anim": {
+      "time": 1735198271482.8157,
+      "uuid": "e6531d50-dd37-4eda-a76f-135ae81bf301"
     }
   },
   "missing": {
@@ -371,6 +378,11 @@
       "path": "D:\\cocos\\badminton\\badminton\\assets\\Animation\\fire.anim",
       "time": 1732622905696.949,
       "removeTime": 1735133084993
+    },
+    "a000e997-a623-404c-bc2c-891d541f2a43": {
+      "path": "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\PlayerG.ts",
+      "time": 1734962834954.6736,
+      "removeTime": 1735191043454
     }
   }
 }

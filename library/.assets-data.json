@@ -250,14 +250,13 @@
         "6eb33253-6036-4aea-867a-edd28f7ac246@f9941",
         "0adf839c-a497-4e5e-810c-e88c21c4053f",
         "a1757a40-0cc0-49d2-bf1b-0b47986d9dff@f9941",
+        "e6531d50-dd37-4eda-a76f-135ae81bf301",
         "59ac25a4-c607-4a81-ab1e-f01f3386ff27@f9941",
         "ca9ba6a4-4dcf-43ad-adbc-e395f338158e",
         "c976f31c-d14f-4a04-b533-f2139dee63e7",
         "e6487f40-5f79-4f8c-bf35-ff2c76500aff",
         "9457298c-dac3-41a7-9be7-859a85a703d2@f9941",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
-        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "dce12626-0ce7-46bb-b7f9-24d1f83b5af2@f9941",
         "add9007f-abf7-4466-8e50-f458282ebfbd@f9941"
       ],
       "dependScripts": [
@@ -742,6 +741,38 @@
         "8168e0a0-913e-4ef6-8130-edd1713eb0e0@f9941",
         "3490a025-2a5c-45df-be72-24c07517e0e6@f9941"
       ]
+    },
+    "versionCode": 1
+  },
+  "dce12626-0ce7-46bb-b7f9-24d1f83b5af2": {
+    "url": "db://assets/images/pp/start按钮.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "dce12626-0ce7-46bb-b7f9-24d1f83b5af2@6c48a": {
+    "url": "db://assets/images/pp/start按钮.png@6c48a",
+    "value": {
+      "depends": [
+        "dce12626-0ce7-46bb-b7f9-24d1f83b5af2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dce12626-0ce7-46bb-b7f9-24d1f83b5af2@f9941": {
+    "url": "db://assets/images/pp/start按钮.png@f9941",
+    "value": {
+      "depends": [
+        "dce12626-0ce7-46bb-b7f9-24d1f83b5af2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e6531d50-dd37-4eda-a76f-135ae81bf301": {
+    "url": "db://assets/Animation/score_bigger.anim",
+    "value": {
+      "depends": []
     },
     "versionCode": 1
   }

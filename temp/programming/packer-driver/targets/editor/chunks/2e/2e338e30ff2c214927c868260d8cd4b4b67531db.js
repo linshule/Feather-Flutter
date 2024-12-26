@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Animation, Node, Prefab, CCInteger, instantiate, PhysicsSystem2D, Collider2D, Contact2DType, PlayerController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _crd, ccclass, property, GameState, BlockType, BlockSizeX, BlockSizeY, GameManger;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Animation, Node, Prefab, CCInteger, instantiate, PhysicsSystem2D, Collider2D, Contact2DType, Label, Vec2, PlayerController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _crd, ccclass, property, GameState, BlockType, BlockSizeX, BlockSizeY, GameManger;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -30,6 +30,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       PhysicsSystem2D = _cc.PhysicsSystem2D;
       Collider2D = _cc.Collider2D;
       Contact2DType = _cc.Contact2DType;
+      Label = _cc.Label;
+      Vec2 = _cc.Vec2;
     }, function (_unresolved_2) {
       PlayerController = _unresolved_2.PlayerController;
     }],
@@ -38,7 +40,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _cclegacy._RF.push({}, "b96d4rusrxEw5RETGob6ON0", "GameManager", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Vec3', 'EventMouse', 'input', 'Input', 'Animation', 'Node', 'Prefab', 'CCInteger', 'instantiate', 'PhysicsSystem2D', 'Collider2D', 'Contact2DType', 'IPhysics2DContact', 'animation']);
+      __checkObsolete__(['_decorator', 'Component', 'Vec3', 'EventMouse', 'input', 'Input', 'Animation', 'Node', 'Prefab', 'CCInteger', 'instantiate', 'PhysicsSystem2D', 'Collider2D', 'Contact2DType', 'IPhysics2DContact', 'animation', 'AnimationState', 'Label', 'RigidBody2D', 'Vec2']);
 
       ({
         ccclass,
@@ -85,14 +87,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       }), _dec10 = property({
         type: Node
       }), _dec11 = property({
-        type: Prefab
+        type: Node
       }), _dec12 = property({
         type: Prefab
       }), _dec13 = property({
         type: Prefab
       }), _dec14 = property({
-        type: CCInteger
+        type: Prefab
       }), _dec15 = property({
+        type: CCInteger
+      }), _dec16 = property({
         type: _crd && PlayerController === void 0 ? (_reportPossibleCrUseOfPlayerController({
           error: Error()
         }), PlayerController) : PlayerController
@@ -120,22 +124,30 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           _initializerDefineProperty(this, "player", _descriptor9, this);
 
-          _initializerDefineProperty(this, "boxPrefab", _descriptor10, this);
+          _initializerDefineProperty(this, "Score", _descriptor10, this);
 
-          _initializerDefineProperty(this, "featherPrefab", _descriptor11, this);
+          _initializerDefineProperty(this, "boxPrefab", _descriptor11, this);
 
-          _initializerDefineProperty(this, "firePrefab", _descriptor12, this);
+          _initializerDefineProperty(this, "featherPrefab", _descriptor12, this);
 
-          _initializerDefineProperty(this, "roadLength", _descriptor13, this);
+          _initializerDefineProperty(this, "firePrefab", _descriptor13, this);
+
+          _initializerDefineProperty(this, "roadLength", _descriptor14, this);
 
           this.roadHeight = 20;
+          this.feacherCount = 0;
           this._road = [];
 
-          _initializerDefineProperty(this, "playerCtrl", _descriptor14, this);
+          _initializerDefineProperty(this, "playerCtrl", _descriptor15, this);
         }
 
         start() {
           this.setCurState(GameState.GS_INIT);
+          this.node.on('GetScore', this.updateScore, this);
+        }
+
+        updateScore(curScore) {
+          this.Score.getComponent(Label).string = curScore.toString();
         }
 
         oneTotwo() {
@@ -148,19 +160,20 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         twoTogame() {
-          this.startMenu2.active = false;
-          this.startExit.active = false;
-          this.startStart.active = false;
-          this.startSettings.active = false;
-          this.gameGround1.active = true;
           this.startGame();
         }
 
         init() {}
 
         startGame() {
+          this.startMenu2.active = false;
+          this.startExit.active = false;
+          this.startStart.active = false;
+          this.startSettings.active = false;
+          this.gameGround1.active = true;
           PhysicsSystem2D.instance.enable = true;
           this.generateRoad();
+          this.feacherCount = 0;
           this.player.active = true;
           this.playerCtrl.initInput(true);
         }
@@ -176,8 +189,36 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               break;
 
             case GameState.GS_END:
+              this.endGame1();
               break;
           }
+        }
+
+        endGame1() {
+          this.playerCtrl.initInput(false);
+          this.playerCtrl._isJump = false;
+          this.playerCtrl._isMove = false;
+          this.playerCtrl.Body.gravityScale = 0;
+          this.playerCtrl.Body.linearVelocity = new Vec2(0, 0);
+          let curChildren = this.node.children;
+
+          for (let cur of curChildren) {
+            cur.setScale(0, 0);
+          }
+
+          let playerRigid = this.player.getComponent(Collider2D);
+
+          if (playerRigid) {
+            playerRigid.body.enabledContactListener = false;
+          }
+
+          let scoreAnim = this.Score.getComponent(Animation);
+
+          if (scoreAnim) {
+            scoreAnim.play('score_bigger');
+          }
+
+          this.player.active = false;
         }
 
         onContactFeather(selfCollider, otherCollider, contact) {
@@ -186,6 +227,17 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           blockAnimation.play('feather_fly');
           this.playerCtrl.Bounce(20);
           selfCollider.body.enabledContactListener = false;
+          this.feacherCount++;
+          this.node.emit('GetScore', this.feacherCount); // let blockAnimationState = blockAnimation.getState('feather_fly');
+
+          setTimeout(() => {
+            block.active = false;
+          }, 2000);
+        }
+
+        onContactFire(selfCollider, otherCollider, contact) {
+          selfCollider.body.enabledContactListener = false;
+          this.setCurState(GameState.GS_END);
         } //生成地块
 
 
@@ -235,6 +287,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
                     if (fireAnimation) {
                       fireAnimation.play('fire1');
+                    }
+
+                    let collider = block.getComponent(Collider2D);
+
+                    if (collider) {
+                      collider.on(Contact2DType.BEGIN_CONTACT, this.onContactFire, this);
                     }
                   }
 
@@ -338,35 +396,42 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         initializer: function () {
           return null;
         }
-      }), _descriptor10 = _applyDecoratedDescriptor(_class2.prototype, "boxPrefab", [_dec11], {
+      }), _descriptor10 = _applyDecoratedDescriptor(_class2.prototype, "Score", [_dec11], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function () {
           return null;
         }
-      }), _descriptor11 = _applyDecoratedDescriptor(_class2.prototype, "featherPrefab", [_dec12], {
+      }), _descriptor11 = _applyDecoratedDescriptor(_class2.prototype, "boxPrefab", [_dec12], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function () {
           return null;
         }
-      }), _descriptor12 = _applyDecoratedDescriptor(_class2.prototype, "firePrefab", [_dec13], {
+      }), _descriptor12 = _applyDecoratedDescriptor(_class2.prototype, "featherPrefab", [_dec13], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function () {
           return null;
         }
-      }), _descriptor13 = _applyDecoratedDescriptor(_class2.prototype, "roadLength", [_dec14], {
+      }), _descriptor13 = _applyDecoratedDescriptor(_class2.prototype, "firePrefab", [_dec14], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor14 = _applyDecoratedDescriptor(_class2.prototype, "roadLength", [_dec15], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function () {
           return 20;
         }
-      }), _descriptor14 = _applyDecoratedDescriptor(_class2.prototype, "playerCtrl", [_dec15], {
+      }), _descriptor15 = _applyDecoratedDescriptor(_class2.prototype, "playerCtrl", [_dec16], {
         configurable: true,
         enumerable: true,
         writable: true,

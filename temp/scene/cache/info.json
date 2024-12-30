@@ -4,6 +4,8 @@
         "cpu": "13th Gen Intel(R) Core(TM) i7-13620H",
         "version": "Windows 10 Home China"
     },
-    "sceneListMap": {},
+    "sceneListMap": {
+        "53c09363-d1e8-4f8f-8ddf-ae0501d38731": "D:\\cocos\\badminton\\badminton\\assets\\scene.scene"
+    },
     "deviceMd5": "6e0b3f34459c2a7d77e54161ae8625b9"
 }

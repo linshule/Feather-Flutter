@@ -143,7 +143,7 @@ export class GameManger extends Component {
         setTimeout(() => {
             this.camera.active = false;
             this.gameGround1.active = false;
-            this.bossCtrl.initBoss();
+            this.bossCtrl.initBoss(this.feacherCount);
             setTimeout(() => {
                 this.generateRoadBoss();
             }, 1000);

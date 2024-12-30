@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 26151.70289993286,
+      "mTimestamp": 7319.664799928665,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 27993.571599960327,
+      "mTimestamp": 20994868.56040001,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -680,7 +680,7 @@
     },
     "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts": {
       "mTimestamp": {
-        "mtime": 1735480022861.3484,
+        "mtime": 1735544428992.0183,
         "uuid": "94850660-6b23-4297-ae13-86cee5f1a9e6"
       },
       "chunkId": "f66656c70fc5ce6b784ec96ed4f4454ea7438438",
@@ -836,7 +836,7 @@
     },
     "file:///D:/cocos/badminton/badminton/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1735480016653.0234,
+        "mtime": 1735546518227.9219,
         "uuid": "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
       },
       "chunkId": "2e338e30ff2c214927c868260d8cd4b4b67531db",
@@ -940,7 +940,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1735540803668,
+      "mTimestamp": 1735541091290,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1000,7 +1000,7 @@
     },
     "file:///D:/cocos/badminton/badminton/assets/Scripts/BossController.ts": {
       "mTimestamp": {
-        "mtime": 1735480019895.7273,
+        "mtime": 1735562081171.0105,
         "uuid": "9c376854-b8e0-4651-bded-c140602a8848"
       },
       "chunkId": "667a19b32b86c8302d3f6f511bc7de8f966b239f",
@@ -1016,11 +1016,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 112
+              "column": 211
             },
             "end": {
               "line": 1,
-              "column": 116
+              "column": 215
             }
           }
         }

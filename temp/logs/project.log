@@ -1,11 +1,103 @@
-2024-12-30 14:40:02 - log: Load engine in D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine
-2024-12-30 14:40:03 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-2024-12-30 14:40:03 - log: Register native engine in D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native
-2024-12-30 14:40:04 - log: Request namespace: device-list
-2024-12-30 14:40:32 - log: [Scene] meshopt wasm decoder initialized
-2024-12-30 14:40:32 - log: [Scene] [box2d]:box2d wasm lib loaded.
-2024-12-30 14:40:32 - log: [Scene] [bullet]:bullet wasm lib loaded.
-2024-12-30 14:40:32 - log: [Scene] [PHYSICS]: using builtin.
-2024-12-30 14:40:32 - log: [Scene] Cocos Creator v3.8.3
-2024-12-30 14:40:32 - info: [Scene] Forward render pipeline initialized.
-2024-12-30 14:40:33 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2024-12-30 14:44:50 - log: Load engine in D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine
+2024-12-30 14:44:51 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+2024-12-30 14:44:51 - log: Register native engine in D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native
+2024-12-30 14:44:51 - log: Request namespace: device-list
+2024-12-30 14:44:59 - log: [Scene] meshopt wasm decoder initialized
+2024-12-30 14:45:00 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2024-12-30 14:45:00 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2024-12-30 14:45:00 - log: [Scene] [PHYSICS]: using builtin.
+2024-12-30 14:45:00 - log: [Scene] Cocos Creator v3.8.3
+2024-12-30 14:45:00 - info: [Scene] Forward render pipeline initialized.
+2024-12-30 14:45:00 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2024-12-30 16:16:24 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: C:Program Files (x86)CocosDashboardile:D:cocosadmintonadmintonassetsScriptsBossController.ts: Unexpected token (33:4)
+
+  31 |         this.bossBody = this.Boss.getComponent(RigidBody2D);
+  32 |         this.batAnim =
+> 33 |     }
+     |     ^
+  34 |     initBoss(score: number) {
+  35 |         this.Ground.active = true;
+  36 |         this.BgAnim.play('bg4appear');
+    at Object.execute (file:///D:/cocos/badminton/badminton/temp/programming/packer-driver/targets/editor/chunks/d3/d3de8b5bc94f4f0c4b0df861e70d12444993c870.js:8:13)
+    at doExec (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/cocos/badminton/badminton/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:13:13
+    at Object.execute (file:///D:/cocos/badminton/badminton/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:8:7)
+    at Executor._importPrerequisiteModules (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at GlobalEnv.record (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:1732)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: C:Program Files (x86)CocosDashboardile:D:cocosadmintonadmintonassetsScriptsBossController.ts: Unexpected token (33:4)
+
+  31 |         this.bossBody = this.Boss.getComponent(RigidBody2D);
+  32 |         this.batAnim =
+> 33 |     }
+  36 |         this.BgAnim.play('bg4appear');
+    at Object.execute (file:///D:/cocos/badminton/badminton/temp/programming/packer-driver/targets/editor/chunks/d3/d3de8b5bc94f4f0c4b0df861e70d12444993c870.js:8:13)
+    at doExec (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/cocos/badminton/badminton/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:13:13
+    at Object.execute (file:///D:/cocos/badminton/badminton/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js:8:7)
+    at Executor._importPrerequisiteModules (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at GlobalEnv.record (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:1732)
+    at Logger._logHandler (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:487)
+    at Logger.record (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.error (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:5195)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:3379)
+    at Executor._onModuleLoaded (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:359:22)
+    at SystemJS.onload (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:96:18)
+    at triggerOnload (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:270:10)
+    at doExec (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:538:7)
+    at postOrderExec (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-12-30 16:16:24 - warn: [Scene] Missing class: b96d4rusrxEw5RETGob6ON0Error: [Scene] Missing class: b96d4rusrxEw5RETGob6ON0
+    at Object.classFinder (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:982)
+    at _Deserializer.classFinder [as _classFinder] (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:106103:34)
+    at _Deserializer._deserializeTypeTaggedObject (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41296:30)
+    at _Deserializer._deserializeObject (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41250:29)
+    at _Deserializer._deserializeAndAssignField (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41417:38)
+    at _Deserializer._deserializeArray (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41278:40)
+    at _Deserializer._deserializeObject (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41256:29)
+2024-12-30 16:16:24 - warn: [Scene] Missing class: 9c376hUuOBGUb3twUBgKohIError: [Scene] Missing class: 9c376hUuOBGUb3twUBgKohI
+    at Object.classFinder (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:982)
+    at _Deserializer.classFinder [as _classFinder] (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:106103:34)
+    at _Deserializer._deserializeTypeTaggedObject (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41296:30)
+    at _Deserializer._deserializeObject (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41250:29)
+    at _Deserializer._deserializeAndAssignField (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41417:38)
+    at _Deserializer._deserializeArray (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41278:40)
+    at _Deserializer._deserializeObject (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41256:29)
+2024-12-30 16:16:24 - error: [Scene] Script "b96d4rusrxEw5RETGob6ON0" attached to "gamemanager" is missing or invalid. Detailed information:
+Node path: "Canvas/gamemanager"
+Script file: "D:\cocos\badminton\badminton\assets\Scripts\GameManger.ts"
+Script deleted time: "2024/12/14下午5:02:17"
+Script UUID: "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
+Class ID: "b96d4rusrxEw5RETGob6ON0"
+Error: [Scene] Script "b96d4rusrxEw5RETGob6ON0" attached to "gamemanager" is missing or invalid. Detailed information:
+Node path: "Canvas/gamemanager"
+Script file: "D:\cocos\badminton\badminton\assets\Scripts\GameManger.ts"
+Script deleted time: "2024/12/14下午5:02:17"
+Script UUID: "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
+Class ID: "b96d4rusrxEw5RETGob6ON0"
+
+    at report (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:25)
+    at reportByWalker (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:127)
+2024-12-30 16:16:24 - error: [Scene] Script "9c376hUuOBGUb3twUBgKohI" attached to "BossController" is missing or invalid. Detailed information:
+Node path: "BossCanvas/BossController"
+Script UUID: "9c376854-b8e0-4651-bded-c140602a8848"
+Class ID: "9c376hUuOBGUb3twUBgKohI"
+Error: [Scene] Script "9c376hUuOBGUb3twUBgKohI" attached to "BossController" is missing or invalid. Detailed information:
+Node path: "BossCanvas/BossController"
+Script UUID: "9c376854-b8e0-4651-bded-c140602a8848"
+Class ID: "9c376hUuOBGUb3twUBgKohI"
+
+    at report (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:25)
+    at reportByWalker (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:127)
+2024-12-30 20:34:48 - error: Error occurred in handler for 'GUEST_VIEW_MANAGER_CALL': Error: Invalid guestInstanceId: 6
+    at getGuestForWebContents (electron/js2c/browser_init.js:181:6307)
+    at electron/js2c/browser_init.js:181:5372
+    at electron/js2c/browser_init.js:181:1637
+    at electron/js2c/browser_init.js:197:579
+    at Object.<anonymous> (electron/js2c/browser_init.js:161:9782)
+    at Object.emit (events.js:315:20)
+    at Object.emit (domain.js:467:12)

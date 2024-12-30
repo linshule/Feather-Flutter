@@ -89,7 +89,7 @@
       "time": 1732769781063.2095
     },
     "D:\\cocos\\badminton\\badminton\\assets\\scene.scene": {
-      "time": 1735479116652.4917,
+      "time": 1735547753006.304,
       "uuid": "53c09363-d1e8-4f8f-8ddf-ae0501d38731"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation.meta": {
@@ -117,7 +117,7 @@
       "time": 1733402134157.6067
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\PlayerController.ts": {
-      "time": 1735480022861.3484,
+      "time": 1735544428992.0183,
       "uuid": "94850660-6b23-4297-ae13-86cee5f1a9e6"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\MenuController.ts.meta": {
@@ -131,7 +131,7 @@
       "time": 1734166921043.864
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\GameManager.ts": {
-      "time": 1735480016653.0234,
+      "time": 1735546518227.9219,
       "uuid": "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\button_bigger.anim.meta": {
@@ -222,7 +222,7 @@
       "time": 1734960099265.1423
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Feather.prefab": {
-      "time": 1735204558319.7444,
+      "time": 1735548742099.3467,
       "uuid": "c976f31c-d14f-4a04-b533-f2139dee63e7"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\feather_fly.anim.meta": {
@@ -334,21 +334,21 @@
       "time": 1735375297755.1768
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Scripts\\BossController.ts": {
-      "time": 1735480019895.7273,
+      "time": 1735562081171.0105,
       "uuid": "9c376854-b8e0-4651-bded-c140602a8848"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Bat.prefab.meta": {
       "time": 1735375536592.5383
     },
     "D:\\cocos\\badminton\\badminton\\assets\\prefab\\Bat.prefab": {
-      "time": 1735377653335.1533,
+      "time": 1735547756469.4578,
       "uuid": "14580bea-32e5-4b83-bca2-aeb4061ecbd7"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\batbig.anim.meta": {
       "time": 1735378501359.4749
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\batbig.anim": {
-      "time": 1735379018428.2683,
+      "time": 1735545717863.7964,
       "uuid": "1319d96c-1c95-4761-ac81-438941845d01"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\batsmall.anim.meta": {
@@ -362,7 +362,7 @@
       "time": 1735378787582.739
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\batstop.anim": {
-      "time": 1735378997086.4802,
+      "time": 1735545441209.4526,
       "uuid": "b3e2fe3d-dc27-4322-955c-8f17c4888628"
     },
     "D:\\cocos\\badminton\\badminton\\assets\\Animation\\bg4appear.anim.meta": {

@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, input, Input, KeyCode, Vec3, Vec2, RigidBody2D, _dec, _class, _crd, ccclass, property, PlayerController;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, input, Input, KeyCode, Vec2, RigidBody2D, _dec, _class, _crd, ccclass, property, PlayerController;
 
   return {
     setters: [function (_cc) {
@@ -13,7 +13,6 @@ System.register(["cc"], function (_export, _context) {
       input = _cc.input;
       Input = _cc.Input;
       KeyCode = _cc.KeyCode;
-      Vec3 = _cc.Vec3;
       Vec2 = _cc.Vec2;
       RigidBody2D = _cc.RigidBody2D;
     }],
@@ -33,8 +32,6 @@ System.register(["cc"], function (_export, _context) {
         constructor() {
           super(...arguments);
           this._starMove = false;
-          this._curPos = new Vec3();
-          this._tarPos = new Vec3();
           this.Body = null;
           this._isJump = false;
           this._isMove = false;

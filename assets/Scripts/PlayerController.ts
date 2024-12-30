@@ -4,8 +4,6 @@ const { ccclass, property } = _decorator;
 @ccclass('PlayerController')
 export class PlayerController extends Component {
     _starMove: boolean = false;
-    private _curPos: Vec3 = new Vec3;
-    private _tarPos: Vec3 = new Vec3;
     public Body: RigidBody2D | null = null;
 
     public _isJump: boolean = false;

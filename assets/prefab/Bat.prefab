@@ -28,14 +28,20 @@
       },
       {
         "__id__": 6
+      },
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 10
       }
     ],
     "_prefab": {
-      "__id__": 8
+      "__id__": 12
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
+      "x": 35.8,
       "y": 0,
       "z": 0
     },
@@ -152,14 +158,89 @@
       {
         "__uuid__": "1319d96c-1c95-4761-ac81-438941845d01",
         "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "41668008-32bb-4d6f-95b8-06feb3409c09",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "b3e2fe3d-dc27-4322-955c-8f17c4888628",
+        "__expectedType__": "cc.AnimationClip"
       }
     ],
-    "_defaultClip": null,
+    "_defaultClip": {
+      "__uuid__": "1319d96c-1c95-4761-ac81-438941845d01",
+      "__expectedType__": "cc.AnimationClip"
+    },
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
     "fileId": "3bqlfrTt1EP67ET0HKjUXx"
+  },
+  {
+    "__type__": "cc.RigidBody2D",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 9
+    },
+    "enabledContactListener": false,
+    "bullet": false,
+    "awakeOnLoad": true,
+    "_group": 1,
+    "_type": 2,
+    "_allowSleep": true,
+    "_gravityScale": 0,
+    "_linearDamping": 0,
+    "_angularDamping": 0,
+    "_linearVelocity": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_angularVelocity": 0,
+    "_fixedRotation": true,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "4a+u6cUq5GRqqBclXDsaaV"
+  },
+  {
+    "__type__": "cc.CircleCollider2D",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 11
+    },
+    "tag": 0,
+    "_group": 1,
+    "_density": 1,
+    "_sensor": false,
+    "_friction": 0.2,
+    "_restitution": 0,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": -104.4,
+      "y": 339.6
+    },
+    "_radius": 87.3,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "74xl1xzIRLEpaw0q61RbIS"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -170,7 +251,6 @@
       "__id__": 0
     },
     "fileId": "f3aQNLGwFBZ61UaS2SXznv",
-    "instance": null,
     "targetOverrides": null
   }
 ]

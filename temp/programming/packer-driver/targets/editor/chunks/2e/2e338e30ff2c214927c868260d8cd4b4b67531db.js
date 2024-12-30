@@ -260,7 +260,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           setTimeout(() => {
             this.camera.active = false;
             this.gameGround1.active = false;
-            this.bossCtrl.initBoss();
+            this.bossCtrl.initBoss(this.feacherCount);
             setTimeout(() => {
               this.generateRoadBoss();
             }, 1000);

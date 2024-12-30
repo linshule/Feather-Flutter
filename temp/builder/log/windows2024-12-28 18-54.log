@@ -1,0 +1,846 @@
+2024-12-28 18:54:47 - debug: =================================== build Task (windows-001) Start ================================
+2024-12-28 18:54:47 - debug: Start build task, options:{"name":"Feather-Flutter","server":"","platform":"windows","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"macroConfig":{"cleanupImageCache":"inherit-project-setting"},"includeModules":{"physics":"inherit-project-setting","physics-2d":"inherit-project-setting","gfx-webgl2":"off"}},"nativeCodeBundleMode":"wasm","polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"53c09363-d1e8-4f8f-8ddf-ae0501d38731","outputName":"windows-001","taskName":"windows-001","scenes":[{"url":"db://assets/scene.scene","uuid":"53c09363-d1e8-4f8f-8ddf-ae0501d38731"}],"wasmCompressionMode":false,"packages":{"windows":{"executableName":"Feather-Flutter","renderBackEnd":{"vulkan":true,"gles3":true,"gles2":true},"targetPlatform":"x64","__version__":"1.0.1","vsData":"2022"},"cocos-service":{"configID":"f8851b","services":[],"__version__":"3.0.7"},"native":{"encrypted":false,"xxteaKey":"5fFBvAoQ5PIJwWO+","compressZip":false,"JobSystem":"none","__version__":"1.0.2"}},"__version__":"1.3.8","buildMode":"normal","logDest":"project://temp/builder/log/windows2024-12-28 18-54.log"}
+2024-12-28 18:54:47 - debug: Build with Cocos Creator 3.8.3-oh
+2024-12-28 18:54:47 - debug: native:(onBeforeBuild) start..., progress: 0%
+2024-12-28 18:54:47 - debug: // ---- build task native：onBeforeBuild ----
+2024-12-28 18:54:47 - debug: // ---- build task native：onBeforeBuild ---- (40ms)
+2024-12-28 18:54:47 - debug: native:(onBeforeBuild) in 40 ms ✓, progress: 2%
+2024-12-28 18:54:47 - debug: cocos-service:(onBeforeBuild) start..., progress: 2%
+2024-12-28 18:54:47 - debug: // ---- build task cocos-service：onBeforeBuild ----
+2024-12-28 18:54:47 - debug: // ---- build task cocos-service：onBeforeBuild ---- (285ms)
+2024-12-28 18:54:47 - debug: cocos-service:(onBeforeBuild) in 285 ms ✓, progress: 4%
+2024-12-28 18:54:47 - debug: scene:(onBeforeBuild) start..., progress: 4%
+2024-12-28 18:54:47 - debug: // ---- build task scene：onBeforeBuild ----
+2024-12-28 18:54:47 - debug: // ---- build task scene：onBeforeBuild ---- (40ms)
+2024-12-28 18:54:47 - debug: scene:(onBeforeBuild) in 40 ms ✓, progress: 5%
+2024-12-28 18:54:47 - debug: Start lock asset db..., progress: 5%
+2024-12-28 18:54:47 - log: Asset DB is paused with build!
+2024-12-28 18:54:47 - debug: Query all assets info in project
+2024-12-28 18:54:47 - debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-28 18:54:47 - debug: native:(onAfterInit) start..., progress: 5%
+2024-12-28 18:54:47 - debug: // ---- build task native：onAfterInit ----
+2024-12-28 18:54:47 - debug: Native engine root:D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native
+2024-12-28 18:54:47 - debug: // ---- build task native：onAfterInit ---- (35ms)
+2024-12-28 18:54:47 - debug: native:(onAfterInit) in 35 ms ✓, progress: 7%
+2024-12-28 18:54:47 - debug: windows:(onAfterInit) start..., progress: 7%
+2024-12-28 18:54:47 - debug: // ---- build task windows：onAfterInit ----
+2024-12-28 18:54:47 - debug: // ---- build task windows：onAfterInit ---- (29ms)
+2024-12-28 18:54:47 - debug: windows:(onAfterInit) in 29 ms ✓, progress: 9%
+2024-12-28 18:54:47 - debug: cocos-service:(onAfterInit) start..., progress: 9%
+2024-12-28 18:54:47 - debug: // ---- build task cocos-service：onAfterInit ----
+2024-12-28 18:54:47 - debug: // ---- build task cocos-service：onAfterInit ---- (85ms)
+2024-12-28 18:54:47 - debug: cocos-service:(onAfterInit) in 85 ms ✓, progress: 11%
+2024-12-28 18:54:47 - debug: engine:(onAfterInit) start..., progress: 11%
+2024-12-28 18:54:47 - debug: // ---- build task engine：onAfterInit ----
+2024-12-28 18:54:47 - debug: // ---- build task engine：onAfterInit ---- (21ms)
+2024-12-28 18:54:47 - debug: engine:(onAfterInit) in 21 ms ✓, progress: 13%
+2024-12-28 18:54:47 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 13%
+2024-12-28 18:54:47 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+2024-12-28 18:54:47 - debug: [adsense-h5g-plugin] remove script success
+2024-12-28 18:54:47 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (24ms)
+2024-12-28 18:54:47 - debug: adsense-h5g-plugin:(onBeforeBundleInit) in 24 ms ✓, progress: 13%
+2024-12-28 18:54:47 - debug: Init all bundles start..., progress: 13%
+2024-12-28 18:54:47 - debug: Num of bundles: 2..., progress: 13%
+2024-12-28 18:54:47 - debug: native:(onAfterBundleInit) start..., progress: 13%
+2024-12-28 18:54:47 - debug: // ---- build task native：onAfterBundleInit ----
+2024-12-28 18:54:47 - debug: // ---- build task native：onAfterBundleInit ---- (38ms)
+2024-12-28 18:54:47 - debug: native:(onAfterBundleInit) in 38 ms ✓, progress: 13%
+2024-12-28 18:54:47 - debug: windows:(onAfterBundleInit) start..., progress: 13%
+2024-12-28 18:54:47 - debug: // ---- build task windows：onAfterBundleInit ----
+2024-12-28 18:54:47 - debug: // ---- build task windows：onAfterBundleInit ---- (26ms)
+2024-12-28 18:54:47 - debug: windows:(onAfterBundleInit) in 26 ms ✓, progress: 13%
+2024-12-28 18:54:47 - debug: 查询 Asset Bundle start, progress: 13%
+2024-12-28 18:54:47 - debug: // ---- build task 查询 Asset Bundle ----
+2024-12-28 18:54:47 - debug: Init bundle root assets start..., progress: 13%
+2024-12-28 18:54:47 - debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-28 18:54:47 - debug:   Number of all scenes: 1
+2024-12-28 18:54:47 - debug:   Number of all scripts: 5
+2024-12-28 18:54:47 - debug:   Number of other assets: 385
+2024-12-28 18:54:47 - debug: Init bundle root assets success..., progress: 13%
+2024-12-28 18:54:47 - debug: reload all scripts.
+2024-12-28 18:54:47 - debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-12-28 18:54:47 - groupCollapsed: Invalidate all modules
+2024-12-28 18:54:47 - debug: Unregister DebugViewRuntimeControl
+2024-12-28 18:54:47 - debug: Unregister BossController
+2024-12-28 18:54:47 - debug: Unregister PlayerController
+2024-12-28 18:54:47 - debug: Unregister GameManger
+2024-12-28 18:54:47 - debug: Unregister MenuController
+2024-12-28 18:54:47 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+2024-12-28 18:54:47 - debug: Invalidating 'pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js'
+2024-12-28 18:54:47 - debug: Invalidating 'pack:///chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js'
+2024-12-28 18:54:47 - debug: Invalidating 'pack:///chunks/66/667a19b32b86c8302d3f6f511bc7de8f966b239f.js'
+2024-12-28 18:54:47 - debug: Invalidating 'pack:///chunks/2e/2e338e30ff2c214927c868260d8cd4b4b67531db.js'
+2024-12-28 18:54:47 - debug: Invalidating 'pack:///chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js'
+2024-12-28 18:54:47 - debug: Invalidating 'pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js'
+2024-12-28 18:54:47 - debug: Invalidating 'pack:///chunks/f1/f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a.js'
+2024-12-28 18:54:47 - groupEnd: Invalidate all modules
+2024-12-28 18:54:47 - groupCollapsed: Imports all modules
+2024-12-28 18:54:48 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-12-28 18:54:48 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-12-28 18:54:48 - debug: [[Executor]] Register DebugViewRuntimeControl
+2024-12-28 18:54:48 - debug: [[Executor]] Module "pack:///chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js" loaded.
+2024-12-28 18:54:48 - debug: [[Executor]] Register BossController
+2024-12-28 18:54:48 - debug: [[Executor]] Module "pack:///chunks/66/667a19b32b86c8302d3f6f511bc7de8f966b239f.js" loaded.
+2024-12-28 18:54:48 - debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+2024-12-28 18:54:48 - debug: [[Executor]] Register PlayerController
+2024-12-28 18:54:48 - debug: [[Executor]] Module "pack:///chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js" loaded.
+2024-12-28 18:54:48 - debug: [[Executor]] Register GameManger
+2024-12-28 18:54:48 - debug: [[Executor]] Module "pack:///chunks/2e/2e338e30ff2c214927c868260d8cd4b4b67531db.js" loaded.
+2024-12-28 18:54:48 - debug: [[Executor]] Register MenuController
+2024-12-28 18:54:48 - debug: [[Executor]] Module "pack:///chunks/f1/f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a.js" loaded.
+2024-12-28 18:54:48 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-12-28 18:54:48 - groupEnd: Imports all modules
+2024-12-28 18:54:48 - debug: Incremental keys: 
+2024-12-28 18:54:48 - debug: Init bundle share assets start..., progress: 13%
+2024-12-28 18:54:48 - debug: Init bundle share assets success..., progress: 13%
+2024-12-28 18:54:48 - debug: handle json group in bundle internal
+2024-12-28 18:54:48 - debug: handle json group in bundle internal success
+2024-12-28 18:54:48 - debug: handle json group in bundle main
+2024-12-28 18:54:48 - debug: init image compress task 0 in bundle internal
+2024-12-28 18:54:48 - debug: handle json group in bundle main success
+2024-12-28 18:54:48 - debug: init image compress task 0 in bundle main
+2024-12-28 18:54:48 - debug: // ---- build task 查询 Asset Bundle ---- (151ms)
+2024-12-28 18:54:48 - debug: run build task 查询 Asset Bundle success in 151 ms√, progress: 18%
+2024-12-28 18:54:48 - debug: [Build Memory track]: 查询 Asset Bundle start:182.32MB, end 182.45MB, increase: 133.37KB
+2024-12-28 18:54:48 - debug: 查询 Asset Bundle start, progress: 18%
+2024-12-28 18:54:48 - debug: // ---- build task 查询 Asset Bundle ----
+2024-12-28 18:54:48 - debug: // ---- build task 查询 Asset Bundle ---- (31ms)
+2024-12-28 18:54:48 - debug: run build task 查询 Asset Bundle success in 31 ms√, progress: 23%
+2024-12-28 18:54:48 - debug: [Build Memory track]: 查询 Asset Bundle start:182.46MB, end 182.67MB, increase: 211.29KB
+2024-12-28 18:54:48 - debug: native:(onAfterBundleDataTask) start..., progress: 23%
+2024-12-28 18:54:48 - debug: // ---- build task native：onAfterBundleDataTask ----
+2024-12-28 18:54:48 - debug: // ---- build task native：onAfterBundleDataTask ---- (29ms)
+2024-12-28 18:54:48 - debug: native:(onAfterBundleDataTask) in 29 ms ✓, progress: 23%
+2024-12-28 18:54:48 - debug: 打包脚本 start, progress: 23%
+2024-12-28 18:54:48 - debug: // ---- build task 打包脚本 ----
+2024-12-28 18:54:48 - debug: Caught exception during build core-js: WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema. - configuration.entry should be an non-empty array.   -> A non-empty array of non-empty stringsThis may indicates the core-js polyfill is not necessary. See https://github.com/zloirock/core-js/issues/822
+2024-12-28 18:54:48 - debug: Generate systemJs..., progress: 23%
+2024-12-28 18:54:52 - debug: 构建项目脚本 start..., progress: 23%
+2024-12-28 18:54:52 - debug: Build script in bundle start, progress: 23%
+2024-12-28 18:54:53 - log: 资源数据库已锁定，资源操作(refresh)将会延迟响应，请稍侯
+2024-12-28 18:54:53 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2024-12-28 18:54:53 - log: [build-script]enter sub process 20476, D:\cocos\CocosCreator-v3.8.3-oh-win-102911\CocosCreator.exe,D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\static\sub-process-index
+2024-12-28 18:54:56 - log: 资源数据库已锁定，资源操作(refresh)将会延迟响应，请稍侯
+2024-12-28 18:54:58 - log: 资源数据库已锁定，资源操作(refresh)将会延迟响应，请稍侯
+2024-12-28 18:54:58 - debug: excute-script over with build-script 5067ms
+2024-12-28 18:54:58 - debug: Copy externalScripts success!
+2024-12-28 18:54:58 - debug: Build script in bundle success, progress: 23%
+2024-12-28 18:54:58 - debug: 构建项目脚本 in (5494 ms) √, progress: 23%
+2024-12-28 18:54:58 - debug: 构建引擎脚本 start..., progress: 23%
+2024-12-28 18:54:58 - debug: Use cache engine: {link(C:\Users\林舒乐\AppData\Local\Temp\CocosCreator\3.8.3-oh\builder\engine\bd42842e5208bc6bad25fb9ff776bd6e)}
+2024-12-28 18:54:58 - debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","intersection-2d","meshopt","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.8.3-oh","md5Map":[],"engineName":"src/cocos-js","platform":"WINDOWS","useCache":true,"isNative":true,"nativeCodeBundleMode":"wasm","wasmCompressionMode":false,"output":"D:\\cocos\\badminton\\badminton\\build\\windows-001\\data\\src\\cocos-js","targets":"chrome 116","flags":{"DEBUG":false,"NET_MODE":0,"SERVER_MODE":false},"entry":"D:\\cocos\\CocosCreator-v3.8.3-oh-win-102911\\resources\\resources\\3d\\engine"}
+2024-12-28 18:54:58 - debug: 构建引擎脚本 in (126 ms) √, progress: 23%
+2024-12-28 18:54:58 - debug: Copy plugin script ..., progress: 23%
+2024-12-28 18:54:58 - debug: Generate import-map..., progress: 23%
+2024-12-28 18:54:58 - debug: // ---- build task 打包脚本 ---- (10435ms)
+2024-12-28 18:54:58 - debug: run build task 打包脚本 success in 10 s√, progress: 28%
+2024-12-28 18:54:58 - debug: [Build Memory track]: 打包脚本 start:182.11MB, end 173.29MB, increase: -9027.84KB
+2024-12-28 18:54:58 - debug: Build Assets start, progress: 28%
+2024-12-28 18:54:58 - debug: // ---- build task Build Assets ----
+2024-12-28 18:54:58 - debug: Build bundles..., progress: 28%
+2024-12-28 18:54:58 - debug: Pack Images start, progress: 28%
+2024-12-28 18:54:58 - debug: builder:pack-auto-atlas-image (29ms)
+2024-12-28 18:54:58 - debug: Pack Images success, progress: 28%
+2024-12-28 18:54:58 - debug: Compress image start..., progress: 28%
+2024-12-28 18:54:58 - group: Compress image...
+2024-12-28 18:54:58 - debug: sort compress task {}
+2024-12-28 18:54:58 - debug: Num of all image compress task 0, really: 0, configTasks: 0
+2024-12-28 18:54:58 - debug: No image need to compress
+2024-12-28 18:54:58 - groupEnd: Compress image...
+2024-12-28 18:54:58 - debug: Compress image success..., progress: 28%
+2024-12-28 18:54:58 - debug: Output asset in bundles start, progress: 28%
+2024-12-28 18:54:58 - debug: Handle all json groups in bundle internal
+2024-12-28 18:54:58 - debug: handle json group
+2024-12-28 18:54:58 - debug: Handle all json groups in bundle main
+2024-12-28 18:54:58 - debug: handle json group
+2024-12-28 18:54:58 - debug: Json group(0601ff7d3) compile success，json number: 6
+2024-12-28 18:54:58 - debug: handle single json
+2024-12-28 18:54:58 - debug: Json group(0ca60d3e4) compile success，json number: 6
+2024-12-28 18:54:58 - debug: handle single json
+2024-12-28 18:54:58 - debug: Output asset in bundles success, progress: 28%
+2024-12-28 18:54:58 - debug: Output asset in bundles start, progress: 28%
+2024-12-28 18:54:58 - debug: compress config of bundle internal...
+2024-12-28 18:54:58 - debug: compress config of bundle internal success
+2024-12-28 18:54:58 - debug: compress config of bundle main...
+2024-12-28 18:54:58 - debug: compress config of bundle main success
+2024-12-28 18:54:58 - debug: output config of bundle internal
+2024-12-28 18:54:58 - debug: output config of bundle internal success
+2024-12-28 18:54:58 - debug: output config of bundle main
+2024-12-28 18:54:58 - debug: output config of bundle main success
+2024-12-28 18:54:58 - debug: Output asset in bundles success, progress: 28%
+2024-12-28 18:54:58 - debug: // ---- build task Build Assets ---- (174ms)
+2024-12-28 18:54:58 - debug: run build task Build Assets success in 174 ms√, progress: 33%
+2024-12-28 18:54:58 - debug: [Build Memory track]: Build Assets start:173.31MB, end 174.66MB, increase: 1.35MB
+2024-12-28 18:54:58 - debug: 整理部分构建选项内数据到 settings.json start, progress: 33%
+2024-12-28 18:54:58 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-28 18:54:58 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (17ms)
+2024-12-28 18:54:58 - debug: run build task 整理部分构建选项内数据到 settings.json success in 17 ms√, progress: 34%
+2024-12-28 18:54:58 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:174.74MB, end 174.82MB, increase: 86.21KB
+2024-12-28 18:54:58 - debug: 填充脚本数据到 settings.json start, progress: 34%
+2024-12-28 18:54:58 - debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-28 18:54:58 - debug: // ---- build task 填充脚本数据到 settings.json ---- (18ms)
+2024-12-28 18:54:58 - debug: run build task 填充脚本数据到 settings.json success in 18 ms√, progress: 36%
+2024-12-28 18:54:58 - debug: [Build Memory track]: 填充脚本数据到 settings.json start:174.84MB, end 174.92MB, increase: 84.43KB
+2024-12-28 18:54:58 - debug: 整理部分构建选项内数据到 settings.json start, progress: 36%
+2024-12-28 18:54:58 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-28 18:54:58 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (19ms)
+2024-12-28 18:54:58 - debug: run build task 整理部分构建选项内数据到 settings.json success in 19 ms√, progress: 38%
+2024-12-28 18:54:58 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:174.94MB, end 175.13MB, increase: 197.27KB
+2024-12-28 18:54:58 - debug: cocos-service:(onBeforeCompressSettings) start..., progress: 38%
+2024-12-28 18:54:58 - debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2024-12-28 18:54:58 - debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (163ms)
+2024-12-28 18:54:58 - debug: cocos-service:(onBeforeCompressSettings) in 163 ms ✓, progress: 40%
+2024-12-28 18:54:58 - debug: 整理静态模板文件 start, progress: 40%
+2024-12-28 18:54:58 - debug: // ---- build task 整理静态模板文件 ----
+2024-12-28 18:54:58 - debug: // ---- build task 整理静态模板文件 ---- (27ms)
+2024-12-28 18:54:58 - debug: run build task 整理静态模板文件 success in 27 ms√, progress: 45%
+2024-12-28 18:54:58 - debug: [Build Memory track]: 整理静态模板文件 start:173.76MB, end 175.11MB, increase: 1.36MB
+2024-12-28 18:54:58 - debug: native:(onAfterCompressSettings) start..., progress: 45%
+2024-12-28 18:54:58 - debug: // ---- build task native：onAfterCompressSettings ----
+2024-12-28 18:54:58 - log: Checking template version...
+2024-12-28 18:54:59 - warn: Failed to validate native directory
+2024-12-28 18:54:59 - warn: SyntaxError: Expected "||" or end of input but "-" found.    at peg$buildStructuredError (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native\cmake\scripts\plugin_support\plugin_cfg.js:370:12)    at Object.peg$parse [as parse] (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native\cmake\scripts\plugin_support\plugin_cfg.js:833:11)    at WindowsPackTool.validateTemplateVersion (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\base\default.ts:264:63)    at WindowsPackTool.validateNativeDir (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\base\default.ts:334:22)    at WindowsPackTool.copyPlatformTemplate (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\base\default.ts:363:18)    at WindowsPackTool.create (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\platforms\windows.ts:19:20)    at NativePackToolManager.create (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\base\manager.ts:37:9)    at PackToolHandler.runTask (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\modules\platform-extensions\extensions\native\dist\builder\native-utils\index.ccc:1:2968)    at BuildTask.onAfterCompressSettings (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\modules\platform-extensions\extensions\native\dist\builder\hooks.ccc:1:5369)    at BuildTask.handleHook (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13310)    at BuildTask.runPluginTask (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\builder\manager\task-base.ccc:1:1192)    at BuildTask.run (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:4836)    at build (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:3967)    at Ipc.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:206)
+2024-12-28 18:54:59 - debug: generateCMakeConfig, {"CC_USE_GLES3":"set(CC_USE_GLES3 ON)","CC_USE_GLES2":"set(CC_USE_GLES2 ON)","USE_SERVER_MODE":"set(USE_SERVER_MODE OFF)","NET_MODE":"set(NET_MODE 0)","XXTEAKEY":"","CC_ENABLE_SWAPPY":"set(CC_ENABLE_SWAPPY OFF)","APP_NAME":"set(APP_NAME \"Feather-Flutter\")","COCOS_X_PATH":"set(COCOS_X_PATH \"D:/cocos/CocosCreator-v3.8.3-oh-win-102911/resources/resources/3d/engine/native\")","USE_JOB_SYSTEM_TASKFLOW":"set(USE_JOB_SYSTEM_TASKFLOW OFF)","USE_JOB_SYSTEM_TBB":"set(USE_JOB_SYSTEM_TBB OFF)","ENABLE_FLOAT_OUTPUT":"set(ENABLE_FLOAT_OUTPUT OFF)","USE_PHYSICS_PHYSX":"set(USE_PHYSICS_PHYSX OFF)","USE_OCCLUSION_QUERY":"set(USE_OCCLUSION_QUERY OFF)","USE_GEOMETRY_RENDERER":"set(USE_GEOMETRY_RENDERER OFF)","USE_DEBUG_RENDERER":"set(USE_DEBUG_RENDERER OFF)","USE_AUDIO":"set(USE_AUDIO ON)","USE_VIDEO":"set(USE_VIDEO ON)","USE_WEBVIEW":"set(USE_WEBVIEW ON)","USE_SOCKET":"set(USE_SOCKET OFF)","USE_WEBSOCKET_SERVER":"set(USE_WEBSOCKET_SERVER OFF)","USE_SPINE":"set(USE_SPINE ON)","USE_DRAGONBONES":"set(USE_DRAGONBONES ON)","CC_EXECUTABLE_NAME":"set(CC_EXECUTABLE_NAME \"Feather-Flutter\")","CC_USE_VULKAN":"set(CC_USE_VULKAN ON)"}
+2024-12-28 18:54:59 - log: While replace template content, file D:\cocos\badminton\badminton\build\windows-001\proj\main.cpp
+2024-12-28 18:54:59 - log: While replace template content, file D:\cocos\badminton\badminton\build\windows-001\proj\main.m
+2024-12-28 18:54:59 - log: While replace template content, file D:\cocos\badminton\badminton\build\windows-001\proj\settings.gradle
+2024-12-28 18:54:59 - log: While replace template content, file D:\cocos\badminton\badminton\native\engine\win64/app/build.gradle
+2024-12-28 18:54:59 - log: While replace template content, file D:\cocos\badminton\badminton\native\engine\win64/instantapp/build.gradle
+2024-12-28 18:54:59 - log: While replace template content, file D:\cocos\badminton\badminton\native\engine\win64/entry/src/main/config.json
+2024-12-28 18:54:59 - debug: // ---- build task native：onAfterCompressSettings ---- (109ms)
+2024-12-28 18:54:59 - debug: native:(onAfterCompressSettings) in 109 ms ✓, progress: 46%
+2024-12-28 18:54:59 - debug: cocos-service:(onAfterCompressSettings) start..., progress: 46%
+2024-12-28 18:54:59 - debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2024-12-28 18:54:59 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (64ms)
+2024-12-28 18:54:59 - debug: cocos-service:(onAfterCompressSettings) in 64 ms ✓, progress: 48%
+2024-12-28 18:54:59 - debug: 给所有的资源加上 MD5 后缀 start, progress: 48%
+2024-12-28 18:54:59 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2024-12-28 18:54:59 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (16ms)
+2024-12-28 18:54:59 - debug: run build task 给所有的资源加上 MD5 后缀 success in 16 ms√, progress: 58%
+2024-12-28 18:54:59 - debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:175.41MB, end 175.49MB, increase: 85.05KB
+2024-12-28 18:54:59 - debug: native:(onAfterBuild) start..., progress: 58%
+2024-12-28 18:54:59 - debug: // ---- build task native：onAfterBuild ----
+2024-12-28 18:54:59 - log: run D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\tools\cmake\bin\cmake.exe -S"D:/cocos/badminton/badminton/native/engine/win64" -B"D:/cocos/badminton/badminton/build/windows-001/proj" -G"Visual Studio 17 2022" -DRES_DIR="D:/cocos/badminton/badminton/build/windows-001" -DAPP_NAME="Feather-Flutter" -DLAUNCH_TYPE="Release"
+2024-12-28 18:54:59 - log: [cmake] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
+2024-12-28 18:55:00 - log: [cmake] -- The CXX compiler identification is MSVC 19.42.34435.0
+2024-12-28 18:55:00 - log: [cmake] -- Detecting CXX compiler ABI info
+2024-12-28 18:55:00 - log: [cmake] -- Detecting CXX compiler ABI info - done
+2024-12-28 18:55:00 - log: [cmake] -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe - skipped
+2024-12-28 18:55:00 - log: [cmake] -- Detecting CXX compile features
+2024-12-28 18:55:00 - log: [cmake] -- Detecting CXX compile features - done
+2024-12-28 18:55:01 - log: [cmake] -- The C compiler identification is MSVC 19.42.34435.0
+2024-12-28 18:55:01 - log: [cmake] -- The ASM compiler identification is MSVC
+2024-12-28 18:55:01 - log: [cmake] -- Found assembler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe
+2024-12-28 18:55:01 - log: [cmake] -- Detecting C compiler ABI info
+2024-12-28 18:55:02 - log: [cmake] -- Detecting C compiler ABI info - done
+2024-12-28 18:55:02 - log: [cmake] -- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe - skipped
+2024-12-28 18:55:02 - log: [cmake] -- Detecting C compile features
+2024-12-28 18:55:02 - log: [cmake] -- Detecting C compile features - done
+2024-12-28 18:55:02 - log: [cmake] -- platform: Windows-- Ignore NO_WERROR
+2024-12-28 18:55:02 - log: [cmake] -- OPTION BUILTIN_COCOS_X_PATH:	-- OPTION USE_BUILTIN_EXTERNAL:	OFF-- OPTION USE_MODULES:	OFF-- OPTION CC_USE_METAL:	-- OPTION CC_USE_GLES3:	ON-- OPTION CC_USE_GLES2:	ON-- OPTION CC_USE_VULKAN:	ON-- OPTION CC_DEBUG_FORCE:	OFF-- OPTION USE_SE_V8:	ON-- OPTION USE_V8_DEBUGGER:	ON-- OPTION USE_V8_DEBUGGER_FORCE:	OFF-- OPTION USE_SE_SM:	OFF-- OPTION USE_SOCKET:	OFF-- OPTION USE_AUDIO:	ON-- OPTION USE_EDIT_BOX:	ON-- OPTION USE_VIDEO:	OFF-- OPTION USE_WEBVIEW:	OFF-- OPTION USE_MIDDLEWARE:	ON-- OPTION USE_DRAGONBONES:	ON-- OPTION USE_SPINE:	ON-- OPTION USE_WEBSOCKET_SERVER:	OFF-- OPTION USE_PHYSICS_PHYSX:	OFF-- OPTION USE_JOB_SYSTEM_TBB:	OFF-- OPTION USE_JOB_SYSTEM_TASKFLOW:	OFF-- OPTION USE_XR:	OFF-- OPTION USE_SERVER_MODE:	OFF-- OPTION USE_AR_MODULE:	OFF-- OPTION USE_AR_AUTO:	OFF
+2024-12-28 18:55:02 - log: [cmake] -- OPTION USE_AR_CORE:	OFF-- OPTION USE_AR_ENGINE:	OFF-- OPTION USE_CCACHE:	-- OPTION CCACHE_EXECUTABLE:	CCACHE_EXECUTABLE-NOTFOUND-- OPTION NODE_EXECUTABLE:	NODE_EXECUTABLE-NOTFOUND-- OPTION NET_MODE:	0-- OPTION USE_REMOTE_LOG:	OFF
+2024-12-28 18:55:02 - log: [cmake] -- platform path: 
+2024-12-28 18:55:02 - log: [cmake] -- Try generating D:/cocos/badminton/badminton/native/engine/win64/Pre-AutoLoadPlulgins.cmake
+2024-12-28 18:55:02 - log: [cmake] -- NodeJS is not found in $PATH, skip searching native plugins.
+2024-12-28 18:55:02 - log: [cmake] -- Searching hook files Pre*.cmake or *Pre.cmake in D:/cocos/badminton/badminton/native/engine/win64
+2024-12-28 18:55:02 - log: [cmake] -- No plugins are loaded!
+2024-12-28 18:55:02 - log: [cmake] -- Searching hook files Post*.cmake or *Post.cmake in D:/cocos/badminton/badminton/native/engine/win64
+2024-12-28 18:55:02 - log: [cmake] -- Configuring done
+2024-12-28 18:55:02 - log: [cmake] -- Generating done
+2024-12-28 18:55:02 - log: [cmake-warn] CMake Warning:  Manually-specified variables were not used by the project:    LAUNCH_TYPE
+2024-12-28 18:55:02 - log: [cmake] -- Build files have been written to: D:/cocos/badminton/badminton/build/windows-001/proj
+2024-12-28 18:55:02 - debug: // ---- build task native：onAfterBuild ---- (3696ms)
+2024-12-28 18:55:02 - debug: native:(onAfterBuild) in 3696 ms ✓, progress: 60%
+2024-12-28 18:55:02 - debug: cocos-service:(onAfterBuild) start..., progress: 60%
+2024-12-28 18:55:02 - debug: // ---- build task cocos-service：onAfterBuild ----
+2024-12-28 18:55:03 - debug: // ---- build task cocos-service：onAfterBuild ---- (219ms)
+2024-12-28 18:55:03 - debug: cocos-service:(onAfterBuild) in 219 ms ✓, progress: 62%
+2024-12-28 18:55:03 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 62%
+2024-12-28 18:55:03 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+2024-12-28 18:55:03 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (16ms)
+2024-12-28 18:55:03 - debug: adsense-h5g-plugin:(onAfterBuild) in 16 ms ✓, progress: 64%
+2024-12-28 18:55:03 - log: Asset DB is resume!
+2024-12-28 18:55:03 - debug: builder:build-project-total (15968ms)
+2024-12-28 18:55:03 - debug: build success in 15968!
+2024-12-28 18:55:03 - debug: [Build Memory track]: builder:build-project-total start:181.64MB, end 178.39MB, increase: -3328.91KB
+2024-12-28 18:55:03 - debug: ================================ build Task (windows-001) Finished in (16 s)ms ================================
+2024-12-28 18:56:45 - debug: =================================== build -> make -> run Task (windows-001) Start ================================
+2024-12-28 18:56:45 - debug: Start build task, options:{"nextStages":["make","run"],"name":"Feather-Flutter","server":"","platform":"windows","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"macroConfig":{"cleanupImageCache":"inherit-project-setting"},"includeModules":{"physics":"inherit-project-setting","physics-2d":"inherit-project-setting","gfx-webgl2":"off"}},"nativeCodeBundleMode":"wasm","polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"53c09363-d1e8-4f8f-8ddf-ae0501d38731","outputName":"windows-001","taskName":"windows-001","scenes":[{"url":"db://assets/scene.scene","uuid":"53c09363-d1e8-4f8f-8ddf-ae0501d38731"}],"wasmCompressionMode":false,"packages":{"windows":{"executableName":"Feather-Flutter","renderBackEnd":{"vulkan":true,"gles3":true,"gles2":true},"targetPlatform":"x64","__version__":"1.0.1","vsData":"2022"},"cocos-service":{"configID":"f8851b","services":[],"__version__":"3.0.7"},"native":{"encrypted":false,"xxteaKey":"5fFBvAoQ5PIJwWO+","compressZip":false,"JobSystem":"none","__version__":"1.0.2"}},"__version__":"1.3.8","buildMode":"normal","logDest":"project://temp/builder/log/windows2024-12-28 18-54.log","buildStageGroup":{"build":["make","run"]}}
+2024-12-28 18:56:45 - debug: Build with Cocos Creator 3.8.3-oh
+2024-12-28 18:56:45 - debug: native:(onBeforeBuild) start..., progress: 0%
+2024-12-28 18:56:45 - debug: // ---- build task native：onBeforeBuild ----
+2024-12-28 18:56:45 - debug: // ---- build task native：onBeforeBuild ---- (7ms)
+2024-12-28 18:56:45 - debug: native:(onBeforeBuild) in 7 ms ✓, progress: 1%
+2024-12-28 18:56:45 - debug: cocos-service:(onBeforeBuild) start..., progress: 1%
+2024-12-28 18:56:45 - debug: // ---- build task cocos-service：onBeforeBuild ----
+2024-12-28 18:56:45 - debug: // ---- build task cocos-service：onBeforeBuild ---- (178ms)
+2024-12-28 18:56:45 - debug: cocos-service:(onBeforeBuild) in 178 ms ✓, progress: 1%
+2024-12-28 18:56:45 - debug: scene:(onBeforeBuild) start..., progress: 1%
+2024-12-28 18:56:45 - debug: // ---- build task scene：onBeforeBuild ----
+2024-12-28 18:56:45 - debug: // ---- build task scene：onBeforeBuild ---- (45ms)
+2024-12-28 18:56:45 - debug: scene:(onBeforeBuild) in 45 ms ✓, progress: 2%
+2024-12-28 18:56:45 - debug: Start lock asset db..., progress: 2%
+2024-12-28 18:56:45 - log: Asset DB is paused with build!
+2024-12-28 18:56:45 - debug: Query all assets info in project
+2024-12-28 18:56:45 - debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-28 18:56:45 - debug: native:(onAfterInit) start..., progress: 2%
+2024-12-28 18:56:45 - debug: // ---- build task native：onAfterInit ----
+2024-12-28 18:56:45 - debug: Native engine root:D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native
+2024-12-28 18:56:45 - debug: // ---- build task native：onAfterInit ---- (33ms)
+2024-12-28 18:56:45 - debug: native:(onAfterInit) in 33 ms ✓, progress: 2%
+2024-12-28 18:56:45 - debug: windows:(onAfterInit) start..., progress: 2%
+2024-12-28 18:56:45 - debug: // ---- build task windows：onAfterInit ----
+2024-12-28 18:56:45 - debug: // ---- build task windows：onAfterInit ---- (15ms)
+2024-12-28 18:56:45 - debug: windows:(onAfterInit) in 15 ms ✓, progress: 3%
+2024-12-28 18:56:45 - debug: cocos-service:(onAfterInit) start..., progress: 3%
+2024-12-28 18:56:45 - debug: // ---- build task cocos-service：onAfterInit ----
+2024-12-28 18:56:45 - debug: // ---- build task cocos-service：onAfterInit ---- (60ms)
+2024-12-28 18:56:45 - debug: cocos-service:(onAfterInit) in 60 ms ✓, progress: 4%
+2024-12-28 18:56:45 - debug: engine:(onAfterInit) start..., progress: 4%
+2024-12-28 18:56:45 - debug: // ---- build task engine：onAfterInit ----
+2024-12-28 18:56:45 - debug: // ---- build task engine：onAfterInit ---- (13ms)
+2024-12-28 18:56:45 - debug: engine:(onAfterInit) in 13 ms ✓, progress: 4%
+2024-12-28 18:56:45 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 4%
+2024-12-28 18:56:45 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+2024-12-28 18:56:45 - debug: [adsense-h5g-plugin] remove script success
+2024-12-28 18:56:45 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (14ms)
+2024-12-28 18:56:45 - debug: adsense-h5g-plugin:(onBeforeBundleInit) in 14 ms ✓, progress: 4%
+2024-12-28 18:56:45 - debug: Init all bundles start..., progress: 4%
+2024-12-28 18:56:45 - debug: Num of bundles: 2..., progress: 4%
+2024-12-28 18:56:45 - debug: native:(onAfterBundleInit) start..., progress: 4%
+2024-12-28 18:56:45 - debug: // ---- build task native：onAfterBundleInit ----
+2024-12-28 18:56:45 - debug: // ---- build task native：onAfterBundleInit ---- (22ms)
+2024-12-28 18:56:45 - debug: native:(onAfterBundleInit) in 22 ms ✓, progress: 4%
+2024-12-28 18:56:45 - debug: windows:(onAfterBundleInit) start..., progress: 4%
+2024-12-28 18:56:45 - debug: // ---- build task windows：onAfterBundleInit ----
+2024-12-28 18:56:45 - debug: // ---- build task windows：onAfterBundleInit ---- (15ms)
+2024-12-28 18:56:45 - debug: windows:(onAfterBundleInit) in 15 ms ✓, progress: 4%
+2024-12-28 18:56:45 - debug: 查询 Asset Bundle start, progress: 4%
+2024-12-28 18:56:45 - debug: // ---- build task 查询 Asset Bundle ----
+2024-12-28 18:56:45 - debug: Init bundle root assets start..., progress: 4%
+2024-12-28 18:56:45 - debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-28 18:56:45 - debug:   Number of all scenes: 1
+2024-12-28 18:56:45 - debug:   Number of all scripts: 5
+2024-12-28 18:56:45 - debug:   Number of other assets: 385
+2024-12-28 18:56:45 - debug: Init bundle root assets success..., progress: 4%
+2024-12-28 18:56:45 - debug: reload all scripts.
+2024-12-28 18:56:45 - debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-12-28 18:56:45 - groupCollapsed: Invalidate all modules
+2024-12-28 18:56:45 - debug: Unregister DebugViewRuntimeControl
+2024-12-28 18:56:45 - debug: Unregister BossController
+2024-12-28 18:56:45 - debug: Unregister PlayerController
+2024-12-28 18:56:45 - debug: Unregister GameManger
+2024-12-28 18:56:45 - debug: Unregister MenuController
+2024-12-28 18:56:45 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+2024-12-28 18:56:45 - debug: Invalidating 'pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js'
+2024-12-28 18:56:45 - debug: Invalidating 'pack:///chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js'
+2024-12-28 18:56:45 - debug: Invalidating 'pack:///chunks/66/667a19b32b86c8302d3f6f511bc7de8f966b239f.js'
+2024-12-28 18:56:45 - debug: Invalidating 'pack:///chunks/2e/2e338e30ff2c214927c868260d8cd4b4b67531db.js'
+2024-12-28 18:56:45 - debug: Invalidating 'pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js'
+2024-12-28 18:56:45 - debug: Invalidating 'pack:///chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js'
+2024-12-28 18:56:45 - debug: Invalidating 'pack:///chunks/f1/f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a.js'
+2024-12-28 18:56:45 - groupEnd: Invalidate all modules
+2024-12-28 18:56:45 - groupCollapsed: Imports all modules
+2024-12-28 18:56:45 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-12-28 18:56:45 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-12-28 18:56:45 - debug: [[Executor]] Register DebugViewRuntimeControl
+2024-12-28 18:56:45 - debug: [[Executor]] Module "pack:///chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js" loaded.
+2024-12-28 18:56:45 - debug: [[Executor]] Register BossController
+2024-12-28 18:56:45 - debug: [[Executor]] Module "pack:///chunks/66/667a19b32b86c8302d3f6f511bc7de8f966b239f.js" loaded.
+2024-12-28 18:56:45 - debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+2024-12-28 18:56:45 - debug: [[Executor]] Register PlayerController
+2024-12-28 18:56:45 - debug: [[Executor]] Module "pack:///chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js" loaded.
+2024-12-28 18:56:45 - debug: [[Executor]] Register GameManger
+2024-12-28 18:56:45 - debug: [[Executor]] Module "pack:///chunks/2e/2e338e30ff2c214927c868260d8cd4b4b67531db.js" loaded.
+2024-12-28 18:56:45 - debug: [[Executor]] Register MenuController
+2024-12-28 18:56:45 - debug: [[Executor]] Module "pack:///chunks/f1/f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a.js" loaded.
+2024-12-28 18:56:45 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-12-28 18:56:45 - groupEnd: Imports all modules
+2024-12-28 18:56:45 - debug: Incremental keys: 
+2024-12-28 18:56:45 - debug: Init bundle share assets start..., progress: 4%
+2024-12-28 18:56:46 - debug: Init bundle share assets success..., progress: 4%
+2024-12-28 18:56:46 - debug: handle json group in bundle internal
+2024-12-28 18:56:46 - debug: handle json group in bundle internal success
+2024-12-28 18:56:46 - debug: handle json group in bundle main
+2024-12-28 18:56:46 - debug: init image compress task 0 in bundle internal
+2024-12-28 18:56:46 - debug: handle json group in bundle main success
+2024-12-28 18:56:46 - debug: init image compress task 0 in bundle main
+2024-12-28 18:56:46 - debug: // ---- build task 查询 Asset Bundle ---- (66ms)
+2024-12-28 18:56:46 - debug: run build task 查询 Asset Bundle success in 66 ms√, progress: 6%
+2024-12-28 18:56:46 - debug: [Build Memory track]: 查询 Asset Bundle start:177.40MB, end 177.42MB, increase: 16.86KB
+2024-12-28 18:56:46 - debug: 查询 Asset Bundle start, progress: 6%
+2024-12-28 18:56:46 - debug: // ---- build task 查询 Asset Bundle ----
+2024-12-28 18:56:46 - debug: // ---- build task 查询 Asset Bundle ---- (17ms)
+2024-12-28 18:56:46 - debug: run build task 查询 Asset Bundle success in 17 ms√, progress: 8%
+2024-12-28 18:56:46 - debug: [Build Memory track]: 查询 Asset Bundle start:177.44MB, end 177.59MB, increase: 152.38KB
+2024-12-28 18:56:46 - debug: native:(onAfterBundleDataTask) start..., progress: 8%
+2024-12-28 18:56:46 - debug: // ---- build task native：onAfterBundleDataTask ----
+2024-12-28 18:56:46 - debug: // ---- build task native：onAfterBundleDataTask ---- (13ms)
+2024-12-28 18:56:46 - debug: native:(onAfterBundleDataTask) in 13 ms ✓, progress: 8%
+2024-12-28 18:56:46 - debug: 打包脚本 start, progress: 8%
+2024-12-28 18:56:46 - debug: // ---- build task 打包脚本 ----
+2024-12-28 18:56:46 - debug: Caught exception during build core-js: WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema. - configuration.entry should be an non-empty array.   -> A non-empty array of non-empty stringsThis may indicates the core-js polyfill is not necessary. See https://github.com/zloirock/core-js/issues/822
+2024-12-28 18:56:46 - debug: Generate systemJs..., progress: 8%
+2024-12-28 18:56:49 - log: 资源数据库已锁定，资源操作(refresh)将会延迟响应，请稍侯
+2024-12-28 18:56:49 - debug: 构建项目脚本 start..., progress: 8%
+2024-12-28 18:56:49 - debug: Build script in bundle start, progress: 8%
+2024-12-28 18:56:50 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2024-12-28 18:56:50 - log: [build-script]enter sub process 11688, D:\cocos\CocosCreator-v3.8.3-oh-win-102911\CocosCreator.exe,D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\static\sub-process-index
+2024-12-28 18:56:54 - debug: excute-script over with build-script 4607ms
+2024-12-28 18:56:54 - debug: Copy externalScripts success!
+2024-12-28 18:56:54 - debug: Build script in bundle success, progress: 8%
+2024-12-28 18:56:54 - debug: 构建项目脚本 in (4873 ms) √, progress: 8%
+2024-12-28 18:56:54 - debug: 构建引擎脚本 start..., progress: 8%
+2024-12-28 18:56:54 - debug: Use cache engine: {link(C:\Users\林舒乐\AppData\Local\Temp\CocosCreator\3.8.3-oh\builder\engine\bd42842e5208bc6bad25fb9ff776bd6e)}
+2024-12-28 18:56:54 - debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","intersection-2d","meshopt","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.8.3-oh","md5Map":[],"engineName":"src/cocos-js","platform":"WINDOWS","useCache":true,"isNative":true,"nativeCodeBundleMode":"wasm","wasmCompressionMode":false,"output":"D:\\cocos\\badminton\\badminton\\build\\windows-001\\data\\src\\cocos-js","targets":"chrome 116","flags":{"DEBUG":false,"NET_MODE":0,"SERVER_MODE":false},"entry":"D:\\cocos\\CocosCreator-v3.8.3-oh-win-102911\\resources\\resources\\3d\\engine"}
+2024-12-28 18:56:54 - debug: 构建引擎脚本 in (104 ms) √, progress: 8%
+2024-12-28 18:56:54 - debug: Copy plugin script ..., progress: 8%
+2024-12-28 18:56:54 - debug: Generate import-map..., progress: 8%
+2024-12-28 18:56:54 - debug: // ---- build task 打包脚本 ---- (8951ms)
+2024-12-28 18:56:54 - debug: run build task 打包脚本 success in 8 s√, progress: 9%
+2024-12-28 18:56:54 - debug: [Build Memory track]: 打包脚本 start:177.79MB, end 174.28MB, increase: -3597.35KB
+2024-12-28 18:56:54 - debug: Build Assets start, progress: 9%
+2024-12-28 18:56:54 - debug: // ---- build task Build Assets ----
+2024-12-28 18:56:54 - debug: Build bundles..., progress: 9%
+2024-12-28 18:56:54 - debug: Pack Images start, progress: 9%
+2024-12-28 18:56:55 - debug: builder:pack-auto-atlas-image (59ms)
+2024-12-28 18:56:55 - debug: Pack Images success, progress: 9%
+2024-12-28 18:56:55 - debug: Compress image start..., progress: 9%
+2024-12-28 18:56:55 - group: Compress image...
+2024-12-28 18:56:55 - debug: sort compress task {}
+2024-12-28 18:56:55 - debug: Num of all image compress task 0, really: 0, configTasks: 0
+2024-12-28 18:56:55 - debug: No image need to compress
+2024-12-28 18:56:55 - groupEnd: Compress image...
+2024-12-28 18:56:55 - debug: Compress image success..., progress: 9%
+2024-12-28 18:56:55 - debug: Output asset in bundles start, progress: 9%
+2024-12-28 18:56:55 - debug: Handle all json groups in bundle internal
+2024-12-28 18:56:55 - debug: handle json group
+2024-12-28 18:56:55 - debug: Handle all json groups in bundle main
+2024-12-28 18:56:55 - debug: handle json group
+2024-12-28 18:56:55 - debug: Json group(0ca60d3e4) compile success，json number: 6
+2024-12-28 18:56:55 - debug: handle single json
+2024-12-28 18:56:55 - debug: Json group(0601ff7d3) compile success，json number: 6
+2024-12-28 18:56:55 - debug: handle single json
+2024-12-28 18:56:55 - debug: Output asset in bundles success, progress: 9%
+2024-12-28 18:56:55 - debug: Output asset in bundles start, progress: 9%
+2024-12-28 18:56:55 - debug: compress config of bundle internal...
+2024-12-28 18:56:55 - debug: compress config of bundle internal success
+2024-12-28 18:56:55 - debug: compress config of bundle main...
+2024-12-28 18:56:55 - debug: compress config of bundle main success
+2024-12-28 18:56:55 - debug: output config of bundle internal
+2024-12-28 18:56:55 - debug: output config of bundle internal success
+2024-12-28 18:56:55 - debug: output config of bundle main
+2024-12-28 18:56:55 - debug: output config of bundle main success
+2024-12-28 18:56:55 - debug: Output asset in bundles success, progress: 9%
+2024-12-28 18:56:55 - debug: // ---- build task Build Assets ---- (221ms)
+2024-12-28 18:56:55 - debug: run build task Build Assets success in 221 ms√, progress: 11%
+2024-12-28 18:56:55 - debug: [Build Memory track]: Build Assets start:174.29MB, end 174.79MB, increase: 510.01KB
+2024-12-28 18:56:55 - debug: 整理部分构建选项内数据到 settings.json start, progress: 11%
+2024-12-28 18:56:55 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-28 18:56:55 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (24ms)
+2024-12-28 18:56:55 - debug: run build task 整理部分构建选项内数据到 settings.json success in 24 ms√, progress: 11%
+2024-12-28 18:56:55 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:174.87MB, end 174.95MB, increase: 86.53KB
+2024-12-28 18:56:55 - debug: 填充脚本数据到 settings.json start, progress: 11%
+2024-12-28 18:56:55 - debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-28 18:56:55 - debug: // ---- build task 填充脚本数据到 settings.json ---- (22ms)
+2024-12-28 18:56:55 - debug: run build task 填充脚本数据到 settings.json success in 22 ms√, progress: 12%
+2024-12-28 18:56:55 - debug: [Build Memory track]: 填充脚本数据到 settings.json start:174.97MB, end 175.05MB, increase: 84.77KB
+2024-12-28 18:56:55 - debug: 整理部分构建选项内数据到 settings.json start, progress: 12%
+2024-12-28 18:56:55 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-28 18:56:55 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (30ms)
+2024-12-28 18:56:55 - debug: run build task 整理部分构建选项内数据到 settings.json success in 30 ms√, progress: 13%
+2024-12-28 18:56:55 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:175.07MB, end 175.25MB, increase: 188.24KB
+2024-12-28 18:56:55 - debug: cocos-service:(onBeforeCompressSettings) start..., progress: 13%
+2024-12-28 18:56:55 - debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2024-12-28 18:56:55 - debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (155ms)
+2024-12-28 18:56:55 - debug: cocos-service:(onBeforeCompressSettings) in 155 ms ✓, progress: 13%
+2024-12-28 18:56:55 - debug: 整理静态模板文件 start, progress: 13%
+2024-12-28 18:56:55 - debug: // ---- build task 整理静态模板文件 ----
+2024-12-28 18:56:55 - debug: // ---- build task 整理静态模板文件 ---- (57ms)
+2024-12-28 18:56:55 - debug: run build task 整理静态模板文件 success in 57 ms√, progress: 15%
+2024-12-28 18:56:55 - debug: [Build Memory track]: 整理静态模板文件 start:175.43MB, end 174.96MB, increase: -483.77KB
+2024-12-28 18:56:55 - debug: native:(onAfterCompressSettings) start..., progress: 15%
+2024-12-28 18:56:55 - debug: // ---- build task native：onAfterCompressSettings ----
+2024-12-28 18:56:55 - log: Checking template version...
+2024-12-28 18:56:55 - warn: Failed to validate native directory
+2024-12-28 18:56:55 - warn: SyntaxError: Expected "||" or end of input but "-" found.    at peg$buildStructuredError (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native\cmake\scripts\plugin_support\plugin_cfg.js:370:12)    at Object.peg$parse [as parse] (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native\cmake\scripts\plugin_support\plugin_cfg.js:833:11)    at WindowsPackTool.validateTemplateVersion (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\base\default.ts:264:63)    at WindowsPackTool.validateNativeDir (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\base\default.ts:334:22)    at WindowsPackTool.copyPlatformTemplate (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\base\default.ts:363:18)    at WindowsPackTool.create (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\platforms\windows.ts:19:20)    at NativePackToolManager.create (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\base\manager.ts:37:9)    at PackToolHandler.runTask (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\modules\platform-extensions\extensions\native\dist\builder\native-utils\index.ccc:1:2968)    at BuildTask.onAfterCompressSettings (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\modules\platform-extensions\extensions\native\dist\builder\hooks.ccc:1:5369)    at BuildTask.handleHook (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13310)    at BuildTask.runPluginTask (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\builder\manager\task-base.ccc:1:1192)    at BuildTask.run (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:4836)    at build (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:3967)    at Ipc.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:206)
+2024-12-28 18:56:55 - debug: generateCMakeConfig, {"CC_USE_GLES3":"set(CC_USE_GLES3 ON)","CC_USE_GLES2":"set(CC_USE_GLES2 ON)","USE_SERVER_MODE":"set(USE_SERVER_MODE OFF)","NET_MODE":"set(NET_MODE 0)","XXTEAKEY":"","CC_ENABLE_SWAPPY":"set(CC_ENABLE_SWAPPY OFF)","APP_NAME":"set(APP_NAME \"Feather-Flutter\")","COCOS_X_PATH":"set(COCOS_X_PATH \"D:/cocos/CocosCreator-v3.8.3-oh-win-102911/resources/resources/3d/engine/native\")","USE_JOB_SYSTEM_TASKFLOW":"set(USE_JOB_SYSTEM_TASKFLOW OFF)","USE_JOB_SYSTEM_TBB":"set(USE_JOB_SYSTEM_TBB OFF)","ENABLE_FLOAT_OUTPUT":"set(ENABLE_FLOAT_OUTPUT OFF)","USE_PHYSICS_PHYSX":"set(USE_PHYSICS_PHYSX OFF)","USE_OCCLUSION_QUERY":"set(USE_OCCLUSION_QUERY OFF)","USE_GEOMETRY_RENDERER":"set(USE_GEOMETRY_RENDERER OFF)","USE_DEBUG_RENDERER":"set(USE_DEBUG_RENDERER OFF)","USE_AUDIO":"set(USE_AUDIO ON)","USE_VIDEO":"set(USE_VIDEO ON)","USE_WEBVIEW":"set(USE_WEBVIEW ON)","USE_SOCKET":"set(USE_SOCKET OFF)","USE_WEBSOCKET_SERVER":"set(USE_WEBSOCKET_SERVER OFF)","USE_SPINE":"set(USE_SPINE ON)","USE_DRAGONBONES":"set(USE_DRAGONBONES ON)","CC_EXECUTABLE_NAME":"set(CC_EXECUTABLE_NAME \"Feather-Flutter\")","CC_USE_VULKAN":"set(CC_USE_VULKAN ON)"}
+2024-12-28 18:56:55 - log: While replace template content, file D:\cocos\badminton\badminton\build\windows-001\proj\main.cpp
+2024-12-28 18:56:55 - log: While replace template content, file D:\cocos\badminton\badminton\build\windows-001\proj\main.m
+2024-12-28 18:56:55 - log: While replace template content, file D:\cocos\badminton\badminton\build\windows-001\proj\settings.gradle
+2024-12-28 18:56:55 - log: While replace template content, file D:\cocos\badminton\badminton\native\engine\win64/app/build.gradle
+2024-12-28 18:56:55 - log: While replace template content, file D:\cocos\badminton\badminton\native\engine\win64/instantapp/build.gradle
+2024-12-28 18:56:55 - log: While replace template content, file D:\cocos\badminton\badminton\native\engine\win64/entry/src/main/config.json
+2024-12-28 18:56:55 - debug: // ---- build task native：onAfterCompressSettings ---- (41ms)
+2024-12-28 18:56:55 - debug: native:(onAfterCompressSettings) in 41 ms ✓, progress: 15%
+2024-12-28 18:56:55 - debug: cocos-service:(onAfterCompressSettings) start..., progress: 15%
+2024-12-28 18:56:55 - debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2024-12-28 18:56:55 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (96ms)
+2024-12-28 18:56:55 - debug: cocos-service:(onAfterCompressSettings) in 96 ms ✓, progress: 16%
+2024-12-28 18:56:55 - debug: 给所有的资源加上 MD5 后缀 start, progress: 16%
+2024-12-28 18:56:55 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2024-12-28 18:56:55 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (33ms)
+2024-12-28 18:56:55 - debug: run build task 给所有的资源加上 MD5 后缀 success in 33 ms√, progress: 19%
+2024-12-28 18:56:55 - debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:175.87MB, end 175.96MB, increase: 85.46KB
+2024-12-28 18:56:55 - debug: native:(onAfterBuild) start..., progress: 19%
+2024-12-28 18:56:55 - debug: // ---- build task native：onAfterBuild ----
+2024-12-28 18:56:55 - log: run D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\tools\cmake\bin\cmake.exe -S"D:/cocos/badminton/badminton/native/engine/win64" -B"D:/cocos/badminton/badminton/build/windows-001/proj" -DRES_DIR="D:/cocos/badminton/badminton/build/windows-001" -DAPP_NAME="Feather-Flutter" -DLAUNCH_TYPE="Release"
+2024-12-28 18:56:55 - log: [cmake] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
+2024-12-28 18:56:55 - log: [cmake] -- platform: Windows-- Ignore NO_WERROR
+2024-12-28 18:56:55 - log: [cmake] -- OPTION BUILTIN_COCOS_X_PATH:	-- OPTION USE_BUILTIN_EXTERNAL:	OFF-- OPTION USE_MODULES:	OFF-- OPTION CC_USE_METAL:	-- OPTION CC_USE_GLES3:	ON-- OPTION CC_USE_GLES2:	ON-- OPTION CC_USE_VULKAN:	ON-- OPTION CC_DEBUG_FORCE:	OFF-- OPTION USE_SE_V8:	ON-- OPTION USE_V8_DEBUGGER:	ON-- OPTION USE_V8_DEBUGGER_FORCE:	OFF-- OPTION USE_SE_SM:	OFF-- OPTION USE_SOCKET:	OFF-- OPTION USE_AUDIO:	ON-- OPTION USE_EDIT_BOX:	ON-- OPTION USE_VIDEO:	OFF-- OPTION USE_WEBVIEW:	OFF-- OPTION USE_MIDDLEWARE:	ON-- OPTION USE_DRAGONBONES:	ON
+2024-12-28 18:56:55 - log: [cmake] -- OPTION USE_SPINE:	ON-- OPTION USE_WEBSOCKET_SERVER:	OFF-- OPTION USE_PHYSICS_PHYSX:	OFF-- OPTION USE_JOB_SYSTEM_TBB:	OFF-- OPTION USE_JOB_SYSTEM_TASKFLOW:	OFF-- OPTION USE_XR:	OFF-- OPTION USE_SERVER_MODE:	OFF-- OPTION USE_AR_MODULE:	OFF-- OPTION USE_AR_AUTO:	OFF-- OPTION USE_AR_CORE:	OFF-- OPTION USE_AR_ENGINE:	OFF-- OPTION USE_CCACHE:	-- OPTION CCACHE_EXECUTABLE:	CCACHE_EXECUTABLE-NOTFOUND-- OPTION NODE_EXECUTABLE:	NODE_EXECUTABLE-NOTFOUND-- OPTION NET_MODE:	0-- OPTION USE_REMOTE_LOG:	OFF
+2024-12-28 18:56:55 - log: [cmake] -- platform path: 
+2024-12-28 18:56:56 - log: [cmake] -- Try generating D:/cocos/badminton/badminton/native/engine/win64/Pre-AutoLoadPlulgins.cmake
+2024-12-28 18:56:56 - log: [cmake] -- NodeJS is not found in $PATH, skip searching native plugins.
+2024-12-28 18:56:56 - log: [cmake] -- Searching hook files Pre*.cmake or *Pre.cmake in D:/cocos/badminton/badminton/native/engine/win64-- No plugins are loaded!
+2024-12-28 18:56:56 - log: [cmake] -- Searching hook files Post*.cmake or *Post.cmake in D:/cocos/badminton/badminton/native/engine/win64
+2024-12-28 18:56:56 - log: [cmake] -- Configuring done
+2024-12-28 18:56:56 - log: [cmake] -- Generating done
+2024-12-28 18:56:56 - log: [cmake] -- Build files have been written to: D:/cocos/badminton/badminton/build/windows-001/proj
+2024-12-28 18:56:56 - debug: // ---- build task native：onAfterBuild ---- (1064ms)
+2024-12-28 18:56:56 - debug: native:(onAfterBuild) in 1064 ms ✓, progress: 20%
+2024-12-28 18:56:56 - debug: cocos-service:(onAfterBuild) start..., progress: 20%
+2024-12-28 18:56:56 - debug: // ---- build task cocos-service：onAfterBuild ----
+2024-12-28 18:56:56 - debug: // ---- build task cocos-service：onAfterBuild ---- (101ms)
+2024-12-28 18:56:56 - debug: cocos-service:(onAfterBuild) in 101 ms ✓, progress: 21%
+2024-12-28 18:56:56 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 21%
+2024-12-28 18:56:56 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+2024-12-28 18:56:56 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (31ms)
+2024-12-28 18:56:56 - debug: adsense-h5g-plugin:(onAfterBuild) in 31 ms ✓, progress: 21%
+2024-12-28 18:56:56 - log: Asset DB is resume!
+2024-12-28 18:56:56 - debug: builder:build-project-total (11452ms)
+2024-12-28 18:56:56 - debug: build success in 11452!
+2024-12-28 18:56:56 - debug: // ---- builder:run-build-stage-make ----
+2024-12-28 18:56:56 - debug: Use build file cocos.compile.config.json in root(D:\cocos\badminton\badminton\build\windows-001)
+2024-12-28 18:56:56 - debug: init options success, progress: 28%
+2024-12-28 18:56:56 - debug: native:(make) start..., progress: 35%
+2024-12-28 18:56:56 - debug: // ---- build task native：make ----
+2024-12-28 18:56:56 - log: run D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\tools\cmake\bin\cmake.exe --build "D:/cocos/badminton/badminton/build/windows-001/proj" --config Release -- -verbosity:quiet
+2024-12-28 18:56:56 - debug: refresh db internal success
+2024-12-28 18:56:57 - debug: refresh db assets success
+2024-12-28 18:56:57 - debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-28 18:56:57 - debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-28 18:56:57 - debug: asset-db:refresh-all-database (142ms)
+2024-12-28 18:56:57 - debug: asset-db:worker-effect-data-processing (24ms)
+2024-12-28 18:56:57 - debug: asset-db-hook-engine-extends-afterRefresh (24ms)
+2024-12-28 18:56:57 - log: [cmake] 閫傜敤浜� .NET Framework MSBuild 鐗堟湰 17.12.6+db5f6012c
+2024-12-28 18:57:03 - log: [cmake-warn] D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native\tools\swig-config\spine.i(444): warning 303: %extend defined for an undeclared class spine::SkeletonJson. [D:\cocos\badminton\badminton\build\windows-001\proj\cocos_engine.vcxproj]D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native\tools\swig-config\spine.i(421): warning 303: %extend defined for an undeclared class spine::SkeletonClipping. [D:\cocos\badminton\badminton\build\windows-001\proj\cocos_engine.vcxproj]D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native\tools\swig-config\spine.i(538): warning 303: %extend defined for an undeclared class spine::Vector2. [D:\cocos\badminton\badminton\build\windows-001\proj\cocos_engine.vcxproj]
+2024-12-28 18:57:42 - debug: refresh db internal success
+2024-12-28 18:57:42 - debug: refresh db assets success
+2024-12-28 18:57:42 - debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-28 18:57:42 - debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-28 18:57:42 - debug: asset-db:refresh-all-database (250ms)
+2024-12-28 18:57:42 - debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-28 18:57:42 - debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-28 18:57:49 - debug: refresh db internal success
+2024-12-28 18:57:49 - debug: refresh db assets success
+2024-12-28 18:57:49 - debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-28 18:57:49 - debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-28 18:57:49 - debug: asset-db:refresh-all-database (2329ms)
+2024-12-28 18:57:49 - debug: asset-db:worker-effect-data-processing (45ms)
+2024-12-28 18:57:49 - debug: asset-db-hook-engine-extends-afterRefresh (47ms)
+2024-12-28 18:57:52 - debug: refresh db internal success
+2024-12-28 18:57:52 - debug: refresh db assets success
+2024-12-28 18:57:52 - debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-28 18:57:52 - debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-28 18:57:52 - debug: asset-db:refresh-all-database (138ms)
+2024-12-28 18:57:52 - debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-28 19:00:45 - debug: // ---- build task native：make ---- (228783ms)
+2024-12-28 19:00:45 - debug: native:(make) in 228783 ms ✓, progress: 50%
+2024-12-28 19:00:45 - debug: // ---- builder:run-build-stage-make ---- (228834ms)
+2024-12-28 19:00:45 - debug: // ---- builder:run-build-stage-run ----
+2024-12-28 19:00:45 - debug: Use build file cocos.compile.config.json in root(D:\cocos\badminton\badminton\build\windows-001)
+2024-12-28 19:00:45 - debug: init options success, progress: 57%
+2024-12-28 19:00:45 - debug: native:(run) start..., progress: 63%
+2024-12-28 19:00:45 - debug: // ---- build task native：run ----
+2024-12-28 19:00:45 - log: [runCmd]: Feather-Flutter.exe 
+2024-12-28 19:00:47 - debug: 构建插件 native 的钩子函数 run 执行失败，请检查插件的代码逻辑~, progress: 79%
+2024-12-28 19:00:47 - debug: failed to exec Feather-Flutter.exe , progress: 100%
+2024-12-28 19:00:47 - debug: // ---- builder:run-build-stage-run ---- (2171ms)
+2024-12-28 19:00:47 - debug: [Build Memory track]: builder:build-project-total start:177.10MB, end 177.03MB, increase: -72.77KB
+2024-12-28 19:00:47 - debug: build success in null!
+2024-12-28 19:00:48 - error: failed to exec Feather-Flutter.exe 
+2024-12-28 19:00:48 - debug: ================================ run Task (windows-001) Finished in (4 min 2 s)ms ================================
+2024-12-28 19:02:39 - debug: =================================== build -> make -> run Task (windows-001) Start ================================
+2024-12-28 19:02:39 - debug: Start build task, options:{"nextStages":["make","run"],"name":"Feather-Flutter","server":"","platform":"windows","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"macroConfig":{"cleanupImageCache":"inherit-project-setting"},"includeModules":{"physics":"inherit-project-setting","physics-2d":"inherit-project-setting","gfx-webgl2":"off"}},"nativeCodeBundleMode":"wasm","polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"53c09363-d1e8-4f8f-8ddf-ae0501d38731","outputName":"windows-001","taskName":"windows-001","scenes":[{"url":"db://assets/scene.scene","uuid":"53c09363-d1e8-4f8f-8ddf-ae0501d38731"}],"wasmCompressionMode":false,"packages":{"windows":{"executableName":"Feather-Flutter","renderBackEnd":{"vulkan":true,"gles3":true,"gles2":true},"targetPlatform":"x64","__version__":"1.0.1","vsData":"2022"},"cocos-service":{"configID":"f8851b","services":[],"__version__":"3.0.7"},"native":{"encrypted":false,"xxteaKey":"5fFBvAoQ5PIJwWO+","compressZip":false,"JobSystem":"none","__version__":"1.0.2"}},"__version__":"1.3.8","buildMode":"normal","logDest":"project://temp/builder/log/windows2024-12-28 18-54.log","buildStageGroup":{"build":["make","run"]}}
+2024-12-28 19:02:39 - debug: Build with Cocos Creator 3.8.3-oh
+2024-12-28 19:02:39 - debug: native:(onBeforeBuild) start..., progress: 0%
+2024-12-28 19:02:39 - debug: // ---- build task native：onBeforeBuild ----
+2024-12-28 19:02:40 - debug: // ---- build task native：onBeforeBuild ---- (8ms)
+2024-12-28 19:02:40 - debug: native:(onBeforeBuild) in 8 ms ✓, progress: 1%
+2024-12-28 19:02:40 - debug: cocos-service:(onBeforeBuild) start..., progress: 1%
+2024-12-28 19:02:40 - debug: // ---- build task cocos-service：onBeforeBuild ----
+2024-12-28 19:02:40 - debug: // ---- build task cocos-service：onBeforeBuild ---- (78ms)
+2024-12-28 19:02:40 - debug: cocos-service:(onBeforeBuild) in 78 ms ✓, progress: 1%
+2024-12-28 19:02:40 - debug: scene:(onBeforeBuild) start..., progress: 1%
+2024-12-28 19:02:40 - debug: // ---- build task scene：onBeforeBuild ----
+2024-12-28 19:02:40 - debug: // ---- build task scene：onBeforeBuild ---- (16ms)
+2024-12-28 19:02:40 - debug: scene:(onBeforeBuild) in 16 ms ✓, progress: 2%
+2024-12-28 19:02:40 - debug: Start lock asset db..., progress: 2%
+2024-12-28 19:02:40 - log: Asset DB is paused with build!
+2024-12-28 19:02:40 - debug: Query all assets info in project
+2024-12-28 19:02:40 - debug: init custom config: keepNodeUuid: false, useCache: true
+2024-12-28 19:02:40 - debug: native:(onAfterInit) start..., progress: 2%
+2024-12-28 19:02:40 - debug: // ---- build task native：onAfterInit ----
+2024-12-28 19:02:40 - debug: Native engine root:D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native
+2024-12-28 19:02:40 - debug: // ---- build task native：onAfterInit ---- (43ms)
+2024-12-28 19:02:40 - debug: native:(onAfterInit) in 43 ms ✓, progress: 2%
+2024-12-28 19:02:40 - debug: windows:(onAfterInit) start..., progress: 2%
+2024-12-28 19:02:40 - debug: // ---- build task windows：onAfterInit ----
+2024-12-28 19:02:40 - debug: // ---- build task windows：onAfterInit ---- (17ms)
+2024-12-28 19:02:40 - debug: windows:(onAfterInit) in 17 ms ✓, progress: 3%
+2024-12-28 19:02:40 - debug: cocos-service:(onAfterInit) start..., progress: 3%
+2024-12-28 19:02:40 - debug: // ---- build task cocos-service：onAfterInit ----
+2024-12-28 19:02:40 - debug: // ---- build task cocos-service：onAfterInit ---- (96ms)
+2024-12-28 19:02:40 - debug: cocos-service:(onAfterInit) in 96 ms ✓, progress: 4%
+2024-12-28 19:02:40 - debug: engine:(onAfterInit) start..., progress: 4%
+2024-12-28 19:02:40 - debug: // ---- build task engine：onAfterInit ----
+2024-12-28 19:02:40 - debug: // ---- build task engine：onAfterInit ---- (16ms)
+2024-12-28 19:02:40 - debug: engine:(onAfterInit) in 16 ms ✓, progress: 4%
+2024-12-28 19:02:40 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 4%
+2024-12-28 19:02:40 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+2024-12-28 19:02:40 - debug: [adsense-h5g-plugin] remove script success
+2024-12-28 19:02:40 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (16ms)
+2024-12-28 19:02:40 - debug: adsense-h5g-plugin:(onBeforeBundleInit) in 16 ms ✓, progress: 4%
+2024-12-28 19:02:40 - debug: Init all bundles start..., progress: 4%
+2024-12-28 19:02:40 - debug: Num of bundles: 2..., progress: 4%
+2024-12-28 19:02:40 - debug: native:(onAfterBundleInit) start..., progress: 4%
+2024-12-28 19:02:40 - debug: // ---- build task native：onAfterBundleInit ----
+2024-12-28 19:02:40 - debug: // ---- build task native：onAfterBundleInit ---- (22ms)
+2024-12-28 19:02:40 - debug: native:(onAfterBundleInit) in 22 ms ✓, progress: 4%
+2024-12-28 19:02:40 - debug: windows:(onAfterBundleInit) start..., progress: 4%
+2024-12-28 19:02:40 - debug: // ---- build task windows：onAfterBundleInit ----
+2024-12-28 19:02:40 - debug: // ---- build task windows：onAfterBundleInit ---- (17ms)
+2024-12-28 19:02:40 - debug: windows:(onAfterBundleInit) in 17 ms ✓, progress: 4%
+2024-12-28 19:02:40 - debug: 查询 Asset Bundle start, progress: 4%
+2024-12-28 19:02:40 - debug: // ---- build task 查询 Asset Bundle ----
+2024-12-28 19:02:40 - debug: Init bundle root assets start..., progress: 4%
+2024-12-28 19:02:40 - debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2024-12-28 19:02:40 - debug:   Number of all scenes: 1
+2024-12-28 19:02:40 - debug:   Number of all scripts: 5
+2024-12-28 19:02:40 - debug:   Number of other assets: 385
+2024-12-28 19:02:40 - debug: Init bundle root assets success..., progress: 4%
+2024-12-28 19:02:40 - debug: reload all scripts.
+2024-12-28 19:02:40 - debug: Set detail map pack:///resolution-detail-map.json: {}
+2024-12-28 19:02:40 - groupCollapsed: Invalidate all modules
+2024-12-28 19:02:40 - debug: Unregister DebugViewRuntimeControl
+2024-12-28 19:02:40 - debug: Unregister BossController
+2024-12-28 19:02:40 - debug: Unregister PlayerController
+2024-12-28 19:02:40 - debug: Unregister GameManger
+2024-12-28 19:02:40 - debug: Unregister MenuController
+2024-12-28 19:02:40 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+2024-12-28 19:02:40 - debug: Invalidating 'pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js'
+2024-12-28 19:02:40 - debug: Invalidating 'pack:///chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js'
+2024-12-28 19:02:40 - debug: Invalidating 'pack:///chunks/66/667a19b32b86c8302d3f6f511bc7de8f966b239f.js'
+2024-12-28 19:02:40 - debug: Invalidating 'pack:///chunks/2e/2e338e30ff2c214927c868260d8cd4b4b67531db.js'
+2024-12-28 19:02:40 - debug: Invalidating 'pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js'
+2024-12-28 19:02:40 - debug: Invalidating 'pack:///chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js'
+2024-12-28 19:02:40 - debug: Invalidating 'pack:///chunks/f1/f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a.js'
+2024-12-28 19:02:40 - groupEnd: Invalidate all modules
+2024-12-28 19:02:40 - groupCollapsed: Imports all modules
+2024-12-28 19:02:40 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2024-12-28 19:02:40 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-12-28 19:02:40 - debug: [[Executor]] Register DebugViewRuntimeControl
+2024-12-28 19:02:40 - debug: [[Executor]] Module "pack:///chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js" loaded.
+2024-12-28 19:02:40 - debug: [[Executor]] Register BossController
+2024-12-28 19:02:40 - debug: [[Executor]] Module "pack:///chunks/66/667a19b32b86c8302d3f6f511bc7de8f966b239f.js" loaded.
+2024-12-28 19:02:40 - debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+2024-12-28 19:02:40 - debug: [[Executor]] Register PlayerController
+2024-12-28 19:02:40 - debug: [[Executor]] Module "pack:///chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js" loaded.
+2024-12-28 19:02:40 - debug: [[Executor]] Register GameManger
+2024-12-28 19:02:40 - debug: [[Executor]] Module "pack:///chunks/2e/2e338e30ff2c214927c868260d8cd4b4b67531db.js" loaded.
+2024-12-28 19:02:40 - debug: [[Executor]] Register MenuController
+2024-12-28 19:02:40 - debug: [[Executor]] Module "pack:///chunks/f1/f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a.js" loaded.
+2024-12-28 19:02:40 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2024-12-28 19:02:40 - groupEnd: Imports all modules
+2024-12-28 19:02:40 - debug: Incremental keys: 
+2024-12-28 19:02:40 - debug: Init bundle share assets start..., progress: 4%
+2024-12-28 19:02:40 - debug: Init bundle share assets success..., progress: 4%
+2024-12-28 19:02:40 - debug: handle json group in bundle internal
+2024-12-28 19:02:40 - debug: handle json group in bundle internal success
+2024-12-28 19:02:40 - debug: handle json group in bundle main
+2024-12-28 19:02:40 - debug: init image compress task 0 in bundle internal
+2024-12-28 19:02:40 - debug: handle json group in bundle main success
+2024-12-28 19:02:40 - debug: init image compress task 0 in bundle main
+2024-12-28 19:02:40 - debug: // ---- build task 查询 Asset Bundle ---- (111ms)
+2024-12-28 19:02:40 - debug: run build task 查询 Asset Bundle success in 111 ms√, progress: 6%
+2024-12-28 19:02:40 - debug: [Build Memory track]: 查询 Asset Bundle start:182.20MB, end 181.48MB, increase: -743.33KB
+2024-12-28 19:02:40 - debug: 查询 Asset Bundle start, progress: 6%
+2024-12-28 19:02:40 - debug: // ---- build task 查询 Asset Bundle ----
+2024-12-28 19:02:40 - debug: // ---- build task 查询 Asset Bundle ---- (90ms)
+2024-12-28 19:02:40 - debug: run build task 查询 Asset Bundle success in 90 ms√, progress: 8%
+2024-12-28 19:02:40 - debug: [Build Memory track]: 查询 Asset Bundle start:181.50MB, end 181.73MB, increase: 235.59KB
+2024-12-28 19:02:40 - debug: native:(onAfterBundleDataTask) start..., progress: 8%
+2024-12-28 19:02:40 - debug: // ---- build task native：onAfterBundleDataTask ----
+2024-12-28 19:02:40 - debug: // ---- build task native：onAfterBundleDataTask ---- (44ms)
+2024-12-28 19:02:40 - debug: native:(onAfterBundleDataTask) in 44 ms ✓, progress: 8%
+2024-12-28 19:02:40 - debug: 打包脚本 start, progress: 8%
+2024-12-28 19:02:40 - debug: // ---- build task 打包脚本 ----
+2024-12-28 19:02:40 - debug: Caught exception during build core-js: WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema. - configuration.entry should be an non-empty array.   -> A non-empty array of non-empty stringsThis may indicates the core-js polyfill is not necessary. See https://github.com/zloirock/core-js/issues/822
+2024-12-28 19:02:40 - debug: Generate systemJs..., progress: 8%
+2024-12-28 19:02:47 - debug: 构建项目脚本 start..., progress: 8%
+2024-12-28 19:02:47 - debug: Build script in bundle start, progress: 8%
+2024-12-28 19:02:48 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2024-12-28 19:02:48 - log: [build-script]enter sub process 24976, D:\cocos\CocosCreator-v3.8.3-oh-win-102911\CocosCreator.exe,D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\static\sub-process-index
+2024-12-28 19:02:48 - log: 资源数据库已锁定，资源操作(refresh)将会延迟响应，请稍侯
+2024-12-28 19:02:53 - debug: excute-script over with build-script 5289ms
+2024-12-28 19:02:53 - debug: Copy externalScripts success!
+2024-12-28 19:02:53 - debug: Build script in bundle success, progress: 8%
+2024-12-28 19:02:53 - debug: 构建项目脚本 in (5957 ms) √, progress: 8%
+2024-12-28 19:02:53 - debug: 构建引擎脚本 start..., progress: 8%
+2024-12-28 19:02:53 - debug: Use cache engine: {link(C:\Users\林舒乐\AppData\Local\Temp\CocosCreator\3.8.3-oh\builder\engine\bd42842e5208bc6bad25fb9ff776bd6e)}
+2024-12-28 19:02:53 - debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","intersection-2d","meshopt","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.8.3-oh","md5Map":[],"engineName":"src/cocos-js","platform":"WINDOWS","useCache":true,"isNative":true,"nativeCodeBundleMode":"wasm","wasmCompressionMode":false,"output":"D:\\cocos\\badminton\\badminton\\build\\windows-001\\data\\src\\cocos-js","targets":"chrome 116","flags":{"DEBUG":false,"NET_MODE":0,"SERVER_MODE":false},"entry":"D:\\cocos\\CocosCreator-v3.8.3-oh-win-102911\\resources\\resources\\3d\\engine"}
+2024-12-28 19:02:53 - debug: 构建引擎脚本 in (224 ms) √, progress: 8%
+2024-12-28 19:02:53 - debug: Copy plugin script ..., progress: 8%
+2024-12-28 19:02:53 - debug: Generate import-map..., progress: 8%
+2024-12-28 19:02:53 - debug: // ---- build task 打包脚本 ---- (13183ms)
+2024-12-28 19:02:53 - debug: run build task 打包脚本 success in 13 s√, progress: 9%
+2024-12-28 19:02:53 - debug: [Build Memory track]: 打包脚本 start:181.94MB, end 178.15MB, increase: -3878.68KB
+2024-12-28 19:02:53 - debug: Build Assets start, progress: 9%
+2024-12-28 19:02:53 - debug: // ---- build task Build Assets ----
+2024-12-28 19:02:53 - debug: Build bundles..., progress: 9%
+2024-12-28 19:02:53 - debug: Pack Images start, progress: 9%
+2024-12-28 19:02:53 - debug: builder:pack-auto-atlas-image (43ms)
+2024-12-28 19:02:53 - debug: Pack Images success, progress: 9%
+2024-12-28 19:02:53 - debug: Compress image start..., progress: 9%
+2024-12-28 19:02:53 - group: Compress image...
+2024-12-28 19:02:53 - debug: sort compress task {}
+2024-12-28 19:02:53 - debug: Num of all image compress task 0, really: 0, configTasks: 0
+2024-12-28 19:02:53 - debug: No image need to compress
+2024-12-28 19:02:53 - groupEnd: Compress image...
+2024-12-28 19:02:53 - debug: Compress image success..., progress: 9%
+2024-12-28 19:02:53 - debug: Output asset in bundles start, progress: 9%
+2024-12-28 19:02:53 - debug: Handle all json groups in bundle internal
+2024-12-28 19:02:53 - debug: handle json group
+2024-12-28 19:02:53 - debug: Handle all json groups in bundle main
+2024-12-28 19:02:53 - debug: handle json group
+2024-12-28 19:02:53 - debug: Json group(0ca60d3e4) compile success，json number: 6
+2024-12-28 19:02:53 - debug: handle single json
+2024-12-28 19:02:53 - debug: Json group(0601ff7d3) compile success，json number: 6
+2024-12-28 19:02:53 - debug: handle single json
+2024-12-28 19:02:53 - debug: Output asset in bundles success, progress: 9%
+2024-12-28 19:02:53 - debug: Output asset in bundles start, progress: 9%
+2024-12-28 19:02:53 - debug: compress config of bundle internal...
+2024-12-28 19:02:53 - debug: compress config of bundle internal success
+2024-12-28 19:02:53 - debug: compress config of bundle main...
+2024-12-28 19:02:53 - debug: compress config of bundle main success
+2024-12-28 19:02:53 - debug: output config of bundle internal
+2024-12-28 19:02:53 - debug: output config of bundle internal success
+2024-12-28 19:02:53 - debug: output config of bundle main
+2024-12-28 19:02:53 - debug: output config of bundle main success
+2024-12-28 19:02:53 - debug: Output asset in bundles success, progress: 9%
+2024-12-28 19:02:54 - debug: // ---- build task Build Assets ---- (213ms)
+2024-12-28 19:02:54 - debug: run build task Build Assets success in 213 ms√, progress: 11%
+2024-12-28 19:02:54 - debug: [Build Memory track]: Build Assets start:178.17MB, end 179.59MB, increase: 1.42MB
+2024-12-28 19:02:54 - debug: 整理部分构建选项内数据到 settings.json start, progress: 11%
+2024-12-28 19:02:54 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-28 19:02:54 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (29ms)
+2024-12-28 19:02:54 - debug: run build task 整理部分构建选项内数据到 settings.json success in 29 ms√, progress: 11%
+2024-12-28 19:02:54 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:179.67MB, end 178.90MB, increase: -789.65KB
+2024-12-28 19:02:54 - debug: 填充脚本数据到 settings.json start, progress: 11%
+2024-12-28 19:02:54 - debug: // ---- build task 填充脚本数据到 settings.json ----
+2024-12-28 19:02:54 - debug: // ---- build task 填充脚本数据到 settings.json ---- (19ms)
+2024-12-28 19:02:54 - debug: run build task 填充脚本数据到 settings.json success in 19 ms√, progress: 12%
+2024-12-28 19:02:54 - debug: [Build Memory track]: 填充脚本数据到 settings.json start:178.92MB, end 179.01MB, increase: 96.48KB
+2024-12-28 19:02:54 - debug: 整理部分构建选项内数据到 settings.json start, progress: 12%
+2024-12-28 19:02:54 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2024-12-28 19:02:54 - debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (22ms)
+2024-12-28 19:02:54 - debug: run build task 整理部分构建选项内数据到 settings.json success in 22 ms√, progress: 13%
+2024-12-28 19:02:54 - debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:179.03MB, end 179.23MB, increase: 203.74KB
+2024-12-28 19:02:54 - debug: cocos-service:(onBeforeCompressSettings) start..., progress: 13%
+2024-12-28 19:02:54 - debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2024-12-28 19:02:54 - debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (159ms)
+2024-12-28 19:02:54 - debug: cocos-service:(onBeforeCompressSettings) in 159 ms ✓, progress: 13%
+2024-12-28 19:02:54 - debug: 整理静态模板文件 start, progress: 13%
+2024-12-28 19:02:54 - debug: // ---- build task 整理静态模板文件 ----
+2024-12-28 19:02:54 - debug: // ---- build task 整理静态模板文件 ---- (80ms)
+2024-12-28 19:02:54 - debug: run build task 整理静态模板文件 success in 80 ms√, progress: 15%
+2024-12-28 19:02:54 - debug: [Build Memory track]: 整理静态模板文件 start:179.39MB, end 179.83MB, increase: 445.36KB
+2024-12-28 19:02:54 - debug: native:(onAfterCompressSettings) start..., progress: 15%
+2024-12-28 19:02:54 - debug: // ---- build task native：onAfterCompressSettings ----
+2024-12-28 19:02:54 - log: Checking template version...
+2024-12-28 19:02:54 - warn: Failed to validate native directory
+2024-12-28 19:02:54 - warn: SyntaxError: Expected "||" or end of input but "-" found.    at peg$buildStructuredError (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native\cmake\scripts\plugin_support\plugin_cfg.js:370:12)    at Object.peg$parse [as parse] (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native\cmake\scripts\plugin_support\plugin_cfg.js:833:11)    at WindowsPackTool.validateTemplateVersion (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\base\default.ts:264:63)    at WindowsPackTool.validateNativeDir (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\base\default.ts:334:22)    at WindowsPackTool.copyPlatformTemplate (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\base\default.ts:363:18)    at WindowsPackTool.create (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\platforms\windows.ts:19:20)    at NativePackToolManager.create (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\scripts\native-pack-tool\source\base\manager.ts:37:9)    at PackToolHandler.runTask (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\modules\platform-extensions\extensions\native\dist\builder\native-utils\index.ccc:1:2968)    at BuildTask.onAfterCompressSettings (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\modules\platform-extensions\extensions\native\dist\builder\hooks.ccc:1:5369)    at BuildTask.handleHook (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13310)    at BuildTask.runPluginTask (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\builder\manager\task-base.ccc:1:1192)    at BuildTask.run (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:4836)    at build (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:3967)    at Ipc.<anonymous> (D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:206)
+2024-12-28 19:02:54 - debug: generateCMakeConfig, {"CC_USE_GLES3":"set(CC_USE_GLES3 ON)","CC_USE_GLES2":"set(CC_USE_GLES2 ON)","USE_SERVER_MODE":"set(USE_SERVER_MODE OFF)","NET_MODE":"set(NET_MODE 0)","XXTEAKEY":"","CC_ENABLE_SWAPPY":"set(CC_ENABLE_SWAPPY OFF)","APP_NAME":"set(APP_NAME \"Feather-Flutter\")","COCOS_X_PATH":"set(COCOS_X_PATH \"D:/cocos/CocosCreator-v3.8.3-oh-win-102911/resources/resources/3d/engine/native\")","USE_JOB_SYSTEM_TASKFLOW":"set(USE_JOB_SYSTEM_TASKFLOW OFF)","USE_JOB_SYSTEM_TBB":"set(USE_JOB_SYSTEM_TBB OFF)","ENABLE_FLOAT_OUTPUT":"set(ENABLE_FLOAT_OUTPUT OFF)","USE_PHYSICS_PHYSX":"set(USE_PHYSICS_PHYSX OFF)","USE_OCCLUSION_QUERY":"set(USE_OCCLUSION_QUERY OFF)","USE_GEOMETRY_RENDERER":"set(USE_GEOMETRY_RENDERER OFF)","USE_DEBUG_RENDERER":"set(USE_DEBUG_RENDERER OFF)","USE_AUDIO":"set(USE_AUDIO ON)","USE_VIDEO":"set(USE_VIDEO ON)","USE_WEBVIEW":"set(USE_WEBVIEW ON)","USE_SOCKET":"set(USE_SOCKET OFF)","USE_WEBSOCKET_SERVER":"set(USE_WEBSOCKET_SERVER OFF)","USE_SPINE":"set(USE_SPINE ON)","USE_DRAGONBONES":"set(USE_DRAGONBONES ON)","CC_EXECUTABLE_NAME":"set(CC_EXECUTABLE_NAME \"Feather-Flutter\")","CC_USE_VULKAN":"set(CC_USE_VULKAN ON)"}
+2024-12-28 19:02:54 - log: While replace template content, file D:\cocos\badminton\badminton\build\windows-001\proj\main.cpp
+2024-12-28 19:02:54 - log: While replace template content, file D:\cocos\badminton\badminton\build\windows-001\proj\main.m
+2024-12-28 19:02:54 - log: While replace template content, file D:\cocos\badminton\badminton\build\windows-001\proj\settings.gradle
+2024-12-28 19:02:54 - log: While replace template content, file D:\cocos\badminton\badminton\native\engine\win64/app/build.gradle
+2024-12-28 19:02:54 - log: While replace template content, file D:\cocos\badminton\badminton\native\engine\win64/instantapp/build.gradle
+2024-12-28 19:02:54 - log: While replace template content, file D:\cocos\badminton\badminton\native\engine\win64/entry/src/main/config.json
+2024-12-28 19:02:54 - debug: // ---- build task native：onAfterCompressSettings ---- (37ms)
+2024-12-28 19:02:54 - debug: native:(onAfterCompressSettings) in 37 ms ✓, progress: 15%
+2024-12-28 19:02:54 - debug: cocos-service:(onAfterCompressSettings) start..., progress: 15%
+2024-12-28 19:02:54 - debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2024-12-28 19:02:54 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (75ms)
+2024-12-28 19:02:54 - debug: cocos-service:(onAfterCompressSettings) in 75 ms ✓, progress: 16%
+2024-12-28 19:02:54 - debug: 给所有的资源加上 MD5 后缀 start, progress: 16%
+2024-12-28 19:02:54 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2024-12-28 19:02:54 - debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (15ms)
+2024-12-28 19:02:54 - debug: run build task 给所有的资源加上 MD5 后缀 success in 15 ms√, progress: 19%
+2024-12-28 19:02:54 - debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:180.62MB, end 180.71MB, increase: 97.20KB
+2024-12-28 19:02:54 - debug: native:(onAfterBuild) start..., progress: 19%
+2024-12-28 19:02:54 - debug: // ---- build task native：onAfterBuild ----
+2024-12-28 19:02:54 - log: run D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\tools\cmake\bin\cmake.exe -S"D:/cocos/badminton/badminton/native/engine/win64" -B"D:/cocos/badminton/badminton/build/windows-001/proj" -DRES_DIR="D:/cocos/badminton/badminton/build/windows-001" -DAPP_NAME="Feather-Flutter" -DLAUNCH_TYPE="Release"
+2024-12-28 19:02:54 - log: [cmake] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
+2024-12-28 19:02:54 - log: [cmake] -- platform: Windows-- Ignore NO_WERROR
+2024-12-28 19:02:54 - log: [cmake] -- OPTION BUILTIN_COCOS_X_PATH:	-- OPTION USE_BUILTIN_EXTERNAL:	OFF-- OPTION USE_MODULES:	OFF-- OPTION CC_USE_METAL:	-- OPTION CC_USE_GLES3:	ON-- OPTION CC_USE_GLES2:	ON-- OPTION CC_USE_VULKAN:	ON-- OPTION CC_DEBUG_FORCE:	OFF-- OPTION USE_SE_V8:	ON-- OPTION USE_V8_DEBUGGER:	ON-- OPTION USE_V8_DEBUGGER_FORCE:	OFF-- OPTION USE_SE_SM:	OFF-- OPTION USE_SOCKET:	OFF-- OPTION USE_AUDIO:	ON-- OPTION USE_EDIT_BOX:	ON-- OPTION USE_VIDEO:	OFF-- OPTION USE_WEBVIEW:	OFF-- OPTION USE_MIDDLEWARE:	ON-- OPTION USE_DRAGONBONES:	ON-- OPTION USE_SPINE:	ON-- OPTION USE_WEBSOCKET_SERVER:	OFF-- OPTION USE_PHYSICS_PHYSX:	OFF-- OPTION USE_JOB_SYSTEM_TBB:	OFF-- OPTION USE_JOB_SYSTEM_TASKFLOW:	OFF
+2024-12-28 19:02:54 - log: [cmake] -- OPTION USE_XR:	OFF-- OPTION USE_SERVER_MODE:	OFF-- OPTION USE_AR_MODULE:	OFF-- OPTION USE_AR_AUTO:	OFF-- OPTION USE_AR_CORE:	OFF-- OPTION USE_AR_ENGINE:	OFF-- OPTION USE_CCACHE:	-- OPTION CCACHE_EXECUTABLE:	CCACHE_EXECUTABLE-NOTFOUND-- OPTION NODE_EXECUTABLE:	NODE_EXECUTABLE-NOTFOUND-- OPTION NET_MODE:	0-- OPTION USE_REMOTE_LOG:	OFF
+2024-12-28 19:02:54 - log: [cmake] -- platform path: 
+2024-12-28 19:02:54 - log: [cmake] -- Try generating D:/cocos/badminton/badminton/native/engine/win64/Pre-AutoLoadPlulgins.cmake
+2024-12-28 19:02:54 - log: [cmake] -- NodeJS is not found in $PATH, skip searching native plugins.
+2024-12-28 19:02:54 - log: [cmake] -- Searching hook files Pre*.cmake or *Pre.cmake in D:/cocos/badminton/badminton/native/engine/win64-- No plugins are loaded!
+2024-12-28 19:02:54 - log: [cmake] -- Searching hook files Post*.cmake or *Post.cmake in D:/cocos/badminton/badminton/native/engine/win64
+2024-12-28 19:02:54 - log: [cmake] -- Configuring done
+2024-12-28 19:02:55 - log: [cmake] -- Generating done
+2024-12-28 19:02:55 - log: [cmake] -- Build files have been written to: D:/cocos/badminton/badminton/build/windows-001/proj
+2024-12-28 19:02:55 - debug: // ---- build task native：onAfterBuild ---- (1497ms)
+2024-12-28 19:02:55 - debug: native:(onAfterBuild) in 1497 ms ✓, progress: 20%
+2024-12-28 19:02:55 - debug: cocos-service:(onAfterBuild) start..., progress: 20%
+2024-12-28 19:02:55 - debug: // ---- build task cocos-service：onAfterBuild ----
+2024-12-28 19:02:56 - debug: // ---- build task cocos-service：onAfterBuild ---- (302ms)
+2024-12-28 19:02:56 - debug: cocos-service:(onAfterBuild) in 302 ms ✓, progress: 21%
+2024-12-28 19:02:56 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 21%
+2024-12-28 19:02:56 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+2024-12-28 19:02:56 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (54ms)
+2024-12-28 19:02:56 - debug: adsense-h5g-plugin:(onAfterBuild) in 54 ms ✓, progress: 21%
+2024-12-28 19:02:56 - log: Asset DB is resume!
+2024-12-28 19:02:56 - debug: builder:build-project-total (16368ms)
+2024-12-28 19:02:56 - debug: build success in 16368!
+2024-12-28 19:02:56 - debug: // ---- builder:run-build-stage-make ----
+2024-12-28 19:02:56 - debug: Use build file cocos.compile.config.json in root(D:\cocos\badminton\badminton\build\windows-001)
+2024-12-28 19:02:56 - debug: init options success, progress: 28%
+2024-12-28 19:02:56 - debug: native:(make) start..., progress: 35%
+2024-12-28 19:02:56 - debug: // ---- build task native：make ----
+2024-12-28 19:02:56 - log: run D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\tools\cmake\bin\cmake.exe --build "D:/cocos/badminton/badminton/build/windows-001/proj" --config Release -- -verbosity:quiet
+2024-12-28 19:02:56 - debug: refresh db internal success
+2024-12-28 19:02:56 - debug: refresh db assets success
+2024-12-28 19:02:56 - debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-28 19:02:56 - debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-28 19:02:56 - debug: asset-db:refresh-all-database (100ms)
+2024-12-28 19:02:56 - debug: asset-db:worker-effect-data-processing (6ms)
+2024-12-28 19:02:56 - debug: asset-db-hook-engine-extends-afterRefresh (6ms)
+2024-12-28 19:02:56 - log: [cmake] 閫傜敤浜� .NET Framework MSBuild 鐗堟湰 17.12.6+db5f6012c
+2024-12-28 19:02:59 - debug: // ---- build task native：make ---- (3435ms)
+2024-12-28 19:02:59 - debug: native:(make) in 3435 ms ✓, progress: 50%
+2024-12-28 19:02:59 - debug: // ---- builder:run-build-stage-make ---- (3451ms)
+2024-12-28 19:02:59 - debug: // ---- builder:run-build-stage-run ----
+2024-12-28 19:02:59 - debug: Use build file cocos.compile.config.json in root(D:\cocos\badminton\badminton\build\windows-001)
+2024-12-28 19:02:59 - debug: init options success, progress: 57%
+2024-12-28 19:02:59 - debug: native:(run) start..., progress: 63%
+2024-12-28 19:02:59 - debug: // ---- build task native：run ----
+2024-12-28 19:02:59 - log: [runCmd]: Feather-Flutter.exe 
+2024-12-28 19:03:01 - debug: refresh db internal success
+2024-12-28 19:03:01 - debug: refresh db assets success
+2024-12-28 19:03:01 - debug: Run asset db hook engine-extends:afterRefresh ...
+2024-12-28 19:03:01 - debug: Run asset db hook engine-extends:afterRefresh success!
+2024-12-28 19:03:01 - debug: 构建插件 native 的钩子函数 run 执行失败，请检查插件的代码逻辑~, progress: 79%
+2024-12-28 19:03:01 - debug: failed to exec Feather-Flutter.exe , progress: 100%
+2024-12-28 19:03:01 - debug: asset-db:refresh-all-database (58ms)
+2024-12-28 19:03:01 - debug: asset-db:worker-effect-data-processing (1ms)
+2024-12-28 19:03:01 - debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-12-28 19:03:01 - debug: // ---- builder:run-build-stage-run ---- (1185ms)
+2024-12-28 19:03:01 - debug: [Build Memory track]: builder:build-project-total start:182.82MB, end 183.20MB, increase: 386.93KB
+2024-12-28 19:03:01 - debug: build success in null!
+2024-12-28 19:03:01 - error: failed to exec Feather-Flutter.exe 
+2024-12-28 19:03:01 - debug: ================================ run Task (windows-001) Finished in (21 s)ms ================================

@@ -3,6 +3,7 @@
     "cce:/internal/x/cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js",
     "cce:/internal/x/prerequisite-imports": "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js",
     "file:///D:/cocos/CocosCreator-v3.8.3-oh-win-102911/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js",
+    "file:///D:/cocos/badminton/badminton/assets/Scripts/BossController.ts": "./chunks/66/667a19b32b86c8302d3f6f511bc7de8f966b239f.js",
     "file:///D:/cocos/badminton/badminton/assets/Scripts/GameManager.ts": "./chunks/2e/2e338e30ff2c214927c868260d8cd4b4b67531db.js",
     "file:///D:/cocos/badminton/badminton/assets/Scripts/MenuController.ts": "./chunks/f1/f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a.js",
     "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts": "./chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js"
@@ -42,9 +43,10 @@
     },
     "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js": {
       "__unresolved_0": "./chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js",
-      "__unresolved_1": "./chunks/2e/2e338e30ff2c214927c868260d8cd4b4b67531db.js",
-      "__unresolved_2": "./chunks/f1/f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a.js",
-      "__unresolved_3": "./chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js"
+      "__unresolved_1": "./chunks/66/667a19b32b86c8302d3f6f511bc7de8f966b239f.js",
+      "__unresolved_2": "./chunks/2e/2e338e30ff2c214927c868260d8cd4b4b67531db.js",
+      "__unresolved_3": "./chunks/f1/f1ea3959bad7f4e9b878a3754cd86f8a9cdc308a.js",
+      "__unresolved_4": "./chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js"
     },
     "./chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
@@ -55,6 +57,10 @@
     "./chunks/2e/2e338e30ff2c214927c868260d8cd4b4b67531db.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
       "__unresolved_1": "./chunks/f6/f66656c70fc5ce6b784ec96ed4f4454ea7438438.js",
+      "__unresolved_2": "./chunks/66/667a19b32b86c8302d3f6f511bc7de8f966b239f.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/66/667a19b32b86c8302d3f6f511bc7de8f966b239f.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/8b/8ba0a76d7d4cb7bbf10f41395a9e2a042eeb83bb.js": {

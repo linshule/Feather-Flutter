@@ -1,5 +1,6 @@
-import { _decorator, Component, Vec3, EventMouse, input, Input, Animation, Node, Prefab, CCInteger, instantiate, PhysicsSystem2D, Collider2D, Contact2DType, IPhysics2DContact, animation, AnimationState, Label, RigidBody2D, Vec2 } from 'cc';
+import { _decorator, Component, Vec3, EventMouse, input, Input, Animation, Node, Prefab, CCInteger, AudioSource, instantiate, PhysicsSystem2D, Collider2D, Contact2DType, IPhysics2DContact, animation, AnimationState, Label, RigidBody2D, Vec2, BoxCollider2D } from 'cc';
 import { PlayerController } from './PlayerController';
+import { BossController } from './BossController';
 const { ccclass, property } = _decorator;
 
 enum GameState {
@@ -45,14 +46,25 @@ export class GameManger extends Component {
     @property({ type: Prefab })
     public firePrefab: Prefab | null = null;
     @property({ type: CCInteger })
-    public roadLength: number = 20;
-    public roadHeight: number = 20;
+    public roadLength: number = 30;
+    public roadHeight: number = 30;
     public feacherCount: number = 0;
     private _road = [];
 
     @property({ type: PlayerController })
     public playerCtrl: PlayerController | null = null;
 
+    @property({ type: BossController })
+    public bossCtrl: BossController | null = null;
+
+    @property({ type: Node })
+    StCo: Node = null;
+
+    @property({ type: Node })
+    camera: Node = null;
+
+    @property({ type: Node })
+    bg4: Node = null;
     start() {
         this.setCurState(GameState.GS_INIT);
         this.node.on('GetScore', this.updateScore, this)
@@ -72,8 +84,10 @@ export class GameManger extends Component {
         this.startGame();
     }
     init() {
+        this.StCo.getComponent(AudioSource).play();
     }
     startGame() {
+        this.StCo.getComponent(AudioSource).pause();
         this.startMenu2.active = false;
         this.startExit.active = false;
         this.startStart.active = false;
@@ -108,7 +122,7 @@ export class GameManger extends Component {
         for (let cur of curChildren) {
             cur.setScale(0, 0);
         }
-        let playerRigid = this.player.getComponent(Collider2D);
+        let playerRigid = this.gameGround1.getComponent(Collider2D);
         if (playerRigid) {
             playerRigid.body.enabledContactListener = false;
         }
@@ -117,6 +131,46 @@ export class GameManger extends Component {
             scoreAnim.play('score_bigger');
         }
         this.player.active = false;
+        setTimeout(() => {
+            this.node.removeAllChildren();
+        }, 100);
+        setTimeout(() => {
+            this.toBoss();
+        }, 3000);
+    }
+    toBoss() {
+        this.gameGround1.getComponent(Animation).play('bg3xs');
+        setTimeout(() => {
+            this.camera.active = false;
+            this.gameGround1.active = false;
+            this.bossCtrl.initBoss();
+            setTimeout(() => {
+                this.generateRoadBoss();
+            }, 1000);
+        }, 1000);
+
+    }
+    generateRoadBoss() {
+        for (let i = -10; i <= 10; i++) {
+            let block: Node | null = this.spawnBlockByType(BlockType.BT_STONE);
+            this.bg4.addChild(block);
+            block.setPosition((i) * BlockSizeY, 4.3 * BlockSizeX, 0);
+        }
+        for (let i = -10; i <= 10; i++) {
+            let block: Node | null = this.spawnBlockByType(BlockType.BT_STONE);
+            this.bg4.addChild(block);
+            block.setPosition((i) * BlockSizeY, -4.3 * BlockSizeX, 0);
+        }
+        for (let i = -4.3; i <= 4.3; i++) {
+            let block: Node | null = this.spawnBlockByType(BlockType.BT_STONE);
+            this.bg4.addChild(block);
+            block.setPosition(-10 * BlockSizeY, (i) * BlockSizeX, 0);
+        }
+        for (let i = -4.3; i <= 4.3; i++) {
+            let block: Node | null = this.spawnBlockByType(BlockType.BT_STONE);
+            this.bg4.addChild(block);
+            block.setPosition(10 * BlockSizeY, (i) * BlockSizeX, 0);
+        }
     }
     onContactFeather(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
         let block = selfCollider.node;
@@ -165,7 +219,7 @@ export class GameManger extends Component {
                             if (collider) {
                                 collider.on(Contact2DType.BEGIN_CONTACT, this.onContactFeather, this);
                             }
-                            curNode.setPosition((j - 1) * BlockSizeY, (i - 10) * BlockSizeX, 0);
+                            curNode.setPosition((j - 1) * BlockSizeY, (i - 15) * BlockSizeX, 0);
                             continue;
                         }
                         this.node.addChild(block);
@@ -179,14 +233,35 @@ export class GameManger extends Component {
                                 collider.on(Contact2DType.BEGIN_CONTACT, this.onContactFire, this);
                             }
                         }
-                        block.setPosition((j - 1) * BlockSizeY, (i - 10) * BlockSizeX, 0);
+                        block.setPosition((j - 1) * BlockSizeY, (i - 15) * BlockSizeX, 0);
                     }
-                } else if (i - 10 == -1) {
+                } else if (i - 15 == -1) {
                     block = this.spawnBlockByType(BlockType.BT_STONE);
                     this.node.addChild(block);
-                    block.setPosition((j - 1) * BlockSizeY, (i - 10) * BlockSizeX, 0);
+                    block.setPosition((j - 1) * BlockSizeY, (i - 15) * BlockSizeX, 0);
                 }
             }
+        }
+
+        for (let i = -5; i <= this.roadLength + 5; i++) {
+            let block: Node | null = this.spawnBlockByType(BlockType.BT_STONE);
+            this.node.addChild(block);
+            block.setPosition((i - 1) * BlockSizeY, (this.roadHeight - 15 + 5) * BlockSizeX, 0);
+        }
+        for (let i = -5; i <= this.roadLength + 5; i++) {
+            let block: Node | null = this.spawnBlockByType(BlockType.BT_STONE);
+            this.node.addChild(block);
+            block.setPosition((i - 1) * BlockSizeY, (- 15 - 5) * BlockSizeX, 0);
+        }
+        for (let i = -5; i <= this.roadHeight + 5; i++) {
+            let block: Node | null = this.spawnBlockByType(BlockType.BT_STONE);
+            this.node.addChild(block);
+            block.setPosition((this.roadLength + 5 - 1) * BlockSizeY, (i - 15) * BlockSizeX, 0);
+        }
+        for (let i = -5; i <= this.roadHeight + 5; i++) {
+            let block: Node | null = this.spawnBlockByType(BlockType.BT_STONE);
+            this.node.addChild(block);
+            block.setPosition((-5 - 1) * BlockSizeY, (i - 15) * BlockSizeX, 0);
         }
     }
     spawnBlockByType(type: BlockType) {

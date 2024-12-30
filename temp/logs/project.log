@@ -1,11 +1,11 @@
-2024-12-26 13:20:22 - log: Load engine in D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine
-2024-12-26 13:20:24 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-2024-12-26 13:20:24 - log: Register native engine in D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native
-2024-12-26 13:20:24 - log: Request namespace: device-list
-2024-12-26 13:21:12 - log: [Scene] meshopt wasm decoder initialized
-2024-12-26 13:21:13 - log: [Scene] [bullet]:bullet wasm lib loaded.
-2024-12-26 13:21:13 - log: [Scene] [box2d]:box2d wasm lib loaded.
-2024-12-26 13:21:13 - log: [Scene] [PHYSICS]: using builtin.
-2024-12-26 13:21:16 - log: [Scene] Cocos Creator v3.8.3
-2024-12-26 13:21:16 - info: [Scene] Forward render pipeline initialized.
-2024-12-26 13:21:17 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2024-12-30 14:40:02 - log: Load engine in D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine
+2024-12-30 14:40:03 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+2024-12-30 14:40:03 - log: Register native engine in D:\cocos\CocosCreator-v3.8.3-oh-win-102911\resources\resources\3d\engine\native
+2024-12-30 14:40:04 - log: Request namespace: device-list
+2024-12-30 14:40:32 - log: [Scene] meshopt wasm decoder initialized
+2024-12-30 14:40:32 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2024-12-30 14:40:32 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2024-12-30 14:40:32 - log: [Scene] [PHYSICS]: using builtin.
+2024-12-30 14:40:32 - log: [Scene] Cocos Creator v3.8.3
+2024-12-30 14:40:32 - info: [Scene] Forward render pipeline initialized.
+2024-12-30 14:40:33 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.

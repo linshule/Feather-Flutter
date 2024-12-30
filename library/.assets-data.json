@@ -246,22 +246,29 @@
         "53c09363-d1e8-4f8f-8ddf-ae0501d38731",
         "2e8325a8-b318-462f-b407-bc68cd756a32@f9941",
         "e5271f63-23d4-4888-aecb-d93801f3252f@f9941",
-        "5ce2a1f9-f98d-4f5b-86df-c5ab6166c779@f9941",
         "6eb33253-6036-4aea-867a-edd28f7ac246@f9941",
         "0adf839c-a497-4e5e-810c-e88c21c4053f",
         "a1757a40-0cc0-49d2-bf1b-0b47986d9dff@f9941",
         "e6531d50-dd37-4eda-a76f-135ae81bf301",
         "59ac25a4-c607-4a81-ab1e-f01f3386ff27@f9941",
+        "1ebead5a-1b9c-4e06-80d9-0d7f680c57c2",
+        "4d00f075-eccd-469b-9ae9-090103e5e27f",
         "ca9ba6a4-4dcf-43ad-adbc-e395f338158e",
         "c976f31c-d14f-4a04-b533-f2139dee63e7",
         "e6487f40-5f79-4f8c-bf35-ff2c76500aff",
         "9457298c-dac3-41a7-9be7-859a85a703d2@f9941",
         "dce12626-0ce7-46bb-b7f9-24d1f83b5af2@f9941",
-        "add9007f-abf7-4466-8e50-f458282ebfbd@f9941"
+        "add9007f-abf7-4466-8e50-f458282ebfbd@f9941",
+        "04dfb577-ca64-4be3-aeea-b54f9d78192a",
+        "a9cf45d1-fdd4-420c-9109-b41759183ef4@f9941",
+        "5ce2a1f9-f98d-4f5b-86df-c5ab6166c779@f9941",
+        "57463695-8964-4f94-89cf-0ec18132bddf",
+        "ffa2c205-9b24-40fe-b8f0-017f4d5afeab"
       ],
       "dependScripts": [
         "94850660-6b23-4297-ae13-86cee5f1a9e6",
         "b96d4aee-b2bc-44c3-9444-4c6a1be8e374",
+        "9c376854-b8e0-4651-bded-c140602a8848",
         "a40940e3-32a3-4a57-b93f-b5f1c2c40232"
       ]
     },
@@ -620,7 +627,10 @@
     "value": {
       "depends": [
         "cd603125-1fc2-4199-b024-96192cd3ea4f@f9941",
-        "b4d62f43-57ed-4bed-baf1-2e0b44334e79"
+        "b4d62f43-57ed-4bed-baf1-2e0b44334e79",
+        "9a87400c-4ddc-4fc1-8afc-173ae6a7022b",
+        "9e66e135-57bb-4d21-8011-bad3cbed2333",
+        "195310fb-2064-435c-8e01-3cd658d85239"
       ],
       "dependScripts": []
     },
@@ -771,6 +781,159 @@
   },
   "e6531d50-dd37-4eda-a76f-135ae81bf301": {
     "url": "db://assets/Animation/score_bigger.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "195310fb-2064-435c-8e01-3cd658d85239": {
+    "url": "db://assets/Animation/feather_lob.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4b2e48a4-db53-4fae-9256-58181747bb54": {
+    "url": "db://assets/Animation/feather_higher.anim",
+    "value": {},
+    "versionCode": 1
+  },
+  "9e66e135-57bb-4d21-8011-bad3cbed2333": {
+    "url": "db://assets/Animation/feather_kill.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9a87400c-4ddc-4fc1-8afc-173ae6a7022b": {
+    "url": "db://assets/Animation/feather_lift.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0a870978-72c6-422d-9421-70e8f2c2d21f": {
+    "url": "db://assets/Audio",
+    "value": {},
+    "versionCode": 1
+  },
+  "57463695-8964-4f94-89cf-0ec18132bddf": {
+    "url": "db://assets/Audio/boss背景音乐.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1ebead5a-1b9c-4e06-80d9-0d7f680c57c2": {
+    "url": "db://assets/Audio/闯关背景音乐.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ffa2c205-9b24-40fe-b8f0-017f4d5afeab": {
+    "url": "db://assets/Audio/开始界面背景音乐.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a9cf45d1-fdd4-420c-9109-b41759183ef4": {
+    "url": "db://assets/images/boss.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a9cf45d1-fdd4-420c-9109-b41759183ef4@6c48a": {
+    "url": "db://assets/images/boss.png@6c48a",
+    "value": {
+      "depends": [
+        "a9cf45d1-fdd4-420c-9109-b41759183ef4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a9cf45d1-fdd4-420c-9109-b41759183ef4@f9941": {
+    "url": "db://assets/images/boss.png@f9941",
+    "value": {
+      "depends": [
+        "a9cf45d1-fdd4-420c-9109-b41759183ef4@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "301ba401-0a02-4af3-b0bb-28fca1d690cd": {
+    "url": "db://assets/images/羽毛球拍.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "301ba401-0a02-4af3-b0bb-28fca1d690cd@6c48a": {
+    "url": "db://assets/images/羽毛球拍.png@6c48a",
+    "value": {
+      "depends": [
+        "301ba401-0a02-4af3-b0bb-28fca1d690cd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "301ba401-0a02-4af3-b0bb-28fca1d690cd@f9941": {
+    "url": "db://assets/images/羽毛球拍.png@f9941",
+    "value": {
+      "depends": [
+        "301ba401-0a02-4af3-b0bb-28fca1d690cd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9c376854-b8e0-4651-bded-c140602a8848": {
+    "url": "db://assets/Scripts/BossController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "14580bea-32e5-4b83-bca2-aeb4061ecbd7": {
+    "url": "db://assets/prefab/Bat.prefab",
+    "value": {
+      "depends": [
+        "301ba401-0a02-4af3-b0bb-28fca1d690cd@f9941",
+        "1319d96c-1c95-4761-ac81-438941845d01"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "1319d96c-1c95-4761-ac81-438941845d01": {
+    "url": "db://assets/Animation/batbig.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "41668008-32bb-4d6f-95b8-06feb3409c09": {
+    "url": "db://assets/Animation/batsmall.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b3e2fe3d-dc27-4322-955c-8f17c4888628": {
+    "url": "db://assets/Animation/batstop.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "04dfb577-ca64-4be3-aeea-b54f9d78192a": {
+    "url": "db://assets/Animation/bg4appear.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4d00f075-eccd-469b-9ae9-090103e5e27f": {
+    "url": "db://assets/Animation/bg3xs.anim",
     "value": {
       "depends": []
     },

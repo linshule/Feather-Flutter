@@ -1,0 +1,42 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "name": "Feather-Flutter",
+      "buildStageGroup": {
+        "build": [
+          "run"
+        ]
+      }
+    },
+    "taskOptionsMap": {
+      "1735380003624": {
+        "resolution": {
+          "designWidth": 1280,
+          "designHeight": 960
+        },
+        "__version__": "1.0.1"
+      },
+      "1735381374857": {
+        "resolution": {
+          "designWidth": 1280,
+          "designHeight": 720
+        },
+        "__version__": "1.0.1"
+      }
+    },
+    "__version__": "1.3.8",
+    "options": {
+      "web-desktop": {
+        "resolution": {
+          "designWidth": 1280,
+          "designHeight": 720
+        },
+        "__version__": "1.0.1"
+      }
+    }
+  }
+}

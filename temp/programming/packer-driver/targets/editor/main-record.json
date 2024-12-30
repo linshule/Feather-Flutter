@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 40601.06099998951,
+      "mTimestamp": 26049.992499947548,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 8402764.586800009,
+      "mTimestamp": 27947.258299946785,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -658,7 +658,7 @@
           }
         },
         {
-          "value": "file:///D:/cocos/badminton/badminton/assets/Scripts/GameManager.ts",
+          "value": "file:///D:/cocos/badminton/badminton/assets/Scripts/BossController.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -667,17 +667,17 @@
             },
             "end": {
               "line": 5,
-              "column": 251
+              "column": 254
             }
           }
         },
         {
-          "value": "file:///D:/cocos/badminton/badminton/assets/Scripts/MenuController.ts",
+          "value": "file:///D:/cocos/badminton/badminton/assets/Scripts/GameManager.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 5,
-              "column": 267
+              "column": 270
             },
             "end": {
               "line": 5,
@@ -686,7 +686,7 @@
           }
         },
         {
-          "value": "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts",
+          "value": "file:///D:/cocos/badminton/badminton/assets/Scripts/MenuController.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
@@ -695,7 +695,21 @@
             },
             "end": {
               "line": 5,
-              "column": 427
+              "column": 425
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 441
+            },
+            "end": {
+              "line": 5,
+              "column": 514
             }
           }
         }
@@ -706,6 +720,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///D:/cocos/CocosCreator-v3.8.3-oh-win-102911/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/badminton/badminton/assets/Scripts/BossController.ts"
           },
           "messages": []
         },
@@ -890,7 +911,7 @@
     },
     "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts": {
       "mTimestamp": {
-        "mtime": 1735198728256.278,
+        "mtime": 1735480022861.3484,
         "uuid": "94850660-6b23-4297-ae13-86cee5f1a9e6"
       },
       "chunkId": "f66656c70fc5ce6b784ec96ed4f4454ea7438438",
@@ -1046,7 +1067,7 @@
     },
     "file:///D:/cocos/badminton/badminton/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1735198822958.1492,
+        "mtime": 1735480016653.0234,
         "uuid": "b96d4aee-b2bc-44c3-9444-4c6a1be8e374"
       },
       "chunkId": "2e338e30ff2c214927c868260d8cd4b4b67531db",
@@ -1066,11 +1087,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 235
+              "column": 263
             },
             "end": {
               "line": 1,
-              "column": 239
+              "column": 267
             }
           }
         },
@@ -1085,6 +1106,20 @@
             "end": {
               "line": 2,
               "column": 53
+            }
+          }
+        },
+        {
+          "value": "./BossController",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 31
+            },
+            "end": {
+              "line": 3,
+              "column": 49
             }
           }
         }
@@ -1125,11 +1160,18 @@
             "url": "file:///D:/cocos/badminton/badminton/assets/Scripts/PlayerController.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/badminton/badminton/assets/Scripts/BossController.ts"
+          },
+          "messages": []
         }
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1735190424272,
+      "mTimestamp": 1735540803668,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1158,6 +1200,58 @@
             "end": {
               "line": 1,
               "column": 84
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/badminton/badminton/assets/Scripts/BossController.ts": {
+      "mTimestamp": {
+        "mtime": 1735480019895.7273,
+        "uuid": "9c376854-b8e0-4651-bded-c140602a8848"
+      },
+      "chunkId": "667a19b32b86c8302d3f6f511bc7de8f966b239f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 112
+            },
+            "end": {
+              "line": 1,
+              "column": 116
             }
           }
         }

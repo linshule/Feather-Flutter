@@ -226,6 +226,18 @@
       {
         "__uuid__": "b4d62f43-57ed-4bed-baf1-2e0b44334e79",
         "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "9a87400c-4ddc-4fc1-8afc-173ae6a7022b",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "9e66e135-57bb-4d21-8011-bad3cbed2333",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "195310fb-2064-435c-8e01-3cd658d85239",
+        "__expectedType__": "cc.AnimationClip"
       }
     ],
     "_defaultClip": null,

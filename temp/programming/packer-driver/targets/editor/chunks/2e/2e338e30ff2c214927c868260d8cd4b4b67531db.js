@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Animation, Node, Prefab, CCInteger, instantiate, PhysicsSystem2D, Collider2D, Contact2DType, Label, Vec2, PlayerController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _crd, ccclass, property, GameState, BlockType, BlockSizeX, BlockSizeY, GameManger;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Animation, Node, Prefab, CCInteger, AudioSource, instantiate, PhysicsSystem2D, Collider2D, Contact2DType, Label, Vec2, PlayerController, BossController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _dec17, _dec18, _dec19, _dec20, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _descriptor19, _crd, ccclass, property, GameState, BlockType, BlockSizeX, BlockSizeY, GameManger;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -11,6 +11,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
   function _reportPossibleCrUseOfPlayerController(extras) {
     _reporterNs.report("PlayerController", "./PlayerController", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfBossController(extras) {
+    _reporterNs.report("BossController", "./BossController", _context.meta, extras);
   }
 
   return {
@@ -26,6 +30,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       Node = _cc.Node;
       Prefab = _cc.Prefab;
       CCInteger = _cc.CCInteger;
+      AudioSource = _cc.AudioSource;
       instantiate = _cc.instantiate;
       PhysicsSystem2D = _cc.PhysicsSystem2D;
       Collider2D = _cc.Collider2D;
@@ -34,13 +39,15 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       Vec2 = _cc.Vec2;
     }, function (_unresolved_2) {
       PlayerController = _unresolved_2.PlayerController;
+    }, function (_unresolved_3) {
+      BossController = _unresolved_3.BossController;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "b96d4rusrxEw5RETGob6ON0", "GameManager", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Vec3', 'EventMouse', 'input', 'Input', 'Animation', 'Node', 'Prefab', 'CCInteger', 'instantiate', 'PhysicsSystem2D', 'Collider2D', 'Contact2DType', 'IPhysics2DContact', 'animation', 'AnimationState', 'Label', 'RigidBody2D', 'Vec2']);
+      __checkObsolete__(['_decorator', 'Component', 'Vec3', 'EventMouse', 'input', 'Input', 'Animation', 'Node', 'Prefab', 'CCInteger', 'AudioSource', 'instantiate', 'PhysicsSystem2D', 'Collider2D', 'Contact2DType', 'IPhysics2DContact', 'animation', 'AnimationState', 'Label', 'RigidBody2D', 'Vec2', 'BoxCollider2D']);
 
       ({
         ccclass,
@@ -100,6 +107,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         type: _crd && PlayerController === void 0 ? (_reportPossibleCrUseOfPlayerController({
           error: Error()
         }), PlayerController) : PlayerController
+      }), _dec17 = property({
+        type: _crd && BossController === void 0 ? (_reportPossibleCrUseOfBossController({
+          error: Error()
+        }), BossController) : BossController
+      }), _dec18 = property({
+        type: Node
+      }), _dec19 = property({
+        type: Node
+      }), _dec20 = property({
+        type: Node
       }), _dec(_class = (_class2 = class GameManger extends Component {
         constructor(...args) {
           super(...args);
@@ -134,11 +151,19 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           _initializerDefineProperty(this, "roadLength", _descriptor14, this);
 
-          this.roadHeight = 20;
+          this.roadHeight = 30;
           this.feacherCount = 0;
           this._road = [];
 
           _initializerDefineProperty(this, "playerCtrl", _descriptor15, this);
+
+          _initializerDefineProperty(this, "bossCtrl", _descriptor16, this);
+
+          _initializerDefineProperty(this, "StCo", _descriptor17, this);
+
+          _initializerDefineProperty(this, "camera", _descriptor18, this);
+
+          _initializerDefineProperty(this, "bg4", _descriptor19, this);
         }
 
         start() {
@@ -163,9 +188,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.startGame();
         }
 
-        init() {}
+        init() {
+          this.StCo.getComponent(AudioSource).play();
+        }
 
         startGame() {
+          this.StCo.getComponent(AudioSource).pause();
           this.startMenu2.active = false;
           this.startExit.active = false;
           this.startStart.active = false;
@@ -206,7 +234,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             cur.setScale(0, 0);
           }
 
-          let playerRigid = this.player.getComponent(Collider2D);
+          let playerRigid = this.gameGround1.getComponent(Collider2D);
 
           if (playerRigid) {
             playerRigid.body.enabledContactListener = false;
@@ -219,6 +247,50 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           }
 
           this.player.active = false;
+          setTimeout(() => {
+            this.node.removeAllChildren();
+          }, 100);
+          setTimeout(() => {
+            this.toBoss();
+          }, 3000);
+        }
+
+        toBoss() {
+          this.gameGround1.getComponent(Animation).play('bg3xs');
+          setTimeout(() => {
+            this.camera.active = false;
+            this.gameGround1.active = false;
+            this.bossCtrl.initBoss();
+            setTimeout(() => {
+              this.generateRoadBoss();
+            }, 1000);
+          }, 1000);
+        }
+
+        generateRoadBoss() {
+          for (let i = -10; i <= 10; i++) {
+            let block = this.spawnBlockByType(BlockType.BT_STONE);
+            this.bg4.addChild(block);
+            block.setPosition(i * BlockSizeY, 4.3 * BlockSizeX, 0);
+          }
+
+          for (let i = -10; i <= 10; i++) {
+            let block = this.spawnBlockByType(BlockType.BT_STONE);
+            this.bg4.addChild(block);
+            block.setPosition(i * BlockSizeY, -4.3 * BlockSizeX, 0);
+          }
+
+          for (let i = -4.3; i <= 4.3; i++) {
+            let block = this.spawnBlockByType(BlockType.BT_STONE);
+            this.bg4.addChild(block);
+            block.setPosition(-10 * BlockSizeY, i * BlockSizeX, 0);
+          }
+
+          for (let i = -4.3; i <= 4.3; i++) {
+            let block = this.spawnBlockByType(BlockType.BT_STONE);
+            this.bg4.addChild(block);
+            block.setPosition(10 * BlockSizeY, i * BlockSizeX, 0);
+          }
         }
 
         onContactFeather(selfCollider, otherCollider, contact) {
@@ -276,7 +348,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
                       collider.on(Contact2DType.BEGIN_CONTACT, this.onContactFeather, this);
                     }
 
-                    curNode.setPosition((j - 1) * BlockSizeY, (i - 10) * BlockSizeX, 0);
+                    curNode.setPosition((j - 1) * BlockSizeY, (i - 15) * BlockSizeX, 0);
                     continue;
                   }
 
@@ -296,14 +368,38 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
                     }
                   }
 
-                  block.setPosition((j - 1) * BlockSizeY, (i - 10) * BlockSizeX, 0);
+                  block.setPosition((j - 1) * BlockSizeY, (i - 15) * BlockSizeX, 0);
                 }
-              } else if (i - 10 == -1) {
+              } else if (i - 15 == -1) {
                 block = this.spawnBlockByType(BlockType.BT_STONE);
                 this.node.addChild(block);
-                block.setPosition((j - 1) * BlockSizeY, (i - 10) * BlockSizeX, 0);
+                block.setPosition((j - 1) * BlockSizeY, (i - 15) * BlockSizeX, 0);
               }
             }
+          }
+
+          for (let i = -5; i <= this.roadLength + 5; i++) {
+            let block = this.spawnBlockByType(BlockType.BT_STONE);
+            this.node.addChild(block);
+            block.setPosition((i - 1) * BlockSizeY, (this.roadHeight - 15 + 5) * BlockSizeX, 0);
+          }
+
+          for (let i = -5; i <= this.roadLength + 5; i++) {
+            let block = this.spawnBlockByType(BlockType.BT_STONE);
+            this.node.addChild(block);
+            block.setPosition((i - 1) * BlockSizeY, (-15 - 5) * BlockSizeX, 0);
+          }
+
+          for (let i = -5; i <= this.roadHeight + 5; i++) {
+            let block = this.spawnBlockByType(BlockType.BT_STONE);
+            this.node.addChild(block);
+            block.setPosition((this.roadLength + 5 - 1) * BlockSizeY, (i - 15) * BlockSizeX, 0);
+          }
+
+          for (let i = -5; i <= this.roadHeight + 5; i++) {
+            let block = this.spawnBlockByType(BlockType.BT_STONE);
+            this.node.addChild(block);
+            block.setPosition((-5 - 1) * BlockSizeY, (i - 15) * BlockSizeX, 0);
           }
         }
 
@@ -429,9 +525,37 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         enumerable: true,
         writable: true,
         initializer: function () {
-          return 20;
+          return 30;
         }
       }), _descriptor15 = _applyDecoratedDescriptor(_class2.prototype, "playerCtrl", [_dec16], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor16 = _applyDecoratedDescriptor(_class2.prototype, "bossCtrl", [_dec17], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor17 = _applyDecoratedDescriptor(_class2.prototype, "StCo", [_dec18], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor18 = _applyDecoratedDescriptor(_class2.prototype, "camera", [_dec19], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor19 = _applyDecoratedDescriptor(_class2.prototype, "bg4", [_dec20], {
         configurable: true,
         enumerable: true,
         writable: true,
